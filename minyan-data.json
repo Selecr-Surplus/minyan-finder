@@ -1,0 +1,1769 @@
+{
+  "version": 1,
+  "updated": "2026-06-30",
+  "note": "Minyan Finder region data. Curated packs compute live from zmanim; geo-routed packs link to authoritative community sources.",
+  "regions": [
+    {
+      "id": "detroit",
+      "title": "Detroit Minyan Finder",
+      "sub": "Vaad 5786 summer sheet · times resolve live for the day shown",
+      "center": {
+        "lat": 42.475,
+        "lng": -83.2
+      },
+      "radius": 55,
+      "curated": true,
+      "presets": [
+        {
+          "label": "Huntington Woods",
+          "lat": 42.4805,
+          "lng": -83.1671
+        },
+        {
+          "label": "Oak Park",
+          "lat": 42.4717,
+          "lng": -83.1894
+        },
+        {
+          "label": "Southfield",
+          "lat": 42.4884,
+          "lng": -83.245
+        },
+        {
+          "label": "West Bloomfield",
+          "lat": 42.547,
+          "lng": -83.365
+        }
+      ],
+      "shuls": {
+        "yiop": {
+          "name": "Young Israel of Oak Park",
+          "addr": "15140 W 10 Mile Rd, Oak Park",
+          "lat": 42.4749,
+          "lng": -83.1946
+        },
+        "yisf": {
+          "name": "Young Israel of Southfield",
+          "addr": "27705 Lahser Rd, Southfield",
+          "lat": 42.497,
+          "lng": -83.266
+        },
+        "toras": {
+          "name": "Toras Chaim",
+          "addr": "14641 Balfour Ave, Oak Park",
+          "lat": 42.468,
+          "lng": -83.181
+        },
+        "sherwood": {
+          "name": "Sherwood Shul",
+          "addr": "17270 Alta Vista, Lathrup Village",
+          "lat": 42.49,
+          "lng": -83.222
+        },
+        "tugman": {
+          "name": "Tugman Bais Chabad",
+          "addr": "W Maple Rd, West Bloomfield",
+          "lat": 42.543,
+          "lng": -83.36
+        },
+        "ohelmoed": {
+          "name": "Ohel Moed",
+          "addr": "West Bloomfield",
+          "lat": 42.55,
+          "lng": -83.38
+        },
+        "kollel": {
+          "name": "Kollel (Inst. of Greater Detroit)",
+          "addr": "15230 Lincoln St, Oak Park",
+          "lat": 42.4647,
+          "lng": -83.1953
+        },
+        "dbn": {
+          "name": "Dovid Ben Nuchim",
+          "addr": "14800 W Lincoln St, Oak Park",
+          "lat": 42.4646,
+          "lng": -83.19
+        },
+        "agudah": {
+          "name": "Agudah – Magen Avrohom",
+          "addr": "Southfield / Oak Park",
+          "lat": 42.477,
+          "lng": -83.21
+        },
+        "bnaiyis": {
+          "name": "B'nai Yisroel",
+          "addr": "Oak Park / Southfield",
+          "lat": 42.47,
+          "lng": -83.2
+        },
+        "chabadN": {
+          "name": "Chabad – N. Oak Park",
+          "addr": "North Oak Park",
+          "lat": 42.482,
+          "lng": -83.187
+        },
+        "chabad9": {
+          "name": "Chabad Shul – 9 Mile",
+          "addr": "W 9 Mile Rd, Oak Park",
+          "lat": 42.46,
+          "lng": -83.195
+        },
+        "ahavasOlam": {
+          "name": "Ahavas Olam",
+          "addr": "Southfield",
+          "lat": 42.48,
+          "lng": -83.24
+        },
+        "bethTefilo": {
+          "name": "Beth Tefilo",
+          "addr": "Southfield",
+          "lat": 42.477,
+          "lng": -83.197
+        },
+        "ohrHatorah": {
+          "name": "Ohr Hatorah",
+          "addr": "15150 W 10 Mile Rd, Oak Park",
+          "lat": 42.4749,
+          "lng": -83.196
+        },
+        "yagdil": {
+          "name": "Yagdil Torah",
+          "addr": "Southfield / Oak Park",
+          "lat": 42.471,
+          "lng": -83.205
+        },
+        "gra": {
+          "name": "Bais HaKneses Ha'Gra",
+          "addr": "Oak Park",
+          "lat": 42.466,
+          "lng": -83.19
+        },
+        "kehalRina": {
+          "name": "Kehal Rina U'tefila",
+          "addr": "25651 Coolidge Hwy, Oak Park",
+          "lat": 42.479,
+          "lng": -83.184
+        },
+        "ahavasYis": {
+          "name": "Ahavas Yisroel",
+          "addr": "15615 Hilton Rd, Oak Park",
+          "lat": 42.465,
+          "lng": -83.17
+        },
+        "shomrey": {
+          "name": "Shomrey Emunah",
+          "addr": "Southfield Rd, Southfield",
+          "lat": 42.479,
+          "lng": -83.222
+        },
+        "ygd": {
+          "name": "Yeshiva Gedolah",
+          "addr": "Greenfield Rd, Oak Park",
+          "lat": 42.4755,
+          "lng": -83.1975
+        },
+        "yby": {
+          "name": "Yeshiva Bais Yehudah (3rd Flr)",
+          "addr": "Oak Park",
+          "lat": 42.4645,
+          "lng": -83.198
+        },
+        "kby": {
+          "name": "Kollel Bais Yehudah",
+          "addr": "Oak Park",
+          "lat": 42.4645,
+          "lng": -83.198
+        },
+        "avreichim": {
+          "name": "Minyan Avreichim",
+          "addr": "Oak Park",
+          "lat": 42.467,
+          "lng": -83.19
+        },
+        "chasKollel": {
+          "name": "Chassidishe Kollel (at DBN)",
+          "addr": "14800 W Lincoln St, Oak Park",
+          "lat": 42.4646,
+          "lng": -83.19
+        },
+        "chabadMes": {
+          "name": "Chabad Mesivta – 10 Mile",
+          "addr": "W 10 Mile Rd, Oak Park",
+          "lat": 42.4745,
+          "lng": -83.19
+        },
+        "darchei": {
+          "name": "Yeshivas Darchei Torah",
+          "addr": "Southfield",
+          "lat": 42.49,
+          "lng": -83.25
+        },
+        "akiva": {
+          "name": "Yeshivat Akiva",
+          "addr": "W 12 Mile Rd, Southfield",
+          "lat": 42.507,
+          "lng": -83.245
+        },
+        "calmed": {
+          "name": "Calmed Medical",
+          "addr": "24123 Greenfield Rd #100",
+          "lat": 42.474,
+          "lng": -83.197
+        },
+        "presWest": {
+          "name": "Presidential West",
+          "addr": "23800 Northwestern Hwy #160, Southfield",
+          "lat": 42.48,
+          "lng": -83.245
+        },
+        "danto": {
+          "name": "Danto W. Bloomfield",
+          "addr": "West Bloomfield (text first 513-545-7438)",
+          "lat": 42.55,
+          "lng": -83.37
+        },
+        "mesWB": {
+          "name": "Mesivta of W. Bloomfield",
+          "addr": "West Bloomfield",
+          "lat": 42.555,
+          "lng": -83.35
+        },
+        "wbBM": {
+          "name": "W. Bloomfield Bais Medrash",
+          "addr": "West Bloomfield",
+          "lat": 42.55,
+          "lng": -83.36
+        },
+        "keter": {
+          "name": "Keter Torah",
+          "addr": "West Bloomfield",
+          "lat": 42.545,
+          "lng": -83.36
+        },
+        "theShul": {
+          "name": "The Shul",
+          "addr": "W Maple Rd, West Bloomfield",
+          "lat": 42.542,
+          "lng": -83.4
+        },
+        "chabadFH": {
+          "name": "Chabad Farmington Hills",
+          "addr": "Middlebelt Rd, Farmington Hills",
+          "lat": 42.523,
+          "lng": -83.333
+        },
+        "bnaiZion": {
+          "name": "B'nai Zion",
+          "addr": "Oak Park",
+          "lat": 42.47,
+          "lng": -83.19
+        },
+        "windsor": {
+          "name": "Shaar Hashamayim",
+          "addr": "Windsor, ON",
+          "lat": 42.3,
+          "lng": -83.03
+        },
+        "hillelAA": {
+          "name": "Hillel of Ann Arbor (U of M)",
+          "addr": "Ann Arbor",
+          "lat": 42.276,
+          "lng": -83.74
+        },
+        "chabadGR": {
+          "name": "Chabad Grand Rapids (call first)",
+          "addr": "Grand Rapids",
+          "lat": 42.96,
+          "lng": -85.66
+        },
+        "pierce": {
+          "name": "Pierce St. Shul",
+          "addr": "24837 Templar Ave",
+          "lat": 42.477,
+          "lng": -83.188
+        }
+      },
+      "mincha": [
+        {
+          "kind": "fixed",
+          "h": 14,
+          "m": 5,
+          "shul": "yby",
+          "flags": [
+            "yeshiva",
+            "monThu"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 14,
+          "m": 15,
+          "shul": "ahavasOlam",
+          "note": "R. Klein — Fri also",
+          "friAlso": true
+        },
+        {
+          "kind": "fixed",
+          "h": 14,
+          "m": 15,
+          "shul": "calmed",
+          "flags": [
+            "monThu"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 14,
+          "m": 15,
+          "shul": "darchei",
+          "flags": [
+            "yeshiva",
+            "monThu"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 14,
+          "m": 15,
+          "shul": "danto",
+          "note": "Text first"
+        },
+        {
+          "kind": "fixed",
+          "h": 14,
+          "m": 20,
+          "shul": "ygd",
+          "flags": [
+            "yeshiva"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 14,
+          "m": 30,
+          "shul": "kollel"
+        },
+        {
+          "kind": "fixed",
+          "h": 14,
+          "m": 30,
+          "shul": "mesWB",
+          "flags": [
+            "yeshiva"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 14,
+          "m": 30,
+          "shul": "avreichim",
+          "friOnly": true,
+          "note": "Fri only"
+        },
+        {
+          "kind": "fixed",
+          "h": 14,
+          "m": 45,
+          "shul": "akiva",
+          "flags": [
+            "yeshiva"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 15,
+          "m": 0,
+          "shul": "kby",
+          "flags": [
+            "yeshiva"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 15,
+          "m": 0,
+          "shul": "chabadMes",
+          "flags": [
+            "yeshiva"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 15,
+          "m": 15,
+          "shul": "ygd",
+          "flags": [
+            "yeshiva"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 15,
+          "m": 20,
+          "shul": "chasKollel",
+          "flags": [
+            "yeshiva"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 15,
+          "m": 25,
+          "shul": "wbBM",
+          "flags": [
+            "yeshiva"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 15,
+          "m": 30,
+          "shul": "presWest",
+          "flags": [
+            "monThu"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 17,
+          "m": 30,
+          "shul": "bnaiyis"
+        },
+        {
+          "kind": "fixed",
+          "h": 18,
+          "m": 15,
+          "shul": "bethTefilo",
+          "flags": [
+            "yeshiva"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 18,
+          "m": 30,
+          "shul": "kollel"
+        },
+        {
+          "kind": "fixed",
+          "h": 18,
+          "m": 30,
+          "shul": "bnaiyis",
+          "flags": [
+            "yeshiva"
+          ]
+        },
+        {
+          "kind": "beforePlag",
+          "off": 15,
+          "shul": "yiop",
+          "plagPair": true
+        },
+        {
+          "kind": "beforePlag",
+          "off": 15,
+          "shul": "yisf",
+          "plagPair": true
+        },
+        {
+          "kind": "beforePlag",
+          "off": 15,
+          "shul": "toras",
+          "plagPair": true,
+          "range": {
+            "from": [
+              4,
+              12
+            ],
+            "to": [
+              12,
+              31
+            ]
+          },
+          "note": "From 4/12"
+        },
+        {
+          "kind": "beforePlag",
+          "off": 15,
+          "shul": "sherwood",
+          "plagPair": true
+        },
+        {
+          "kind": "beforePlag",
+          "off": 15,
+          "shul": "tugman",
+          "plagPair": true
+        },
+        {
+          "kind": "beforePlag",
+          "off": 15,
+          "shul": "ohelmoed",
+          "plagPair": true
+        },
+        {
+          "kind": "fixed",
+          "h": 20,
+          "m": 15,
+          "shul": "ahavasOlam",
+          "range": {
+            "from": [
+              4,
+              26
+            ],
+            "to": [
+              8,
+              13
+            ]
+          },
+          "note": "4/26–8/13"
+        },
+        {
+          "kind": "fixed",
+          "h": 20,
+          "m": 15,
+          "shul": "kehalRina",
+          "range": {
+            "from": [
+              4,
+              26
+            ],
+            "to": [
+              8,
+              20
+            ]
+          },
+          "note": "4/26–8/20"
+        },
+        {
+          "kind": "beforeShkia",
+          "off": 15,
+          "shul": "agudah"
+        },
+        {
+          "kind": "beforeShkia",
+          "off": 15,
+          "shul": "bnaiyis"
+        },
+        {
+          "kind": "beforeShkia",
+          "off": 15,
+          "shul": "chabadN"
+        },
+        {
+          "kind": "beforeShkia",
+          "off": 15,
+          "shul": "dbn"
+        },
+        {
+          "kind": "beforeShkia",
+          "off": 15,
+          "shul": "kehalRina",
+          "segments": [
+            {
+              "to": [
+                4,
+                16
+              ]
+            },
+            {
+              "from": [
+                8,
+                23
+              ]
+            }
+          ],
+          "note": "Thru 4/16 & after 8/23"
+        },
+        {
+          "kind": "beforeShkia",
+          "off": 15,
+          "shul": "ohrHatorah"
+        },
+        {
+          "kind": "beforeShkia",
+          "off": 15,
+          "shul": "shomrey"
+        },
+        {
+          "kind": "beforeShkia",
+          "off": 15,
+          "shul": "toras"
+        },
+        {
+          "kind": "beforeShkia",
+          "off": 15,
+          "shul": "sherwood"
+        },
+        {
+          "kind": "atShkia",
+          "off": 0,
+          "shul": "chabad9"
+        },
+        {
+          "kind": "atShkia",
+          "off": 0,
+          "shul": "ahavasYis"
+        }
+      ],
+      "maariv": [
+        {
+          "kind": "plag",
+          "off": 0,
+          "shul": "yiop",
+          "plagPair": true
+        },
+        {
+          "kind": "plag",
+          "off": 0,
+          "shul": "yisf",
+          "plagPair": true
+        },
+        {
+          "kind": "plag",
+          "off": 0,
+          "shul": "toras",
+          "plagPair": true,
+          "range": {
+            "from": [
+              4,
+              27
+            ],
+            "to": [
+              8,
+              21
+            ]
+          },
+          "note": "4/27–8/21"
+        },
+        {
+          "kind": "plag",
+          "off": 0,
+          "shul": "sherwood",
+          "plagPair": true
+        },
+        {
+          "kind": "plag",
+          "off": 0,
+          "shul": "tugman",
+          "plagPair": true
+        },
+        {
+          "kind": "plag",
+          "off": 0,
+          "shul": "ohelmoed",
+          "plagPair": true
+        },
+        {
+          "kind": "atShkia",
+          "off": 0,
+          "shul": "agudah"
+        },
+        {
+          "kind": "atShkia",
+          "off": 0,
+          "shul": "bnaiyis"
+        },
+        {
+          "kind": "atShkia",
+          "off": 0,
+          "shul": "dbn"
+        },
+        {
+          "kind": "atShkia",
+          "off": 0,
+          "shul": "kehalRina",
+          "segments": [
+            {
+              "to": [
+                4,
+                16
+              ]
+            },
+            {
+              "from": [
+                8,
+                23
+              ]
+            }
+          ],
+          "note": "Thru 4/16 & after 8/23"
+        },
+        {
+          "kind": "atShkia",
+          "off": 0,
+          "shul": "ohrHatorah"
+        },
+        {
+          "kind": "atShkia",
+          "off": 0,
+          "shul": "toras"
+        },
+        {
+          "kind": "atShkia",
+          "off": 0,
+          "shul": "shomrey"
+        },
+        {
+          "kind": "atShkia",
+          "off": 0,
+          "shul": "sherwood"
+        },
+        {
+          "kind": "atShkia",
+          "off": 0,
+          "shul": "ahavasYis"
+        },
+        {
+          "kind": "afterShkia",
+          "off": 30,
+          "shul": "chabadN"
+        },
+        {
+          "kind": "afterShkia",
+          "off": 30,
+          "shul": "chabad9"
+        },
+        {
+          "kind": "fixed",
+          "h": 20,
+          "m": 15,
+          "shul": "bnaiyis",
+          "segments": [
+            {
+              "to": [
+                3,
+                19
+              ]
+            },
+            {
+              "from": [
+                9,
+                1
+              ],
+              "to": [
+                10,
+                31
+              ]
+            }
+          ],
+          "note": "Thru 3/19 & Sep–Oct"
+        },
+        {
+          "kind": "fixed",
+          "h": 20,
+          "m": 45,
+          "shul": "kollel",
+          "segments": [
+            {
+              "to": [
+                4,
+                7
+              ]
+            },
+            {
+              "from": [
+                8,
+                27
+              ]
+            }
+          ],
+          "note": "Thru 4/7 & after 8/27"
+        },
+        {
+          "kind": "fixed",
+          "h": 20,
+          "m": 50,
+          "shul": "chabadMes",
+          "flags": [
+            "yeshiva",
+            "varies"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 21,
+          "m": 0,
+          "shul": "toras",
+          "flags": [
+            "yeshiva"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 21,
+          "m": 15,
+          "shul": "sherwood",
+          "flags": [
+            "monThu"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 21,
+          "m": 15,
+          "shul": "mesWB",
+          "flags": [
+            "yeshiva"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 21,
+          "m": 20,
+          "shul": "ygd",
+          "flags": [
+            "yeshiva"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 21,
+          "m": 30,
+          "shul": "ahavasOlam"
+        },
+        {
+          "kind": "fixed",
+          "h": 21,
+          "m": 30,
+          "shul": "kehalRina",
+          "note": "R. Bromberg"
+        },
+        {
+          "kind": "fixed",
+          "h": 21,
+          "m": 45,
+          "shul": "bethTefilo"
+        },
+        {
+          "kind": "fixed",
+          "h": 21,
+          "m": 45,
+          "shul": "chasKollel"
+        },
+        {
+          "kind": "fixed",
+          "h": 22,
+          "m": 0,
+          "shul": "kollel"
+        },
+        {
+          "kind": "fixed",
+          "h": 22,
+          "m": 5,
+          "shul": "ygd",
+          "flags": [
+            "varies"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 22,
+          "m": 10,
+          "shul": "kby",
+          "flags": [
+            "yeshiva"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 22,
+          "m": 15,
+          "shul": "yagdil"
+        },
+        {
+          "kind": "fixed",
+          "h": 22,
+          "m": 40,
+          "shul": "bnaiyis"
+        },
+        {
+          "kind": "fixed",
+          "h": 23,
+          "m": 0,
+          "shul": "kollel",
+          "note": "Bein Hazmanim only",
+          "beinHazmanim": true
+        }
+      ],
+      "shachSun": [
+        {
+          "kind": "vasikin",
+          "shul": "bnaiZion"
+        },
+        {
+          "kind": "fixed",
+          "h": 6,
+          "m": 40,
+          "shul": "yiop",
+          "flags": [
+            "rcEarlier"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 6,
+          "m": 50,
+          "shul": "agudah",
+          "flags": [
+            "rcEarlier"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 6,
+          "m": 55,
+          "shul": "bnaiyis",
+          "flags": [
+            "rcEarlier"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 30,
+          "shul": "ahavasOlam"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 30,
+          "shul": "chabadN"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 30,
+          "shul": "chabad9"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 30,
+          "shul": "dbn"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 30,
+          "shul": "kollel"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 30,
+          "shul": "ygd"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 30,
+          "shul": "ohrHatorah",
+          "note": "w/ Bircas Kohanim"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 30,
+          "shul": "yagdil"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 45,
+          "shul": "shomrey"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 45,
+          "shul": "mesWB",
+          "flags": [
+            "yeshiva"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 0,
+          "shul": "gra"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 0,
+          "shul": "bethTefilo"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 0,
+          "shul": "bnaiyis"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 0,
+          "shul": "yiop"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 0,
+          "shul": "yisf"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 0,
+          "shul": "ohelmoed"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 10,
+          "shul": "darchei",
+          "flags": [
+            "yeshiva"
+          ],
+          "note": "7:45 before Pesach & after 8/25"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 15,
+          "shul": "sherwood"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 15,
+          "shul": "toras"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 15,
+          "shul": "yby",
+          "flags": [
+            "yeshiva"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 30,
+          "shul": "kollel"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 30,
+          "shul": "tugman"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 30,
+          "shul": "keter"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 30,
+          "shul": "chabadFH"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 30,
+          "shul": "theShul"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 30,
+          "shul": "windsor"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 45,
+          "shul": "kehalRina"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 45,
+          "shul": "pierce"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 45,
+          "shul": "hillelAA",
+          "flags": [
+            "yeshiva"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 9,
+          "m": 0,
+          "shul": "dbn"
+        },
+        {
+          "kind": "fixed",
+          "h": 9,
+          "m": 0,
+          "shul": "chabadMes",
+          "flags": [
+            "yeshiva"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 9,
+          "m": 0,
+          "shul": "chabadGR"
+        },
+        {
+          "kind": "fixed",
+          "h": 9,
+          "m": 30,
+          "shul": "ahavasYis",
+          "note": "Don't park on Hilton"
+        }
+      ],
+      "shachWeek": [
+        {
+          "kind": "vasikin",
+          "shul": "bnaiZion"
+        },
+        {
+          "kind": "fixed",
+          "h": 6,
+          "m": 5,
+          "shul": "yiop",
+          "flags": [
+            "rcEarlier"
+          ],
+          "note": "6:05 / 6:15"
+        },
+        {
+          "kind": "fixed",
+          "h": 6,
+          "m": 40,
+          "shul": "agudah",
+          "flags": [
+            "rcEarlier"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 6,
+          "m": 40,
+          "shul": "chabadFH",
+          "note": "6:40 / 6:50"
+        },
+        {
+          "kind": "fixed",
+          "h": 6,
+          "m": 45,
+          "shul": "yisf",
+          "flags": [
+            "rcEarlier"
+          ],
+          "note": "6:45 / 6:55"
+        },
+        {
+          "kind": "fixed",
+          "h": 6,
+          "m": 50,
+          "shul": "sherwood",
+          "note": "Alta Vista + Lathrup"
+        },
+        {
+          "kind": "fixed",
+          "h": 6,
+          "m": 50,
+          "shul": "tugman",
+          "note": "6:50 / 7:00"
+        },
+        {
+          "kind": "fixed",
+          "h": 6,
+          "m": 55,
+          "shul": "dbn",
+          "flags": [
+            "rcEarlier"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 6,
+          "m": 55,
+          "shul": "bnaiyis",
+          "flags": [
+            "rcEarlier"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 0,
+          "shul": "bethTefilo",
+          "flags": [
+            "rcEarlier"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 0,
+          "shul": "ahavasOlam",
+          "flags": [
+            "rcEarlier"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 0,
+          "shul": "ohrHatorah",
+          "note": "w/ Bircas Kohanim"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 0,
+          "shul": "yiop"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 0,
+          "shul": "chabad9"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 0,
+          "shul": "keter"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 0,
+          "shul": "ohelmoed",
+          "flags": [
+            "rcEarlier"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 0,
+          "shul": "theShul"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 5,
+          "shul": "toras"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 10,
+          "shul": "shomrey",
+          "flags": [
+            "rcEarlier"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 10,
+          "shul": "kehalRina",
+          "flags": [
+            "rcEarlier"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 10,
+          "shul": "yagdil",
+          "flags": [
+            "rcEarlier"
+          ],
+          "note": "7:10 / 7:15"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 15,
+          "shul": "gra",
+          "flags": [
+            "rcEarlier"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 15,
+          "shul": "chabadN",
+          "flags": [
+            "rcEarlier"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 15,
+          "shul": "chabadGR"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 30,
+          "shul": "kollel"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 30,
+          "shul": "ygd"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 30,
+          "shul": "chabad9"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 45,
+          "shul": "mesWB",
+          "flags": [
+            "yeshiva"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 45,
+          "shul": "yby",
+          "flags": [
+            "yeshiva"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 45,
+          "shul": "darchei",
+          "flags": [
+            "yeshiva"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 0,
+          "shul": "bnaiyis"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 0,
+          "shul": "akiva",
+          "flags": [
+            "yeshiva"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 0,
+          "shul": "yisf"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 0,
+          "shul": "hillelAA",
+          "flags": [
+            "yeshiva"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 15,
+          "shul": "sherwood"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 30,
+          "shul": "kollel"
+        },
+        {
+          "kind": "fixed",
+          "h": 9,
+          "m": 0,
+          "shul": "dbn"
+        },
+        {
+          "kind": "fixed",
+          "h": 9,
+          "m": 0,
+          "shul": "chabadMes",
+          "flags": [
+            "yeshiva"
+          ]
+        },
+        {
+          "kind": "fixed",
+          "h": 9,
+          "m": 30,
+          "shul": "ahavasYis",
+          "note": "Don't park on Hilton"
+        }
+      ],
+      "erevShabbos": [
+        {
+          "t": "2:15 PM",
+          "what": "Mincha",
+          "shul": "akiva",
+          "flags": [
+            "yeshiva"
+          ]
+        },
+        {
+          "t": "2:15 PM",
+          "what": "Mincha",
+          "shul": "ahavasOlam"
+        },
+        {
+          "t": "2:30 PM",
+          "what": "Mincha",
+          "shul": "avreichim"
+        },
+        {
+          "t": "Shkia +72",
+          "what": "Maariv",
+          "shul": "ygd"
+        }
+      ],
+      "legend": "Zmanim computed for your selected location (plag = GRA, netz + 10¾ sha'os zmaniyos; tzeis shown at 8.5° — your luach governs). Distances are straight-line approximations. \"School in session\" minyanim run only when the yeshiva is in session. Source: Vaad Harabbonim Detroit Metro Spring/Summer/Fall 5786 sheet (March 2026) — confirm with the shul; corrections: YosiHeber@gmail.com."
+    },
+    {
+      "id": "lakewood",
+      "title": "Lakewood Minyanim",
+      "center": {
+        "lat": 40.0959,
+        "lng": -74.2176
+      },
+      "radius": 12,
+      "curated": false,
+      "links": [
+        {
+          "label": "The Lakewood Luach",
+          "url": "https://thelakewoodluach.com/the-weekly-luach"
+        }
+      ],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "brooklyn",
+      "title": "Brooklyn Minyanim",
+      "center": {
+        "lat": 40.629,
+        "lng": -73.977
+      },
+      "radius": 10,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "baltimore",
+      "title": "Baltimore Minyanim",
+      "center": {
+        "lat": 39.369,
+        "lng": -76.715
+      },
+      "radius": 18,
+      "curated": false,
+      "links": [
+        {
+          "label": "Baltimore Jewish Life — Minyanim",
+          "url": "https://baltimorejewishlife.com/minyanim/shuls.php"
+        }
+      ],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "chicago",
+      "title": "Chicago Minyanim",
+      "center": {
+        "lat": 42.005,
+        "lng": -87.7
+      },
+      "radius": 18,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "la",
+      "title": "Los Angeles Minyanim",
+      "center": {
+        "lat": 34.063,
+        "lng": -118.368
+      },
+      "radius": 22,
+      "curated": false,
+      "links": [
+        {
+          "label": "LA Jewish Times — Find Minyan",
+          "url": "https://lajewishtimes.com/"
+        }
+      ],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "passaic",
+      "title": "Passaic / Clifton Minyanim",
+      "center": {
+        "lat": 40.857,
+        "lng": -74.128
+      },
+      "radius": 7,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "monsey",
+      "title": "Monsey Minyanim",
+      "center": {
+        "lat": 41.111,
+        "lng": -74.069
+      },
+      "radius": 9,
+      "curated": false,
+      "links": [
+        {
+          "label": "GoDaven — Monsey shuls",
+          "url": "https://www.godaven.com/list-shuls/monsey/ny"
+        }
+      ],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "fivetowns",
+      "title": "Five Towns Minyanim",
+      "center": {
+        "lat": 40.623,
+        "lng": -73.729
+      },
+      "radius": 8,
+      "curated": false,
+      "links": [
+        {
+          "label": "5 Towns Central — Minyanim",
+          "url": "https://5townscentral.com/minyan/"
+        }
+      ],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "teaneck",
+      "title": "Teaneck Minyanim",
+      "center": {
+        "lat": 40.886,
+        "lng": -74.012
+      },
+      "radius": 7,
+      "curated": false,
+      "links": [
+        {
+          "label": "Teaneck Minyanim",
+          "url": "https://teaneckminyanim.com/"
+        }
+      ],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "miami",
+      "title": "Miami Minyanim",
+      "center": {
+        "lat": 25.9331,
+        "lng": -80.1625
+      },
+      "radius": 10,
+      "curated": false,
+      "links": [
+        {
+          "label": "Florida Minyan — community time chart",
+          "url": "https://www.halachaonline.com/fm"
+        },
+        {
+          "label": "ORB — Orthodox Rabbinical Board",
+          "url": "https://www.orbkosher.com/"
+        }
+      ],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "ftlauderdale",
+      "title": "Fort Lauderdale Minyanim",
+      "center": {
+        "lat": 26.011,
+        "lng": -80.149
+      },
+      "radius": 9,
+      "curated": false,
+      "links": [
+        {
+          "label": "Florida Minyan — community time chart",
+          "url": "https://www.halachaonline.com/fm"
+        },
+        {
+          "label": "Young Israel of Hollywood — minyan times",
+          "url": "https://yih.shulcloud.com/minyan-times"
+        },
+        {
+          "label": "ORB — Orthodox Rabbinical Board",
+          "url": "https://www.orbkosher.com/"
+        }
+      ],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "palmbeach",
+      "title": "Palm Beach Minyanim",
+      "center": {
+        "lat": 26.368,
+        "lng": -80.103
+      },
+      "radius": 16,
+      "curated": false,
+      "links": [
+        {
+          "label": "Kosher Boca Raton — minyanim",
+          "url": "https://www.kosherbocaraton.org/minyanim"
+        },
+        {
+          "label": "Boca Raton Synagogue — minyanim",
+          "url": "https://brsonline.shulcloud.com/service-times/main-minyan.html"
+        },
+        {
+          "label": "ORB — Orthodox Rabbinical Board",
+          "url": "https://www.orbkosher.com/"
+        }
+      ],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    }
+  ]
+}
