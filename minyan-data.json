@@ -2674,6 +2674,46 @@
       "shachWeek": [],
       "erevShabbos": [],
       "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "orange-county-ca",
+      "title": "Orange County (Irvine) Minyanim",
+      "center": {
+        "lat": 33.686,
+        "lng": -117.826
+      },
+      "radius": 18,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "albany",
+      "title": "Albany Minyanim",
+      "center": {
+        "lat": 42.674,
+        "lng": -73.803
+      },
+      "radius": 12,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
     }
   ]
 }
