@@ -1759,7 +1759,12 @@
       },
       "radius": 6,
       "curated": false,
-      "links": [],
+      "links": [
+        {
+          "label": "Mount Sinai Jewish Center (Washington Hts)",
+          "url": "https://www.mtsinaishul.com/"
+        }
+      ],
       "sub": "Live community minyan links · zmanim computed for your location",
       "presets": [],
       "shuls": {},
@@ -1779,7 +1784,12 @@
       },
       "radius": 8,
       "curated": false,
-      "links": [],
+      "links": [
+        {
+          "label": "Vaad Harabonim of Queens — local minyanim",
+          "url": "https://queensvaad.org/community/local-minyanim/"
+        }
+      ],
       "sub": "Live community minyan links · zmanim computed for your location",
       "presets": [],
       "shuls": {},
@@ -1799,7 +1809,12 @@
       },
       "radius": 10,
       "curated": false,
-      "links": [],
+      "links": [
+        {
+          "label": "Great Neck Synagogue — minyan times",
+          "url": "https://greatnecksynagogue.shulcloud.com/todays-minyan-times"
+        }
+      ],
       "sub": "Live community minyan links · zmanim computed for your location",
       "presets": [],
       "shuls": {},
@@ -1819,7 +1834,12 @@
       },
       "radius": 9,
       "curated": false,
-      "links": [],
+      "links": [
+        {
+          "label": "Young Israel of New Rochelle",
+          "url": "https://www.yinr.org/shabbat-schedule.html"
+        }
+      ],
       "sub": "Live community minyan links · zmanim computed for your location",
       "presets": [],
       "shuls": {},
@@ -1879,7 +1899,12 @@
       },
       "radius": 25,
       "curated": false,
-      "links": [],
+      "links": [
+        {
+          "label": "Adath Israel SF — minyan times",
+          "url": "https://adathisraelsf.org/index.php?Itemid=36&id=209&option=com_content&view=article"
+        }
+      ],
       "sub": "Live community minyan links · zmanim computed for your location",
       "presets": [],
       "shuls": {},
@@ -1919,7 +1944,12 @@
       },
       "radius": 12,
       "curated": false,
-      "links": [],
+      "links": [
+        {
+          "label": "Brookline community minyanim (YI of Brookline)",
+          "url": "https://www.yibrookline.org/community-minyanim-2"
+        }
+      ],
       "sub": "Live community minyan links · zmanim computed for your location",
       "presets": [],
       "shuls": {},
@@ -1959,7 +1989,12 @@
       },
       "radius": 15,
       "curated": false,
-      "links": [],
+      "links": [
+        {
+          "label": "Beth Jacob San Diego — davening",
+          "url": "https://www.bjsd.org/davening"
+        }
+      ],
       "sub": "Live community minyan links · zmanim computed for your location",
       "presets": [],
       "shuls": {},
@@ -2059,7 +2094,12 @@
       },
       "radius": 15,
       "curated": false,
-      "links": [],
+      "links": [
+        {
+          "label": "Summerlin Shul (LV Kollel)",
+          "url": "https://www.lasvegaskollel.org/summerlinshul"
+        }
+      ],
       "sub": "Live community minyan links · zmanim computed for your location",
       "presets": [],
       "shuls": {},
@@ -2239,7 +2279,12 @@
       },
       "radius": 10,
       "curated": false,
-      "links": [],
+      "links": [
+        {
+          "label": "Young Israel of West Hartford — minyan schedule",
+          "url": "https://www.youngisraelwh.org/minyan-schedule.html"
+        }
+      ],
       "sub": "Live community minyan links · zmanim computed for your location",
       "presets": [],
       "shuls": {},
@@ -2379,7 +2424,12 @@
       },
       "radius": 15,
       "curated": false,
-      "links": [],
+      "links": [
+        {
+          "label": "Kenesset Israel Torah Center — minyanim",
+          "url": "https://kitcsacramento.org/minyanim/"
+        }
+      ],
       "sub": "Live community minyan links · zmanim computed for your location",
       "presets": [],
       "shuls": {},
@@ -2439,7 +2489,12 @@
       },
       "radius": 10,
       "curated": false,
-      "links": [],
+      "links": [
+        {
+          "label": "Congregation Beth Sholom",
+          "url": "https://www.bethsholom-ri.org/"
+        }
+      ],
       "sub": "Live community minyan links · zmanim computed for your location",
       "presets": [],
       "shuls": {},
@@ -2459,7 +2514,12 @@
       },
       "radius": 8,
       "curated": false,
-      "links": [],
+      "links": [
+        {
+          "label": "The Westville Synagogue — minyan times",
+          "url": "https://www.westvilleshul.org/minyan"
+        }
+      ],
       "sub": "Live community minyan links · zmanim computed for your location",
       "presets": [],
       "shuls": {},
@@ -2559,7 +2619,12 @@
       },
       "radius": 14,
       "curated": false,
-      "links": [],
+      "links": [
+        {
+          "label": "Cong. Agudath Sholom — daily minyanim",
+          "url": "https://www.cas-stamford.org/dailyminyans.html"
+        }
+      ],
       "sub": "Live community minyan links · zmanim computed for your location",
       "presets": [],
       "shuls": {},
