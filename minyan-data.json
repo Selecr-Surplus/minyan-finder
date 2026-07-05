@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-06-30",
+  "updated": "2026-07-05",
   "note": "Minyan Finder region data. Curated packs compute live from zmanim; geo-routed packs link to authoritative community sources.",
   "regions": [
     {
@@ -15,24 +15,9 @@
       "curated": true,
       "presets": [
         {
-          "label": "Huntington Woods",
-          "lat": 42.4805,
-          "lng": -83.1671
-        },
-        {
-          "label": "Oak Park",
-          "lat": 42.4717,
-          "lng": -83.1894
-        },
-        {
-          "label": "Southfield",
-          "lat": 42.4884,
-          "lng": -83.245
-        },
-        {
-          "label": "West Bloomfield",
-          "lat": 42.547,
-          "lng": -83.365
+          "label": "Oak Park area",
+          "lat": 42.4749,
+          "lng": -83.1946
         }
       ],
       "shuls": {
@@ -1755,6 +1740,866 @@
           "url": "https://www.orbkosher.com/"
         }
       ],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "nyc-manhattan",
+      "title": "Manhattan Minyanim",
+      "center": {
+        "lat": 40.787,
+        "lng": -73.975
+      },
+      "radius": 6,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "queens-kgh",
+      "title": "Queens / Kew Gardens Hills Minyanim",
+      "center": {
+        "lat": 40.7236,
+        "lng": -73.8211
+      },
+      "radius": 8,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "great-neck",
+      "title": "Great Neck / North Shore LI Minyanim",
+      "center": {
+        "lat": 40.8,
+        "lng": -73.728
+      },
+      "radius": 10,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "westchester",
+      "title": "Westchester / New Rochelle Minyanim",
+      "center": {
+        "lat": 40.911,
+        "lng": -73.783
+      },
+      "radius": 9,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "riverdale",
+      "title": "Riverdale / Bronx Minyanim",
+      "center": {
+        "lat": 40.89,
+        "lng": -73.905
+      },
+      "radius": 5,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "philadelphia",
+      "title": "Philadelphia Minyanim",
+      "center": {
+        "lat": 40.004,
+        "lng": -75.225
+      },
+      "radius": 12,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "bayarea",
+      "title": "SF Bay Area Minyanim",
+      "center": {
+        "lat": 37.444,
+        "lng": -122.16
+      },
+      "radius": 25,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "washington-dc",
+      "title": "Washington DC Minyanim",
+      "center": {
+        "lat": 39.035,
+        "lng": -77.02
+      },
+      "radius": 15,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "boston",
+      "title": "Boston Minyanim",
+      "center": {
+        "lat": 42.333,
+        "lng": -71.145
+      },
+      "radius": 12,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "atlanta",
+      "title": "Atlanta Minyanim",
+      "center": {
+        "lat": 33.836,
+        "lng": -84.33
+      },
+      "radius": 12,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "san-diego",
+      "title": "San Diego Minyanim",
+      "center": {
+        "lat": 32.855,
+        "lng": -117.205
+      },
+      "radius": 15,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "phoenix",
+      "title": "Phoenix / Scottsdale Minyanim",
+      "center": {
+        "lat": 33.566,
+        "lng": -111.926
+      },
+      "radius": 18,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "denver",
+      "title": "Denver Minyanim",
+      "center": {
+        "lat": 39.72,
+        "lng": -104.93
+      },
+      "radius": 15,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "cleveland",
+      "title": "Cleveland Minyanim",
+      "center": {
+        "lat": 41.494,
+        "lng": -81.51
+      },
+      "radius": 10,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "essex-nj",
+      "title": "West Orange / Livingston Minyanim",
+      "center": {
+        "lat": 40.798,
+        "lng": -74.245
+      },
+      "radius": 8,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "las-vegas",
+      "title": "Las Vegas Minyanim",
+      "center": {
+        "lat": 36.166,
+        "lng": -115.33
+      },
+      "radius": 15,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "dallas",
+      "title": "Dallas Minyanim",
+      "center": {
+        "lat": 32.91,
+        "lng": -96.77
+      },
+      "radius": 15,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "houston",
+      "title": "Houston Minyanim",
+      "center": {
+        "lat": 29.69,
+        "lng": -95.46
+      },
+      "radius": 15,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "seattle",
+      "title": "Seattle Minyanim",
+      "center": {
+        "lat": 47.553,
+        "lng": -122.265
+      },
+      "radius": 15,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "st-louis",
+      "title": "St. Louis Minyanim",
+      "center": {
+        "lat": 38.66,
+        "lng": -90.33
+      },
+      "radius": 12,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "twin-cities",
+      "title": "Minneapolis / St. Paul Minyanim",
+      "center": {
+        "lat": 44.948,
+        "lng": -93.365
+      },
+      "radius": 12,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "pittsburgh",
+      "title": "Pittsburgh Minyanim",
+      "center": {
+        "lat": 40.438,
+        "lng": -79.922
+      },
+      "radius": 8,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "cherry-hill",
+      "title": "Cherry Hill Minyanim",
+      "center": {
+        "lat": 39.934,
+        "lng": -74.999
+      },
+      "radius": 10,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "highland-park-nj",
+      "title": "Highland Park / Edison Minyanim",
+      "center": {
+        "lat": 40.5,
+        "lng": -74.424
+      },
+      "radius": 7,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "hartford",
+      "title": "Hartford / West Hartford Minyanim",
+      "center": {
+        "lat": 41.762,
+        "lng": -72.742
+      },
+      "radius": 10,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "portland-or",
+      "title": "Portland Minyanim",
+      "center": {
+        "lat": 45.5,
+        "lng": -122.7
+      },
+      "radius": 12,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "columbus",
+      "title": "Columbus Minyanim",
+      "center": {
+        "lat": 39.969,
+        "lng": -82.937
+      },
+      "radius": 10,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "cincinnati",
+      "title": "Cincinnati Minyanim",
+      "center": {
+        "lat": 39.205,
+        "lng": -84.43
+      },
+      "radius": 10,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "kansas-city",
+      "title": "Kansas City Minyanim",
+      "center": {
+        "lat": 38.93,
+        "lng": -94.67
+      },
+      "radius": 12,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "tampa",
+      "title": "Tampa Minyanim",
+      "center": {
+        "lat": 28.04,
+        "lng": -82.51
+      },
+      "radius": 15,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "orlando",
+      "title": "Orlando Minyanim",
+      "center": {
+        "lat": 28.53,
+        "lng": -81.38
+      },
+      "radius": 15,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "sacramento",
+      "title": "Sacramento Minyanim",
+      "center": {
+        "lat": 38.56,
+        "lng": -121.42
+      },
+      "radius": 15,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "milwaukee",
+      "title": "Milwaukee Minyanim",
+      "center": {
+        "lat": 43.13,
+        "lng": -87.92
+      },
+      "radius": 12,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "staten-island",
+      "title": "Staten Island Minyanim",
+      "center": {
+        "lat": 40.603,
+        "lng": -74.15
+      },
+      "radius": 7,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "providence",
+      "title": "Providence Minyanim",
+      "center": {
+        "lat": 41.84,
+        "lng": -71.41
+      },
+      "radius": 10,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "new-haven",
+      "title": "New Haven Minyanim",
+      "center": {
+        "lat": 41.328,
+        "lng": -72.962
+      },
+      "radius": 8,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "rochester",
+      "title": "Rochester Minyanim",
+      "center": {
+        "lat": 43.13,
+        "lng": -77.6
+      },
+      "radius": 8,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "austin",
+      "title": "Austin Minyanim",
+      "center": {
+        "lat": 30.3,
+        "lng": -97.76
+      },
+      "radius": 15,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "charlotte",
+      "title": "Charlotte Minyanim",
+      "center": {
+        "lat": 35.15,
+        "lng": -80.83
+      },
+      "radius": 12,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "memphis",
+      "title": "Memphis Minyanim",
+      "center": {
+        "lat": 35.09,
+        "lng": -89.86
+      },
+      "radius": 10,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "stamford",
+      "title": "Stamford / Fairfield County Minyanim",
+      "center": {
+        "lat": 41.083,
+        "lng": -73.529
+      },
+      "radius": 14,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "sarasota",
+      "title": "Sarasota Minyanim",
+      "center": {
+        "lat": 27.338,
+        "lng": -82.53
+      },
+      "radius": 16,
+      "curated": false,
+      "links": [],
+      "sub": "Live community minyan links · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+    },
+    {
+      "id": "tucson",
+      "title": "Tucson Minyanim",
+      "center": {
+        "lat": 32.236,
+        "lng": -110.908
+      },
+      "radius": 12,
+      "curated": false,
+      "links": [],
       "sub": "Live community minyan links · zmanim computed for your location",
       "presets": [],
       "shuls": {},

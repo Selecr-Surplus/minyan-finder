@@ -578,10 +578,7 @@ const EREV_SHABBOS = [
   { t: "Shkia +72", what: "Maariv", shul: "ygd" }
 ];
 const PRESETS = [
-  { label: "Huntington Woods", lat: 42.4805, lng: -83.1671 },
-  { label: "Oak Park", lat: 42.4717, lng: -83.1894 },
-  { label: "Southfield", lat: 42.4884, lng: -83.245 },
-  { label: "West Bloomfield", lat: 42.547, lng: -83.365 }
+  { label: "Oak Park area", lat: 42.4749, lng: -83.1946 }
 ];
 const DETROIT_LEGEND = `Zmanim computed for your selected location (plag = GRA, netz + 10\xBE sha'os zmaniyos; tzeis shown at 8.5\xB0 — your luach governs). Distances are straight-line approximations. "School in session" minyanim run only when the yeshiva is in session. Source: Vaad Harabbonim Detroit Metro Spring/Summer/Fall 5786 sheet (March 2026) — confirm with the shul; corrections: YosiHeber@gmail.com.`;
 // ---- Region registry --------------------------------------------------------
@@ -650,12 +647,56 @@ const METROS = [
     { label: "Kosher Boca Raton — minyanim", url: "https://www.kosherbocaraton.org/minyanim" },
     { label: "Boca Raton Synagogue — minyanim", url: "https://brsonline.shulcloud.com/service-times/main-minyan.html" },
     { label: "ORB — Orthodox Rabbinical Board", url: "https://www.orbkosher.com/" }
-  ])
+  ]),
+  // --- Top 40 U.S. Jewish-population metros (geo-routed; GoDaven baseline auto-added) ---
+  metro("nyc-manhattan", "Manhattan Minyanim", { lat: 40.787, lng: -73.975 }, 6, []),
+  metro("queens-kgh", "Queens / Kew Gardens Hills Minyanim", { lat: 40.7236, lng: -73.8211 }, 8, []),
+  metro("great-neck", "Great Neck / North Shore LI Minyanim", { lat: 40.800, lng: -73.728 }, 10, []),
+  metro("westchester", "Westchester / New Rochelle Minyanim", { lat: 40.911, lng: -73.783 }, 9, []),
+  metro("riverdale", "Riverdale / Bronx Minyanim", { lat: 40.890, lng: -73.905 }, 5, []),
+  metro("philadelphia", "Philadelphia Minyanim", { lat: 40.004, lng: -75.225 }, 12, []),
+  metro("bayarea", "SF Bay Area Minyanim", { lat: 37.444, lng: -122.160 }, 25, []),
+  metro("washington-dc", "Washington DC Minyanim", { lat: 39.035, lng: -77.020 }, 15, []),
+  metro("boston", "Boston Minyanim", { lat: 42.333, lng: -71.145 }, 12, []),
+  metro("atlanta", "Atlanta Minyanim", { lat: 33.836, lng: -84.330 }, 12, []),
+  metro("san-diego", "San Diego Minyanim", { lat: 32.855, lng: -117.205 }, 15, []),
+  metro("phoenix", "Phoenix / Scottsdale Minyanim", { lat: 33.566, lng: -111.926 }, 18, []),
+  metro("denver", "Denver Minyanim", { lat: 39.720, lng: -104.930 }, 15, []),
+  metro("cleveland", "Cleveland Minyanim", { lat: 41.494, lng: -81.510 }, 10, []),
+  metro("essex-nj", "West Orange / Livingston Minyanim", { lat: 40.798, lng: -74.245 }, 8, []),
+  metro("las-vegas", "Las Vegas Minyanim", { lat: 36.166, lng: -115.330 }, 15, []),
+  metro("dallas", "Dallas Minyanim", { lat: 32.910, lng: -96.770 }, 15, []),
+  metro("houston", "Houston Minyanim", { lat: 29.690, lng: -95.460 }, 15, []),
+  metro("seattle", "Seattle Minyanim", { lat: 47.553, lng: -122.265 }, 15, []),
+  metro("st-louis", "St. Louis Minyanim", { lat: 38.660, lng: -90.330 }, 12, []),
+  metro("twin-cities", "Minneapolis / St. Paul Minyanim", { lat: 44.948, lng: -93.365 }, 12, []),
+  metro("pittsburgh", "Pittsburgh Minyanim", { lat: 40.438, lng: -79.922 }, 8, []),
+  metro("cherry-hill", "Cherry Hill Minyanim", { lat: 39.934, lng: -74.999 }, 10, []),
+  metro("highland-park-nj", "Highland Park / Edison Minyanim", { lat: 40.500, lng: -74.424 }, 7, []),
+  metro("hartford", "Hartford / West Hartford Minyanim", { lat: 41.762, lng: -72.742 }, 10, []),
+  metro("portland-or", "Portland Minyanim", { lat: 45.500, lng: -122.700 }, 12, []),
+  metro("columbus", "Columbus Minyanim", { lat: 39.969, lng: -82.937 }, 10, []),
+  metro("cincinnati", "Cincinnati Minyanim", { lat: 39.205, lng: -84.430 }, 10, []),
+  metro("kansas-city", "Kansas City Minyanim", { lat: 38.930, lng: -94.670 }, 12, []),
+  metro("tampa", "Tampa Minyanim", { lat: 28.040, lng: -82.510 }, 15, []),
+  metro("orlando", "Orlando Minyanim", { lat: 28.530, lng: -81.380 }, 15, []),
+  metro("sacramento", "Sacramento Minyanim", { lat: 38.560, lng: -121.420 }, 15, []),
+  metro("milwaukee", "Milwaukee Minyanim", { lat: 43.130, lng: -87.920 }, 12, []),
+  metro("staten-island", "Staten Island Minyanim", { lat: 40.603, lng: -74.150 }, 7, []),
+  metro("providence", "Providence Minyanim", { lat: 41.840, lng: -71.410 }, 10, []),
+  metro("new-haven", "New Haven Minyanim", { lat: 41.328, lng: -72.962 }, 8, []),
+  metro("rochester", "Rochester Minyanim", { lat: 43.130, lng: -77.600 }, 8, []),
+  metro("austin", "Austin Minyanim", { lat: 30.300, lng: -97.760 }, 15, []),
+  metro("charlotte", "Charlotte Minyanim", { lat: 35.150, lng: -80.830 }, 12, []),
+  metro("memphis", "Memphis Minyanim", { lat: 35.090, lng: -89.860 }, 10, []),
+  metro("stamford", "Stamford / Fairfield County Minyanim", { lat: 41.083, lng: -73.529 }, 14, []),
+  metro("sarasota", "Sarasota Minyanim", { lat: 27.338, lng: -82.530 }, 16, []),
+  metro("tucson", "Tucson Minyanim", { lat: 32.236, lng: -110.908 }, 12, [])
 ];
 const REGIONS = [DETROIT, ...METROS];
 // Embedded copy = offline fallback. The app tries to fetch a fresher copy from
 // DATA_URL on load; if that fails (offline / not yet hosted) it uses this.
-const EMBEDDED_DATA = { version: 1, updated: "2026-06-30", regions: REGIONS };
+const EMBEDDED_DATA = { version: 1, updated: "2026-07-05", regions: REGIONS };
 // Where the always-fresh data lives (GitHub Pages). Absolute so the local
 // Downloads copy fetches the same live JSON; offline -> embedded fallback.
 const DATA_URL = "https://selecr-surplus.github.io/minyan-finder/minyan-data.json";
