@@ -606,9 +606,9 @@ const DETROIT = {
 // Sources verified June 2026; community lists change — confirm times with the shul.
 const metro = (id, title, center, radius, links) => ({
   id, title, center, radius, curated: false, links,
-  sub: "Live community minyan links \xB7 zmanim computed for your location",
+  sub: "Live minyan times near you \xB7 zmanim computed for your location",
   presets: [], shuls: {}, mincha: [], maariv: [], shachSun: [], shachWeek: [], erevShabbos: [],
-  legend: "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+  legend: "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
 });
 const METROS = [
   metro("lakewood", "Lakewood Minyanim", { lat: 40.0959, lng: -74.2176 }, 12, [
@@ -738,6 +738,56 @@ const goDavenURL = (lat, lng, label) =>
 const mapsNearURL = (lat, lng, q) => `https://www.google.com/maps/search/${encodeURIComponent(q)}/@${lat},${lng},13z`;
 const webSearchURL = (q) => `https://www.google.com/search?q=${encodeURIComponent(q)}`;
 const minyanMapsURL = "https://www.minyanmaps.com/";
+// ---- Live minyan layer (GoDaven public API; CORS-open) ----------------------
+// The app does the research at open: query GoDaven for every minyan near the
+// user's GPS for the exact day shown. Times arrive already resolved (their
+// zmanim-relative rules are computed server-side per date).
+const GD_API = "https://www.godaven.com/api/V2";
+const GD_TEFILLAH = { shacharis: "shachris", mincha: "mincha", maariv: "mariv" };
+const NUSACH_LBL = { ashkenaz: "Ashkenaz", sfard: "Sfard", sefard: "Sfard", edut_mizrach: "Edut Mizrach", ari: "Ari", chabad: "Chabad", temani: "Temani" };
+const ymd = (d) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+const titleCase = (s) => (s || "").replace(/\S+/g, (w) => w.charAt(0).toUpperCase() + w.slice(1));
+const gdCache = {};
+async function gdSearch(lat, lng, distance, dateObj, tefillah) {
+  const dateStr = ymd(dateObj), day = dateObj.getDay();
+  const ck = [lat.toFixed(3), lng.toFixed(3), distance, dateStr, tefillah].join("|");
+  if (gdCache[ck]) return gdCache[ck];
+  let page = 1, pages = 1, all = [];
+  while (page <= pages && page <= 20) {
+    const u = `${GD_API}/minyanim/search?day=${day}&start=00:00:00&end=23:59:59&lat=${lat}&lng=${lng}&tomorrow_search=false&pagenumber=${page}&distance=${distance}&nusach=&tefillah=${tefillah}&users_date=${dateStr}`;
+    const r = await fetch(u);
+    if (!r.ok) throw new Error("godaven " + r.status);
+    const j = await r.json();
+    pages = j.num_of_pages || 1;
+    all = all.concat(j.shuls || []);
+    page++;
+  }
+  gdCache[ck] = all;
+  return all;
+}
+// OpenStreetMap Overpass (CORS-open): find synagogues GoDaven doesn't list.
+async function osmShuls(lat, lng, distanceMi) {
+  const r = Math.round(Math.min(distanceMi, 25) * 1609);
+  const q = `[out:json][timeout:20];(node["amenity"="place_of_worship"]["religion"="jewish"](around:${r},${lat},${lng});way["amenity"="place_of_worship"]["religion"="jewish"](around:${r},${lat},${lng}););out center tags;`;
+  const resp = await fetch("https://overpass-api.de/api/interpreter?data=" + encodeURIComponent(q));
+  if (!resp.ok) throw new Error("overpass " + resp.status);
+  const j = await resp.json();
+  const NOT_ORTHODOX = /reform|conservative|reconstruction|liberal|progressive|humanist/i;
+  return (j.elements || []).map((e) => {
+    const t = e.tags || {};
+    if (!t.name || NOT_ORTHODOX.test(t.denomination || "")) return null;
+    const la = e.lat ?? e.center?.lat, lo = e.lon ?? e.center?.lon;
+    if (la == null) return null;
+    return {
+      name: t.name,
+      lat: la, lng: lo,
+      denom: t.denomination ? titleCase(t.denomination.replace(/_/g, " ")) : null,
+      phone: t.phone || t["contact:phone"] || null,
+      addr: [t["addr:housenumber"], t["addr:street"], t["addr:city"]].filter(Boolean).join(" ")
+    };
+  }).filter(Boolean);
+}
+const normName = (s) => (s || "").toLowerCase().replace(/\b(congregation|synagogue|temple|shul|kehilas?|kahal|bais|beis|beth|bet|of|the)\b/g, "").replace(/[^a-z]/g, "");
 const mdNum = (m, d) => m * 100 + d;
 function inRange(entry, today) {
   const t = mdNum(today.getMonth() + 1, today.getDate());
@@ -823,7 +873,7 @@ function RadiusBar({ radius, setRadius, count }) {
         onClick: () => setRadius(o)
       }, o === "all" ? "Any distance" : `${o} mi`))
     ),
-    h("span", { className: "rbcount" }, `${count} shown`)
+    count != null && h("span", { className: "rbcount" }, `${count} shown`)
   );
 }
 function FallbackPanel({ region, loc }) {
@@ -836,14 +886,124 @@ function FallbackPanel({ region, loc }) {
     { label: "Search the local vaad", url: webSearchURL(`${region.title} vaad minyanim davening times`) }
   ];
   return h("div", { className: "fallback" },
-    h("div", { className: "fbtitle" }, "Find a minyan near you"),
+    h("div", { className: "fbtitle" }, "More sources for this area"),
     h("div", { className: "fbsub" },
-      "We don't keep a hand-checked schedule for this area, so these go straight to live, community-maintained minyan data. Zmanim above are computed for your location."),
+      "Cross-check the live times above, or dig deeper with these community-maintained sources."),
     h("div", { className: "fblinks" },
       links.map((l, i) => h("a", {
         key: i, className: "fbbtn", href: l.url, target: "_blank", rel: "noopener noreferrer"
       }, l.label, h("span", { className: "fbarrow" }, "↗")))
     )
+  );
+}
+function LiveMinyanim({ loc, tab, viewDate, z, now, isToday, radius }) {
+  const [st, setSt] = useState({ status: "idle", items: [], key: "" });
+  const dist = radius === "all" ? 25 : Math.min(radius, 25);
+  const key = [loc.lat.toFixed(3), loc.lng.toFixed(3), tab, ymd(viewDate), dist].join("|");
+  useEffect(() => {
+    let alive = true;
+    setSt((s) => ({ ...s, status: "loading", key }));
+    gdSearch(loc.lat, loc.lng, dist, viewDate, GD_TEFILLAH[tab])
+      .then((items) => { if (alive) setSt({ status: "ok", items, key }); })
+      .catch(() => { if (alive) setSt({ status: "err", items: [], key }); });
+    return () => { alive = false; };
+  }, [key]);
+  const entries = (st.items || []).map((m) => {
+    const parts = (m.todays_time || "").split(":");
+    if (parts.length < 2) return null;
+    const t = new Date(viewDate);
+    t.setHours(+parts[0], +parts[1], 0, 0);
+    const c = m.location_point && m.location_point.coordinates;
+    const sLoc = c ? { lat: c[1], lng: c[0] } : null;
+    return {
+      t, name: titleCase(m.name),
+      addr: [m.address, m.city].filter(Boolean).join(", "),
+      dist: sLoc ? haversine(loc, sLoc) : m.distance || 0,
+      nusach: NUSACH_LBL[m.nusach] || null,
+      phone: m.phone || null, id: m.minyan_id
+    };
+  }).filter(Boolean);
+  // Plausibility gate: our computed zmanim veto crowd-data errors.
+  const plaus = (e) => {
+    const hr = e.t.getHours() + e.t.getMinutes() / 60;
+    if (tab === "shacharis") return hr >= 4 && hr < 12;
+    if (tab === "mincha") {
+      const hi = z && z.shkia ? z.shkia.getHours() + z.shkia.getMinutes() / 60 + 0.75 : 21.5;
+      return hr >= 12.4 && hr <= hi;
+    }
+    const lo = z && z.plag ? z.plag.getHours() + z.plag.getMinutes() / 60 - 0.25 : 18;
+    return hr >= lo;
+  };
+  const good = entries.filter(plaus).sort((a, b) => a.t - b.t || a.dist - b.dist);
+  const hidden = entries.length - good.length;
+  const GRACE = 5 * 6e4;
+  const upcoming = isToday ? good.filter((e) => e.t.getTime() + GRACE >= now.getTime()) : good;
+  const past = good.length - upcoming.length;
+  const next = isToday ? upcoming[0] : null;
+  const mins = next ? Math.round((next.t - now) / 6e4) : null;
+  if (st.status === "loading" || st.status === "idle")
+    return h("div", { className: "note" }, "Searching live minyanim near you…");
+  if (st.status === "err")
+    return h("div", { className: "note" }, "Couldn't reach the live minyan database — check your connection, or use the source links below.");
+  return h(React.Fragment, null,
+    next && h("div", { className: "next" },
+      h("div", { className: "when" }, fmt(next.t)),
+      h("div", { className: "name" }, next.name),
+      h("div", { className: "meta" }, next.addr, " \xB7 ~", next.dist.toFixed(1), " mi", next.nusach ? ` \xB7 ${next.nusach}` : ""),
+      mins !== null && mins <= 25 && h("div", { className: "leave" }, mins <= 0 ? "Starting now — go!" : `Starts in ${mins} min — leave now`)),
+    upcoming.length === 0 && h("div", { className: "note" },
+      isToday ? "No more listed minyanim in range today for this tefillah. Tap › for tomorrow, widen the distance, or check the sources below." : "No listed minyanim in range for this day."),
+    upcoming.length > 0 && h("div", { className: "sect" },
+      `${upcoming.length} minyanim within ${dist} mi \xB7 sorted by time`),
+    upcoming.map((e, i) => h("div", { className: "card", key: e.id || i },
+      h("div", { className: "t" }, fmt(e.t)),
+      h("div", null,
+        h("div", { className: "nm" }, e.name),
+        h("div", { className: "ad" }, e.addr),
+        h("div", { className: "badges" },
+          e.nusach && h("span", { className: "badge badge-dim" }, e.nusach),
+          e.phone && h("a", { className: "badge badge-sage", href: `tel:${e.phone}`, style: { textDecoration: "none" } }, "☎ call"))),
+      h("div", { className: "dist" }, "~", e.dist.toFixed(1), " mi"))),
+    h("div", { className: "liveattrib" },
+      "Live from GoDaven \xB7 community-maintained — confirm with the shul",
+      hidden > 0 ? ` \xB7 ${hidden} entr${hidden === 1 ? "y" : "ies"} hidden (implausible time)` : "",
+      past > 0 ? ` \xB7 ${past} earlier today` : "")
+  );
+}
+function OsmDiscovery({ loc, radius }) {
+  const [st, setSt] = useState({ status: "idle", items: [] });
+  const dist = radius === "all" ? 25 : Math.min(radius, 25);
+  const scan = () => {
+    setSt({ status: "loading", items: [] });
+    const gdNames = new Set(Object.values(gdCache).flat().map((m) => normName(m.name)).filter(Boolean));
+    osmShuls(loc.lat, loc.lng, dist)
+      .then((items) => {
+        const fresh = items
+          .filter((s) => { const n = normName(s.name); return n && ![...gdNames].some((g) => g.includes(n) || n.includes(g)); })
+          .map((s) => ({ ...s, dist: haversine(loc, s) }))
+          .filter((s) => s.dist <= dist)
+          .sort((a, b) => a.dist - b.dist);
+        setSt({ status: "ok", items: fresh });
+      })
+      .catch(() => setSt({ status: "err", items: [] }));
+  };
+  if (st.status === "idle")
+    return h("button", { className: "ghost", onClick: scan }, "\u{1F50D} Scan OpenStreetMap for shuls not listed above");
+  if (st.status === "loading") return h("div", { className: "note" }, "Scanning OpenStreetMap…");
+  if (st.status === "err") return h("div", { className: "note" }, "OpenStreetMap scan failed — try again in a minute.");
+  return h(React.Fragment, null,
+    h("div", { className: "sect" }, st.items.length ? `${st.items.length} additional shuls found on OpenStreetMap \xB7 no published times — call to confirm a minyan` : "No additional shuls found on OpenStreetMap in this radius."),
+    st.items.map((s, i) => h("div", { className: "card", key: i },
+      h("div", { className: "t" }, "—"),
+      h("div", null,
+        h("div", { className: "nm" }, s.name),
+        h("div", { className: "ad" }, s.addr || "address not tagged"),
+        h("div", { className: "badges" },
+          s.denom && h("span", { className: "badge badge-dim" }, s.denom),
+          !s.denom && h("span", { className: "badge badge-clay" }, "verify Orthodox"),
+          s.phone && h("a", { className: "badge badge-sage", href: `tel:${s.phone}`, style: { textDecoration: "none" } }, "☎ call"),
+          h("a", { className: "badge badge-gold", href: `https://www.google.com/maps/search/?api=1&query=${s.lat},${s.lng}`, target: "_blank", rel: "noopener noreferrer", style: { textDecoration: "none" } }, "map"))),
+      h("div", { className: "dist" }, "~", s.dist.toFixed(1), " mi")))
   );
 }
 function MinyanFinder() {
@@ -1072,7 +1232,9 @@ function MinyanFinder() {
           padding:11px 13px;color:var(--parch);text-decoration:none;font-size:.86rem;font-weight:500}
         .fbbtn:hover{border-color:var(--amber)}
         .fbarrow{color:var(--amber);font-size:1rem;margin-left:10px}
-      `), /* @__PURE__ */ React.createElement("h1", null, region.title), /* @__PURE__ */ React.createElement("div", { className: "sub" }, region.sub), /* @__PURE__ */ React.createElement("div", { className: "daynav" }, /* @__PURE__ */ React.createElement("button", { className: "dbtn", "aria-label": "Previous day", onClick: () => setDayOffset((o) => o - 1) }, "\u2039"), /* @__PURE__ */ React.createElement("div", { className: "dlabel" }, /* @__PURE__ */ React.createElement("b", null, isToday ? "Today" : viewDate.toLocaleDateString([], { weekday: "long" })), /* @__PURE__ */ React.createElement("span", null, viewDate.toLocaleDateString([], { month: "long", day: "numeric", year: dayOffset > 300 ? "numeric" : void 0 }))), /* @__PURE__ */ React.createElement("button", { className: "dbtn", "aria-label": "Next day", onClick: () => setDayOffset((o) => o + 1) }, "\u203A"), !isToday && /* @__PURE__ */ React.createElement("button", { className: "chip todayBtn", onClick: () => setDayOffset(0) }, "\u21A9 Today")), /* @__PURE__ */ React.createElement(RegionBar, { region, regions, onPick: (r) => applyRegion(r, r.center) }), /* @__PURE__ */ React.createElement("div", { className: "row", style: { marginTop: 12 } }, region.presets.map((p) => /* @__PURE__ */ React.createElement("button", { key: p.label, className: `chip ${loc.label === p.label ? "on" : ""}`, onClick: () => setLoc(p) }, p.label)), /* @__PURE__ */ React.createElement("button", { className: "chip", onClick: useGPS }, "\u{1F4CD} Use GPS")), /* @__PURE__ */ React.createElement("div", { className: "geo" }, geoMsg), /* @__PURE__ */ React.createElement("div", { className: "freshness" }, dataMeta.live ? `✓ Minyan data refreshed ${dataMeta.updated}` : `Offline copy${dataMeta.updated ? ` \xB7 ${dataMeta.updated}` : ""} — will refresh when online`), !region.curated && /* @__PURE__ */ React.createElement(FallbackPanel, { region, loc }), z && /* @__PURE__ */ React.createElement(React.Fragment, null, /* @__PURE__ */ React.createElement("div", { className: "arc", "aria-hidden": "true" }, /* @__PURE__ */ React.createElement("div", { className: "band" }), [["Netz", z.netz], ["Plag", z.plag], ["Shkiah", z.shkia], ["Tzeis", z.tzeis]].map(([n, d]) => d && /* @__PURE__ */ React.createElement("span", { key: n }, /* @__PURE__ */ React.createElement("span", { className: "tickName", style: { left: `${arcPos(d)}%` } }, n), /* @__PURE__ */ React.createElement("span", { className: "tick", style: { left: `${arcPos(d)}%` } }), /* @__PURE__ */ React.createElement("span", { className: "tickLabel", style: { left: `${arcPos(d)}%` } }, fmt(d)))), isToday && /* @__PURE__ */ React.createElement("span", { className: "needle", style: { left: `${arcPos(now)}%` } })), /* @__PURE__ */ React.createElement("div", { className: "zrow" }, /* @__PURE__ */ React.createElement("div", { className: "z" }, /* @__PURE__ */ React.createElement("span", null, "M. Gedolah"), /* @__PURE__ */ React.createElement("b", null, fmt(z.minchaGedola))), /* @__PURE__ */ React.createElement("div", { className: "z" }, /* @__PURE__ */ React.createElement("span", null, "M. Ketanah"), /* @__PURE__ */ React.createElement("b", null, fmt(z.minchaKetana))), /* @__PURE__ */ React.createElement("div", { className: "z hot" }, /* @__PURE__ */ React.createElement("span", null, "Plag"), /* @__PURE__ */ React.createElement("b", null, fmt(z.plag))), /* @__PURE__ */ React.createElement("div", { className: "z" }, /* @__PURE__ */ React.createElement("span", null, "Shkiah"), /* @__PURE__ */ React.createElement("b", null, fmt(z.shkia))), /* @__PURE__ */ React.createElement("div", { className: "z" }, /* @__PURE__ */ React.createElement("span", null, "Tzeis ~8.5\xB0"), /* @__PURE__ */ React.createElement("b", null, fmt(z.tzeis))))), region.curated && /* @__PURE__ */ React.createElement("div", { className: "tabs", role: "tablist" }, [["shacharis", "Shacharis"], ["mincha", "Mincha"], ["maariv", "Maariv"]].map(([k, lbl]) => /* @__PURE__ */ React.createElement("button", { key: k, role: "tab", "aria-selected": tab === k, className: `tab ${tab === k ? "on" : ""}`, onClick: () => setTab(k) }, lbl))), region.curated && /* @__PURE__ */ React.createElement(RadiusBar, { radius, setRadius, count: upcoming.length }), region.curated && dow === 5 && tab !== "shacharis" && /* @__PURE__ */ React.createElement("div", { className: "note" }, /* @__PURE__ */ React.createElement("b", null, "Erev Shabbos"), " \u2014 the weekday Mincha/Maariv lists don't apply this afternoon. Listed Erev Shabbos minyanim:", region.erevShabbos.map((e, i) => /* @__PURE__ */ React.createElement("div", { key: i, style: { marginTop: 6 } }, /* @__PURE__ */ React.createElement("b", null, e.t), " ", e.what, " \u2014 ", region.shuls[e.shul].name, e.flags?.includes("yeshiva") ? " (school in session)" : "")), /* @__PURE__ */ React.createElement("div", { style: { marginTop: 6 } }, "Most shuls daven Mincha/Kabbolas Shabbos at candle-lighting \u2014 check your shul.")), region.curated && dow === 6 && /* @__PURE__ */ React.createElement("div", { className: "note" }, /* @__PURE__ */ React.createElement("b", null, "Shabbos"), " \u2014 this sheet covers weekday minyanim. Gut Shabbos!"), region.curated && !(dow === 5 && tab !== "shacharis") && dow !== 6 && /* @__PURE__ */ React.createElement(React.Fragment, null, next ? /* @__PURE__ */ React.createElement("div", { className: "next" }, /* @__PURE__ */ React.createElement("div", { className: "when" }, fmt(next.t)), /* @__PURE__ */ React.createElement("div", { className: "name" }, next.shulInfo.name), /* @__PURE__ */ React.createElement("div", { className: "meta" }, next.shulInfo.addr, " \xB7 ~", next.dist.toFixed(1), " mi", ruleLabel(next) ? ` \xB7 ${ruleLabel(next)}` : ""), mins !== null && mins <= 25 && /* @__PURE__ */ React.createElement("div", { className: "leave" }, mins <= 0 ? "Starting now \u2014 go!" : `Starts in ${mins} min \u2014 leave now`)) : isToday ? /* @__PURE__ */ React.createElement("div", { className: "note" }, "No more ", tab === "maariv" ? "Maariv" : tab === "mincha" ? "Mincha" : "Shacharis", " minyanim left on the sheet today. Tap \u203A to see tomorrow's schedule.") : list.length === 0 ? /* @__PURE__ */ React.createElement("div", { className: "note" }, "No minyanim on the sheet match this day's filters.") : null, tab === "maariv" && upcoming.some((e) => e.kind === "plag") && /* @__PURE__ */ React.createElement("div", { className: "note" }, "Plag Maariv: only pairs with a ", /* @__PURE__ */ React.createElement("b", null, "before-plag Mincha"), " (tarti d'sasri) \u2014 the \u2726 Plag-pair shuls run both. Repeat Krias Shema after Tzeis (~", fmt(z?.tzeis), ")."), /* @__PURE__ */ React.createElement("div", { className: "sect" }, isToday ? "Upcoming \xB7 sorted by time, nearest shown" : `${viewDate.toLocaleDateString([], { weekday: "long", month: "short", day: "numeric" })} schedule \xB7 sorted by time`), upcoming.map((e, i) => /* @__PURE__ */ React.createElement("div", { className: "card", key: i }, /* @__PURE__ */ React.createElement("div", { className: "t" }, fmt(e.t), ruleLabel(e) && /* @__PURE__ */ React.createElement("small", null, ruleLabel(e))), /* @__PURE__ */ React.createElement("div", null, /* @__PURE__ */ React.createElement("div", { className: "nm" }, e.shulInfo.name), /* @__PURE__ */ React.createElement("div", { className: "ad" }, e.shulInfo.addr), /* @__PURE__ */ React.createElement("div", { className: "badges" }, e.plagPair && /* @__PURE__ */ React.createElement(Badge, { tone: "gold" }, "\u2726 Plag pair"), e.flags?.includes("yeshiva") && /* @__PURE__ */ React.createElement(Badge, { tone: "clay" }, "school in session"), e.flags?.includes("monThu") && /* @__PURE__ */ React.createElement(Badge, null, "Mon\u2013Thu"), e.flags?.includes("rcEarlier") && /* @__PURE__ */ React.createElement(Badge, null, 'earlier on R"Ch/fast'), e.flags?.includes("varies") && /* @__PURE__ */ React.createElement(Badge, null, "shifts w/ shkiah"), e.note && /* @__PURE__ */ React.createElement(Badge, { tone: "sage" }, e.note))), /* @__PURE__ */ React.createElement("div", { className: "dist" }, "~", e.dist.toFixed(1), " mi"))), past.length > 0 && /* @__PURE__ */ React.createElement(React.Fragment, null, /* @__PURE__ */ React.createElement("button", { className: "ghost", onClick: () => setShowPast(!showPast) }, showPast ? "Hide" : "Show", " ", past.length, " earlier minyanim"), showPast && past.map((e, i) => /* @__PURE__ */ React.createElement("div", { className: "card past", key: i }, /* @__PURE__ */ React.createElement("div", { className: "t" }, fmt(e.t), ruleLabel(e) && /* @__PURE__ */ React.createElement("small", null, ruleLabel(e))), /* @__PURE__ */ React.createElement("div", null, /* @__PURE__ */ React.createElement("div", { className: "nm" }, e.shulInfo.name), /* @__PURE__ */ React.createElement("div", { className: "ad" }, e.shulInfo.addr)), /* @__PURE__ */ React.createElement("div", { className: "dist" }, "~", e.dist.toFixed(1), " mi"))))), /* @__PURE__ */ React.createElement("div", { className: "legend" }, region.curated ? `Zmanim computed for your selected location (plag = GRA, netz + 10\xBE sha'os zmaniyos; tzeis shown at 8.5\xB0 \u2014 your luach governs). Distances are straight-line approximations. "School in session" minyanim run only when the yeshiva is in session. Source: Vaad Harabbonim Detroit Metro Spring/Summer/Fall 5786 sheet (March 2026) \u2014 confirm with the shul; corrections: YosiHeber@gmail.com.` : region.legend));
+        .liveattrib{color:var(--parch-dim);font-size:.66rem;margin:10px 0 4px;
+          font-family:'IBM Plex Mono',monospace;line-height:1.5}
+      `), /* @__PURE__ */ React.createElement("h1", null, region.title), /* @__PURE__ */ React.createElement("div", { className: "sub" }, region.sub), /* @__PURE__ */ React.createElement("div", { className: "daynav" }, /* @__PURE__ */ React.createElement("button", { className: "dbtn", "aria-label": "Previous day", onClick: () => setDayOffset((o) => o - 1) }, "\u2039"), /* @__PURE__ */ React.createElement("div", { className: "dlabel" }, /* @__PURE__ */ React.createElement("b", null, isToday ? "Today" : viewDate.toLocaleDateString([], { weekday: "long" })), /* @__PURE__ */ React.createElement("span", null, viewDate.toLocaleDateString([], { month: "long", day: "numeric", year: dayOffset > 300 ? "numeric" : void 0 }))), /* @__PURE__ */ React.createElement("button", { className: "dbtn", "aria-label": "Next day", onClick: () => setDayOffset((o) => o + 1) }, "\u203A"), !isToday && /* @__PURE__ */ React.createElement("button", { className: "chip todayBtn", onClick: () => setDayOffset(0) }, "\u21A9 Today")), /* @__PURE__ */ React.createElement(RegionBar, { region, regions, onPick: (r) => applyRegion(r, r.center) }), /* @__PURE__ */ React.createElement("div", { className: "row", style: { marginTop: 12 } }, region.presets.map((p) => /* @__PURE__ */ React.createElement("button", { key: p.label, className: `chip ${loc.label === p.label ? "on" : ""}`, onClick: () => setLoc(p) }, p.label)), /* @__PURE__ */ React.createElement("button", { className: "chip", onClick: useGPS }, "\u{1F4CD} Use GPS")), /* @__PURE__ */ React.createElement("div", { className: "geo" }, geoMsg), /* @__PURE__ */ React.createElement("div", { className: "freshness" }, dataMeta.live ? `✓ Minyan data refreshed ${dataMeta.updated}` : `Offline copy${dataMeta.updated ? ` \xB7 ${dataMeta.updated}` : ""} — will refresh when online`), z && /* @__PURE__ */ React.createElement(React.Fragment, null, /* @__PURE__ */ React.createElement("div", { className: "arc", "aria-hidden": "true" }, /* @__PURE__ */ React.createElement("div", { className: "band" }), [["Netz", z.netz], ["Plag", z.plag], ["Shkiah", z.shkia], ["Tzeis", z.tzeis]].map(([n, d]) => d && /* @__PURE__ */ React.createElement("span", { key: n }, /* @__PURE__ */ React.createElement("span", { className: "tickName", style: { left: `${arcPos(d)}%` } }, n), /* @__PURE__ */ React.createElement("span", { className: "tick", style: { left: `${arcPos(d)}%` } }), /* @__PURE__ */ React.createElement("span", { className: "tickLabel", style: { left: `${arcPos(d)}%` } }, fmt(d)))), isToday && /* @__PURE__ */ React.createElement("span", { className: "needle", style: { left: `${arcPos(now)}%` } })), /* @__PURE__ */ React.createElement("div", { className: "zrow" }, /* @__PURE__ */ React.createElement("div", { className: "z" }, /* @__PURE__ */ React.createElement("span", null, "M. Gedolah"), /* @__PURE__ */ React.createElement("b", null, fmt(z.minchaGedola))), /* @__PURE__ */ React.createElement("div", { className: "z" }, /* @__PURE__ */ React.createElement("span", null, "M. Ketanah"), /* @__PURE__ */ React.createElement("b", null, fmt(z.minchaKetana))), /* @__PURE__ */ React.createElement("div", { className: "z hot" }, /* @__PURE__ */ React.createElement("span", null, "Plag"), /* @__PURE__ */ React.createElement("b", null, fmt(z.plag))), /* @__PURE__ */ React.createElement("div", { className: "z" }, /* @__PURE__ */ React.createElement("span", null, "Shkiah"), /* @__PURE__ */ React.createElement("b", null, fmt(z.shkia))), /* @__PURE__ */ React.createElement("div", { className: "z" }, /* @__PURE__ */ React.createElement("span", null, "Tzeis ~8.5\xB0"), /* @__PURE__ */ React.createElement("b", null, fmt(z.tzeis))))), /* @__PURE__ */ React.createElement("div", { className: "tabs", role: "tablist" }, [["shacharis", "Shacharis"], ["mincha", "Mincha"], ["maariv", "Maariv"]].map(([k, lbl]) => /* @__PURE__ */ React.createElement("button", { key: k, role: "tab", "aria-selected": tab === k, className: `tab ${tab === k ? "on" : ""}`, onClick: () => setTab(k) }, lbl))), /* @__PURE__ */ React.createElement(RadiusBar, { radius, setRadius, count: region.curated ? upcoming.length : null }), !region.curated && /* @__PURE__ */ React.createElement(LiveMinyanim, { loc, tab, viewDate, z, now, isToday, radius }), !region.curated && /* @__PURE__ */ React.createElement(OsmDiscovery, { loc, radius }), !region.curated && /* @__PURE__ */ React.createElement(FallbackPanel, { region, loc }), region.curated && dow === 5 && tab !== "shacharis" && /* @__PURE__ */ React.createElement("div", { className: "note" }, /* @__PURE__ */ React.createElement("b", null, "Erev Shabbos"), " \u2014 the weekday Mincha/Maariv lists don't apply this afternoon. Listed Erev Shabbos minyanim:", region.erevShabbos.map((e, i) => /* @__PURE__ */ React.createElement("div", { key: i, style: { marginTop: 6 } }, /* @__PURE__ */ React.createElement("b", null, e.t), " ", e.what, " \u2014 ", region.shuls[e.shul].name, e.flags?.includes("yeshiva") ? " (school in session)" : "")), /* @__PURE__ */ React.createElement("div", { style: { marginTop: 6 } }, "Most shuls daven Mincha/Kabbolas Shabbos at candle-lighting \u2014 check your shul.")), region.curated && dow === 6 && /* @__PURE__ */ React.createElement("div", { className: "note" }, /* @__PURE__ */ React.createElement("b", null, "Shabbos"), " \u2014 this sheet covers weekday minyanim. Gut Shabbos!"), region.curated && !(dow === 5 && tab !== "shacharis") && dow !== 6 && /* @__PURE__ */ React.createElement(React.Fragment, null, next ? /* @__PURE__ */ React.createElement("div", { className: "next" }, /* @__PURE__ */ React.createElement("div", { className: "when" }, fmt(next.t)), /* @__PURE__ */ React.createElement("div", { className: "name" }, next.shulInfo.name), /* @__PURE__ */ React.createElement("div", { className: "meta" }, next.shulInfo.addr, " \xB7 ~", next.dist.toFixed(1), " mi", ruleLabel(next) ? ` \xB7 ${ruleLabel(next)}` : ""), mins !== null && mins <= 25 && /* @__PURE__ */ React.createElement("div", { className: "leave" }, mins <= 0 ? "Starting now \u2014 go!" : `Starts in ${mins} min \u2014 leave now`)) : isToday ? /* @__PURE__ */ React.createElement("div", { className: "note" }, "No more ", tab === "maariv" ? "Maariv" : tab === "mincha" ? "Mincha" : "Shacharis", " minyanim left on the sheet today. Tap \u203A to see tomorrow's schedule.") : list.length === 0 ? /* @__PURE__ */ React.createElement("div", { className: "note" }, "No minyanim on the sheet match this day's filters.") : null, tab === "maariv" && upcoming.some((e) => e.kind === "plag") && /* @__PURE__ */ React.createElement("div", { className: "note" }, "Plag Maariv: only pairs with a ", /* @__PURE__ */ React.createElement("b", null, "before-plag Mincha"), " (tarti d'sasri) \u2014 the \u2726 Plag-pair shuls run both. Repeat Krias Shema after Tzeis (~", fmt(z?.tzeis), ")."), /* @__PURE__ */ React.createElement("div", { className: "sect" }, isToday ? "Upcoming \xB7 sorted by time, nearest shown" : `${viewDate.toLocaleDateString([], { weekday: "long", month: "short", day: "numeric" })} schedule \xB7 sorted by time`), upcoming.map((e, i) => /* @__PURE__ */ React.createElement("div", { className: "card", key: i }, /* @__PURE__ */ React.createElement("div", { className: "t" }, fmt(e.t), ruleLabel(e) && /* @__PURE__ */ React.createElement("small", null, ruleLabel(e))), /* @__PURE__ */ React.createElement("div", null, /* @__PURE__ */ React.createElement("div", { className: "nm" }, e.shulInfo.name), /* @__PURE__ */ React.createElement("div", { className: "ad" }, e.shulInfo.addr), /* @__PURE__ */ React.createElement("div", { className: "badges" }, e.plagPair && /* @__PURE__ */ React.createElement(Badge, { tone: "gold" }, "\u2726 Plag pair"), e.flags?.includes("yeshiva") && /* @__PURE__ */ React.createElement(Badge, { tone: "clay" }, "school in session"), e.flags?.includes("monThu") && /* @__PURE__ */ React.createElement(Badge, null, "Mon\u2013Thu"), e.flags?.includes("rcEarlier") && /* @__PURE__ */ React.createElement(Badge, null, 'earlier on R"Ch/fast'), e.flags?.includes("varies") && /* @__PURE__ */ React.createElement(Badge, null, "shifts w/ shkiah"), e.note && /* @__PURE__ */ React.createElement(Badge, { tone: "sage" }, e.note))), /* @__PURE__ */ React.createElement("div", { className: "dist" }, "~", e.dist.toFixed(1), " mi"))), past.length > 0 && /* @__PURE__ */ React.createElement(React.Fragment, null, /* @__PURE__ */ React.createElement("button", { className: "ghost", onClick: () => setShowPast(!showPast) }, showPast ? "Hide" : "Show", " ", past.length, " earlier minyanim"), showPast && past.map((e, i) => /* @__PURE__ */ React.createElement("div", { className: "card past", key: i }, /* @__PURE__ */ React.createElement("div", { className: "t" }, fmt(e.t), ruleLabel(e) && /* @__PURE__ */ React.createElement("small", null, ruleLabel(e))), /* @__PURE__ */ React.createElement("div", null, /* @__PURE__ */ React.createElement("div", { className: "nm" }, e.shulInfo.name), /* @__PURE__ */ React.createElement("div", { className: "ad" }, e.shulInfo.addr)), /* @__PURE__ */ React.createElement("div", { className: "dist" }, "~", e.dist.toFixed(1), " mi"))))), /* @__PURE__ */ React.createElement("div", { className: "legend" }, region.curated ? `Zmanim computed for your selected location (plag = GRA, netz + 10\xBE sha'os zmaniyos; tzeis shown at 8.5\xB0 \u2014 your luach governs). Distances are straight-line approximations. "School in session" minyanim run only when the yeshiva is in session. Source: Vaad Harabbonim Detroit Metro Spring/Summer/Fall 5786 sheet (March 2026) \u2014 confirm with the shul; corrections: YosiHeber@gmail.com.` : region.legend));
 }
 
 ReactDOM.createRoot(document.getElementById('root')).render(React.createElement(MinyanFinder));

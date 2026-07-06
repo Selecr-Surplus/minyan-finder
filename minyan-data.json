@@ -1,7 +1,7 @@
 {
   "version": 1,
   "updated": "2026-07-05",
-  "note": "Minyan Finder region data. Curated packs compute live from zmanim; geo-routed packs link to authoritative community sources.",
+  "note": "Minyan Finder region data. Curated packs compute live from zmanim; geo-routed packs get live GoDaven times + authoritative source links.",
   "regions": [
     {
       "id": "detroit",
@@ -1460,7 +1460,7 @@
           "url": "https://thelakewoodluach.com/the-weekly-luach"
         }
       ],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -1468,7 +1468,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "brooklyn",
@@ -1480,7 +1480,7 @@
       "radius": 10,
       "curated": false,
       "links": [],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -1488,7 +1488,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "baltimore",
@@ -1505,7 +1505,7 @@
           "url": "https://baltimorejewishlife.com/minyanim/shuls.php"
         }
       ],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -1513,7 +1513,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "chicago",
@@ -1525,7 +1525,7 @@
       "radius": 18,
       "curated": false,
       "links": [],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -1533,7 +1533,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "la",
@@ -1550,7 +1550,7 @@
           "url": "https://lajewishtimes.com/"
         }
       ],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -1558,7 +1558,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "passaic",
@@ -1570,7 +1570,7 @@
       "radius": 7,
       "curated": false,
       "links": [],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -1578,7 +1578,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "monsey",
@@ -1595,7 +1595,7 @@
           "url": "https://www.godaven.com/list-shuls/monsey/ny"
         }
       ],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -1603,7 +1603,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "fivetowns",
@@ -1620,7 +1620,7 @@
           "url": "https://5townscentral.com/minyan/"
         }
       ],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -1628,7 +1628,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "teaneck",
@@ -1645,7 +1645,7 @@
           "url": "https://teaneckminyanim.com/"
         }
       ],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -1653,7 +1653,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "miami",
@@ -1674,7 +1674,7 @@
           "url": "https://www.orbkosher.com/"
         }
       ],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -1682,7 +1682,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "ftlauderdale",
@@ -1707,7 +1707,7 @@
           "url": "https://www.orbkosher.com/"
         }
       ],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -1715,7 +1715,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "palmbeach",
@@ -1740,7 +1740,7 @@
           "url": "https://www.orbkosher.com/"
         }
       ],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -1748,7 +1748,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "nyc-manhattan",
@@ -1765,7 +1765,7 @@
           "url": "https://www.mtsinaishul.com/"
         }
       ],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -1773,7 +1773,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "queens-kgh",
@@ -1790,7 +1790,7 @@
           "url": "https://queensvaad.org/community/local-minyanim/"
         }
       ],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -1798,7 +1798,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "great-neck",
@@ -1815,7 +1815,7 @@
           "url": "https://greatnecksynagogue.shulcloud.com/todays-minyan-times"
         }
       ],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -1823,7 +1823,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "westchester",
@@ -1840,7 +1840,7 @@
           "url": "https://www.yinr.org/shabbat-schedule.html"
         }
       ],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -1848,7 +1848,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "riverdale",
@@ -1860,7 +1860,7 @@
       "radius": 5,
       "curated": false,
       "links": [],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -1868,7 +1868,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "philadelphia",
@@ -1880,7 +1880,7 @@
       "radius": 12,
       "curated": false,
       "links": [],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -1888,7 +1888,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "bayarea",
@@ -1905,7 +1905,7 @@
           "url": "https://adathisraelsf.org/index.php?Itemid=36&id=209&option=com_content&view=article"
         }
       ],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -1913,7 +1913,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "washington-dc",
@@ -1925,7 +1925,7 @@
       "radius": 15,
       "curated": false,
       "links": [],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -1933,7 +1933,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "boston",
@@ -1950,7 +1950,7 @@
           "url": "https://www.yibrookline.org/community-minyanim-2"
         }
       ],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -1958,7 +1958,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "atlanta",
@@ -1970,7 +1970,7 @@
       "radius": 12,
       "curated": false,
       "links": [],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -1978,7 +1978,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "san-diego",
@@ -1995,7 +1995,7 @@
           "url": "https://www.bjsd.org/davening"
         }
       ],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -2003,7 +2003,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "phoenix",
@@ -2015,7 +2015,7 @@
       "radius": 18,
       "curated": false,
       "links": [],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -2023,7 +2023,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "denver",
@@ -2035,7 +2035,7 @@
       "radius": 15,
       "curated": false,
       "links": [],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -2043,7 +2043,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "cleveland",
@@ -2055,7 +2055,7 @@
       "radius": 10,
       "curated": false,
       "links": [],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -2063,7 +2063,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "essex-nj",
@@ -2075,7 +2075,7 @@
       "radius": 8,
       "curated": false,
       "links": [],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -2083,7 +2083,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "las-vegas",
@@ -2100,7 +2100,7 @@
           "url": "https://www.lasvegaskollel.org/summerlinshul"
         }
       ],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -2108,7 +2108,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "dallas",
@@ -2120,7 +2120,7 @@
       "radius": 15,
       "curated": false,
       "links": [],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -2128,7 +2128,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "houston",
@@ -2140,7 +2140,7 @@
       "radius": 15,
       "curated": false,
       "links": [],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -2148,7 +2148,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "seattle",
@@ -2160,7 +2160,7 @@
       "radius": 15,
       "curated": false,
       "links": [],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -2168,7 +2168,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "st-louis",
@@ -2180,7 +2180,7 @@
       "radius": 12,
       "curated": false,
       "links": [],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -2188,7 +2188,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "twin-cities",
@@ -2200,7 +2200,7 @@
       "radius": 12,
       "curated": false,
       "links": [],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -2208,7 +2208,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "pittsburgh",
@@ -2220,7 +2220,7 @@
       "radius": 8,
       "curated": false,
       "links": [],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -2228,7 +2228,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "cherry-hill",
@@ -2240,7 +2240,7 @@
       "radius": 10,
       "curated": false,
       "links": [],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -2248,7 +2248,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "highland-park-nj",
@@ -2260,7 +2260,7 @@
       "radius": 7,
       "curated": false,
       "links": [],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -2268,7 +2268,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "hartford",
@@ -2285,7 +2285,7 @@
           "url": "https://www.youngisraelwh.org/minyan-schedule.html"
         }
       ],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -2293,7 +2293,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "portland-or",
@@ -2305,7 +2305,7 @@
       "radius": 12,
       "curated": false,
       "links": [],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -2313,7 +2313,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "columbus",
@@ -2325,7 +2325,7 @@
       "radius": 10,
       "curated": false,
       "links": [],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -2333,7 +2333,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "cincinnati",
@@ -2345,7 +2345,7 @@
       "radius": 10,
       "curated": false,
       "links": [],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -2353,7 +2353,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "kansas-city",
@@ -2365,7 +2365,7 @@
       "radius": 12,
       "curated": false,
       "links": [],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -2373,7 +2373,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "tampa",
@@ -2385,7 +2385,7 @@
       "radius": 15,
       "curated": false,
       "links": [],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -2393,7 +2393,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "orlando",
@@ -2405,7 +2405,7 @@
       "radius": 15,
       "curated": false,
       "links": [],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -2413,7 +2413,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "sacramento",
@@ -2430,7 +2430,7 @@
           "url": "https://kitcsacramento.org/minyanim/"
         }
       ],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -2438,7 +2438,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "milwaukee",
@@ -2450,7 +2450,7 @@
       "radius": 12,
       "curated": false,
       "links": [],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -2458,7 +2458,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "staten-island",
@@ -2470,7 +2470,7 @@
       "radius": 7,
       "curated": false,
       "links": [],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -2478,7 +2478,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "providence",
@@ -2495,7 +2495,7 @@
           "url": "https://www.bethsholom-ri.org/"
         }
       ],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -2503,7 +2503,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "new-haven",
@@ -2520,7 +2520,7 @@
           "url": "https://www.westvilleshul.org/minyan"
         }
       ],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -2528,7 +2528,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "rochester",
@@ -2540,7 +2540,7 @@
       "radius": 8,
       "curated": false,
       "links": [],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -2548,7 +2548,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "austin",
@@ -2560,7 +2560,7 @@
       "radius": 15,
       "curated": false,
       "links": [],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -2568,7 +2568,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "charlotte",
@@ -2580,7 +2580,7 @@
       "radius": 12,
       "curated": false,
       "links": [],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -2588,7 +2588,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "memphis",
@@ -2600,7 +2600,7 @@
       "radius": 10,
       "curated": false,
       "links": [],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -2608,7 +2608,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "stamford",
@@ -2625,7 +2625,7 @@
           "url": "https://www.cas-stamford.org/dailyminyans.html"
         }
       ],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -2633,7 +2633,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "sarasota",
@@ -2645,7 +2645,7 @@
       "radius": 16,
       "curated": false,
       "links": [],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -2653,7 +2653,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "tucson",
@@ -2665,7 +2665,7 @@
       "radius": 12,
       "curated": false,
       "links": [],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -2673,7 +2673,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "orange-county-ca",
@@ -2685,7 +2685,7 @@
       "radius": 18,
       "curated": false,
       "links": [],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -2693,7 +2693,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     },
     {
       "id": "albany",
@@ -2705,7 +2705,7 @@
       "radius": 12,
       "curated": false,
       "links": [],
-      "sub": "Live community minyan links · zmanim computed for your location",
+      "sub": "Live minyan times near you · zmanim computed for your location",
       "presets": [],
       "shuls": {},
       "mincha": [],
@@ -2713,7 +2713,7 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. We don't keep a curated minyan sheet for this area — the buttons above link to live, community-maintained minyan data. Always confirm times with the shul."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     }
   ]
 }
