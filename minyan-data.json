@@ -2911,6 +2911,34 @@
           "url": "https://kbyshul.org/cal.php",
           "shacharis": "Sun 7/8/9 · M,Th 6:20/7:15/8:30 · T,W,F 6:30/7:15/8:30",
           "pm": "Mincha/Maariv 8:20pm (seasonal)"
+        },
+        {
+          "name": "Bais Mayer Chevra Shas",
+          "addr": "3 Smolley Dr",
+          "url": "https://bmcsmonsey.org",
+          "shacharis": "Sun 9:00 · M–F 8:25",
+          "pm": "Mincha 1:35pm · Maariv 8:45pm (seasonal)"
+        },
+        {
+          "name": "Ohaiv Shalom (New Hempstead)",
+          "addr": "18 Bridle Rd",
+          "url": "https://ohaivshalom.org",
+          "shacharis": "7:00, 8:00",
+          "pm": "Mincha/Maariv ≈ 8:20pm · Maariv 9:30pm"
+        },
+        {
+          "name": "Kehilas Yeshorim (Wesley Hills)",
+          "addr": "1 Harriett Ln",
+          "url": "https://kywh.org",
+          "shacharis": "6:45, 7:30",
+          "pm": "Mincha 2:35pm & pre-shkiah · Maariv 9:00/10:15pm"
+        },
+        {
+          "name": "Knesses Yisroel (New Hempstead)",
+          "addr": "698 Union Rd",
+          "url": "https://ckynh.org",
+          "shacharis": null,
+          "pm": "Full Mincha/Maariv & Shabbos schedule on site"
         }
       ]
     },

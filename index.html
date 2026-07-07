@@ -845,7 +845,11 @@ const MAJOR_SHULS = {
     { name: "Bais Medrash Ohr Chaim — 18 Forshay", addr: "18 Forshay Rd", url: "https://18forshay.com/minyanim", shacharis: "Vasikin + continuous ≈ 6:15am–12:30pm", pm: "Mincha/Maariv run continuously into the night" },
     { name: "Congregation Bais Torah", addr: "Carlton Rd, Suffern", url: "https://baistorah.org/services", shacharis: "6:30, 7:45 (Sun 7:45)", pm: "Mincha/Maariv seasonal" },
     { name: "Shaarei Tefillah (CST)", addr: "29 Parker Blvd", url: "https://cstshul.shulcloud.com", shacharis: "6:50", pm: "Mincha Sun–Thu 1:30pm \xB7 Maariv 9:45pm" },
-    { name: "Kehillas Bais Yehudah (KBY)", addr: "Wesley Hills", url: "https://kbyshul.org/cal.php", shacharis: "Sun 7/8/9 \xB7 M,Th 6:20/7:15/8:30 \xB7 T,W,F 6:30/7:15/8:30", pm: "Mincha/Maariv 8:20pm (seasonal)" }
+    { name: "Kehillas Bais Yehudah (KBY)", addr: "Wesley Hills", url: "https://kbyshul.org/cal.php", shacharis: "Sun 7/8/9 \xB7 M,Th 6:20/7:15/8:30 \xB7 T,W,F 6:30/7:15/8:30", pm: "Mincha/Maariv 8:20pm (seasonal)" },
+    { name: "Bais Mayer Chevra Shas", addr: "3 Smolley Dr", url: "https://bmcsmonsey.org", shacharis: "Sun 9:00 \xB7 M–F 8:25", pm: "Mincha 1:35pm \xB7 Maariv 8:45pm (seasonal)" },
+    { name: "Ohaiv Shalom (New Hempstead)", addr: "18 Bridle Rd", url: "https://ohaivshalom.org", shacharis: "7:00, 8:00", pm: "Mincha/Maariv ≈ 8:20pm \xB7 Maariv 9:30pm" },
+    { name: "Kehilas Yeshorim (Wesley Hills)", addr: "1 Harriett Ln", url: "https://kywh.org", shacharis: "6:45, 7:30", pm: "Mincha 2:35pm & pre-shkiah \xB7 Maariv 9:00/10:15pm" },
+    { name: "Knesses Yisroel (New Hempstead)", addr: "698 Union Rd", url: "https://ckynh.org", shacharis: null, pm: "Full Mincha/Maariv & Shabbos schedule on site" }
   ]
 };
 METROS.forEach((m) => { if (MAJOR_SHULS[m.id]) m.majorShuls = MAJOR_SHULS[m.id]; });
@@ -1277,7 +1281,7 @@ function MajorShuls({ shuls }) {
     },
       h("div", { className: "nm" }, s.name, h("span", { className: "msarrow" }, " ↗")),
       h("div", { className: "ad" }, s.addr),
-      h("div", { className: "mssh" }, "Shacharis: ", s.shacharis),
+      s.shacharis && h("div", { className: "mssh" }, "Shacharis: ", s.shacharis),
       s.pm && h("div", { className: "ad" }, s.pm, " \xB7 tap for today's time")
     ))
   );
