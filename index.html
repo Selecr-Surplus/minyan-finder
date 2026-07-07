@@ -903,15 +903,20 @@ async function gdSearch(lat, lng, distance, dateObj, tefillah) {
   const dateStr = ymd(dateObj), day = dateObj.getDay();
   const ck = [lat.toFixed(3), lng.toFixed(3), distance, dateStr, tefillah].join("|");
   if (gdCache[ck]) return gdCache[ck];
-  let page = 1, pages = 1, all = [];
-  while (page <= pages && page <= 20) {
-    const u = `${GD_API}/minyanim/search?day=${day}&start=00:00:00&end=23:59:59&lat=${lat}&lng=${lng}&tomorrow_search=false&pagenumber=${page}&distance=${distance}&nusach=&tefillah=${tefillah}&users_date=${dateStr}`;
-    const r = await fetch(u);
-    if (!r.ok) throw new Error("godaven " + r.status);
-    const j = await r.json();
-    pages = j.num_of_pages || 1;
-    all = all.concat(j.shuls || []);
-    page++;
+  const CAP = 15; // max pages (~150 nearest-in-time minyanim) — keeps dense metros fast
+  const url = (p) => `${GD_API}/minyanim/search?day=${day}&start=00:00:00&end=23:59:59&lat=${lat}&lng=${lng}&tomorrow_search=false&pagenumber=${p}&distance=${distance}&nusach=&tefillah=${tefillah}&users_date=${dateStr}`;
+  const r1 = await fetch(url(1));
+  if (!r1.ok) throw new Error("godaven " + r1.status);
+  const j1 = await r1.json();
+  let all = j1.shuls || [];
+  const pages = Math.min(j1.num_of_pages || 1, CAP);
+  if (pages > 1) {
+    // fetch remaining pages concurrently rather than one-at-a-time
+    const rest = await Promise.all(
+      Array.from({ length: pages - 1 }, (_, i) =>
+        fetch(url(i + 2)).then((r) => r.ok ? r.json() : { shuls: [] }).catch(() => ({ shuls: [] })))
+    );
+    for (const j of rest) all = all.concat(j.shuls || []);
   }
   gdCache[ck] = all;
   return all;
