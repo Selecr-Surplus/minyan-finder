@@ -602,6 +602,143 @@ const DETROIT = {
   erevShabbos: EREV_SHABBOS,
   legend: DETROIT_LEGEND
 };
+// ===== South Florida curated primary markets (FloridaMinyan.com sheets, 5/5/26) =====
+const NMB_SHULS = {
+  baisMenachem: { name: "Bais Menachem", addr: "1005 NE 172nd Ter, NMB", lat: 25.9318, lng: -80.1598 },
+  kahalChasidim: { name: "Kahal Chasidim", addr: "961 NE 172nd St, NMB", lat: 25.9312, lng: -80.1602 },
+  kedushasLevi: { name: "Kedushas Levi", addr: "17501 NE 8th Pl, NMB", lat: 25.9372, lng: -80.1735 },
+  bneiSfardim: { name: "K'hal B'nei Sfardim", addr: "17420 NE 10th Ave, NMB", lat: 25.9362, lng: -80.1712 },
+  nmbKollel: { name: "Kollel", addr: "990 NE 175th St, NMB", lat: 25.9345, lng: -80.1605 },
+  mikdashMelech: { name: "Mikdash Melech", addr: "951 NE 172nd St, NMB", lat: 25.9311, lng: -80.1605 },
+  shaarayTefila: { name: "Shaaray Tefila", addr: "971 NE 172nd St, NMB", lat: 25.9313, lng: -80.1601 },
+  torahVeemunah: { name: "Torah Veemunah", addr: "1000 NE 175th St, NMB", lat: 25.9346, lng: -80.1600 },
+  torasChaimMia: { name: "Yeshiva Toras Chaim", addr: "1025 NE Miami Gardens Dr, NMB", lat: 25.9402, lng: -80.1592 },
+  yiNmb: { name: "Young Israel of NMB", addr: "990 NE 171st St, NMB", lat: 25.9302, lng: -80.1604 }
+};
+const HWD_SHULS = {
+  aish: { name: "Aish Hatorah", addr: "4010 N 46th Ave, Hollywood", lat: 26.030, lng: -80.185 },
+  beisMordechai: { name: "Beis Mordechai", addr: "4200 N 66th Ave, Hollywood", lat: 26.032, lng: -80.205 },
+  bneiSeph: { name: "Bnei Sephardim", addr: "3670 Stirling Rd, Hollywood", lat: 26.017, lng: -80.180 },
+  davidChai: { name: "David Chai", addr: "4601 Thomas St, Hollywood", lat: 26.028, lng: -80.190 },
+  eliyahu: { name: "Eliyahu Hanavi", addr: "2615 Stirling Rd, Hollywood", lat: 26.017, lng: -80.165 },
+  heichal: { name: "Heichal Hatorah", addr: "5100 N Hills Rd, Hollywood", lat: 26.033, lng: -80.195 },
+  hwdKollel: { name: "Hollywood Kollel", addr: "4016 N 46th Ave, Hollywood", lat: 26.030, lng: -80.185 },
+  khh: { name: "Kehillas Hollywood Hills", addr: "1401 E Hawthorne Cir, Hollywood", lat: 26.024, lng: -80.170 },
+  shorashim: { name: "Shorashim", addr: "5940 SW 37th Ave, Hollywood", lat: 26.010, lng: -80.185 },
+  shulHwd: { name: "The Shul of Hollywood", addr: "2215 N 46th Ave, Hollywood", lat: 26.024, lng: -80.185 },
+  yiHwd: { name: "Young Israel of Hollywood", addr: "3291 Stirling Rd, Hollywood", lat: 26.017, lng: -80.175 }
+};
+const BOCA_SHULS = {
+  brs: { name: "Boca Raton Synagogue", addr: "7900 Montoya Cir, Boca Raton", lat: 26.378, lng: -80.166 },
+  yiBoca: { name: "Young Israel of Boca Raton", addr: "7200 Palmetto Cir, Boca Raton", lat: 26.372, lng: -80.157 },
+  bjc: { name: "Boca Jewish Center", addr: "Boca Raton", lat: 26.370, lng: -80.150 },
+  bocaKollel: { name: "Boca Raton Kollel", addr: "Boca Raton", lat: 26.374, lng: -80.160 },
+  tiferesTorah: { name: "Yeshiva Tiferes Torah", addr: "Boca Raton", lat: 26.372, lng: -80.158 }
+};
+const MIAMI_NMB = {
+  id: "miami", title: "Miami Minyanim (NMB)",
+  sub: "North Miami Beach community sheet \xB7 FloridaMinyan.com",
+  center: { lat: 25.9331, lng: -80.1625 }, radius: 10, curated: true,
+  source: "Florida Minyan — NMB sheet", sourceTag: "Florida Minyan",
+  presets: [{ label: "North Miami Beach", lat: 25.9331, lng: -80.1625 }],
+  shuls: NMB_SHULS,
+  shachWeek: [
+    R("vasikin", 0, "bneiSfardim"), R("vasikin", 0, "kahalChasidim"),
+    F(6, 15, "shaarayTefila"), F(6, 30, "torahVeemunah"), F(6, 30, "baisMenachem"),
+    F(6, 45, "yiNmb", { note: "M/Tu 6:30" }), F(7, 0, "nmbKollel"), F(7, 5, "mikdashMelech"),
+    F(7, 15, "shaarayTefila", { note: "M/Tu 7:00" }), F(7, 30, "kedushasLevi", { note: "M/Tu 7:20" }),
+    F(7, 30, "baisMenachem"), F(7, 30, "torasChaimMia"), F(8, 0, "yiNmb"), F(8, 15, "kahalChasidim"),
+    F(8, 30, "baisMenachem"), F(8, 30, "shaarayTefila"), F(9, 0, "kahalChasidim"),
+    F(9, 30, "kahalChasidim"), F(10, 0, "kahalChasidim"), F(10, 30, "kahalChasidim")
+  ],
+  shachSun: [
+    R("vasikin", 0, "bneiSfardim"), R("vasikin", 0, "kahalChasidim"),
+    F(6, 45, "yiNmb"), F(7, 0, "nmbKollel"), F(7, 15, "shaarayTefila"), F(8, 0, "baisMenachem"),
+    F(8, 0, "torasChaimMia"), F(8, 0, "yiNmb"), F(8, 10, "mikdashMelech"), F(8, 15, "torahVeemunah"),
+    F(8, 15, "kahalChasidim"), F(8, 30, "shaarayTefila"), F(9, 0, "baisMenachem"), F(9, 0, "kahalChasidim"),
+    F(9, 0, "yiNmb"), F(9, 30, "kahalChasidim"), F(10, 0, "kahalChasidim"), F(10, 30, "kahalChasidim")
+  ],
+  mincha: [
+    R("beforeShkia", 15, "baisMenachem"), R("beforeShkia", 15, "kahalChasidim"), R("beforeShkia", 15, "bneiSfardim"),
+    R("beforeShkia", 15, "mikdashMelech"), R("beforeShkia", 15, "shaarayTefila"), R("beforeShkia", 15, "torahVeemunah"),
+    R("beforeShkia", 15, "yiNmb"), F(14, 45, "nmbKollel"), R("minchaGedola", 0, "kahalChasidim", { note: "1:00 / Mincha Gedola" }),
+    F(14, 0, "torasChaimMia", { flags: ["monThu"], note: "Sun 2:00 (winter 1:00)" }), F(15, 0, "torasChaimMia"),
+    R("beforePlag", 10, "shaarayTefila", { note: "Summer" }), R("afterShkia", 15, "kahalChasidim"),
+    F(14, 15, "nmbKollel", { friOnly: true, note: "Erev Shabbos" }), F(15, 0, "kahalChasidim", { friOnly: true, note: "Erev Shabbos (winter 2:45)" })
+  ],
+  maariv: [
+    R("tzeis", 0, "baisMenachem"), R("afterShkia", 20, "kahalChasidim"), R("afterShkia", 10, "yiNmb"),
+    R("tzeis", 0, "bneiSfardim"), R("tzeis", 0, "mikdashMelech"), R("tzeis", 0, "shaarayTefila"), R("tzeis", 0, "torahVeemunah"),
+    R("plag", 0, "shaarayTefila", { note: "Summer" }), F(19, 45, "nmbKollel", { note: "Winter" }), F(20, 45, "nmbKollel"),
+    R("afterShkia", 72, "kahalChasidim", { note: "Rabbeinu Tam" }), F(21, 30, "kedushasLevi"),
+    F(22, 0, "nmbKollel"), F(22, 0, "torahVeemunah"), F(22, 30, "torasChaimMia")
+  ],
+  erevShabbos: [],
+  legend: "Source: FloridaMinyan.com — North Miami Beach sheet (updated 5/5/26). Shachris are the shuls' fixed times; Mincha/Maariv resolve to your live zmanim. Confirm with the shul; GoDaven's live time is shown where it differs."
+};
+const FTL_HOLLYWOOD = {
+  id: "ftlauderdale", title: "Fort Lauderdale Minyanim (Hollywood)",
+  sub: "Hollywood community sheet \xB7 FloridaMinyan.com",
+  center: { lat: 26.011, lng: -80.149 }, radius: 9, curated: true,
+  source: "Florida Minyan — Hollywood sheet", sourceTag: "Florida Minyan",
+  presets: [{ label: "Hollywood", lat: 26.017, lng: -80.178 }],
+  shuls: HWD_SHULS,
+  shachWeek: [
+    F(6, 15, "yiHwd"), R("vasikin", 0, "bneiSeph"), F(6, 45, "heichal", { note: "M/Th 6:35" }), F(6, 45, "beisMordechai"),
+    F(7, 0, "aish"), F(7, 0, "shulHwd"), F(7, 0, "eliyahu"), F(7, 0, "shorashim"), F(7, 0, "yiHwd", { note: "M/Th 6:45" }),
+    F(7, 30, "khh"), F(7, 30, "yiHwd", { note: "M/Th 7:15" }), F(8, 0, "yiHwd"), F(8, 0, "bneiSeph"),
+    F(8, 15, "heichal"), F(8, 35, "beisMordechai"), F(9, 0, "shulHwd"), F(9, 30, "beisMordechai")
+  ],
+  shachSun: [
+    R("vasikin", 0, "bneiSeph"), F(7, 15, "yiHwd"), F(7, 30, "eliyahu"), F(8, 0, "yiHwd"), F(8, 0, "bneiSeph"),
+    F(8, 15, "aish"), F(8, 30, "heichal"), F(8, 30, "beisMordechai"), F(8, 30, "yiHwd"), F(8, 45, "khh"),
+    F(9, 0, "shulHwd"), F(9, 0, "yiHwd"), F(9, 30, "beisMordechai")
+  ],
+  mincha: [
+    R("beforeShkia", 13, "yiHwd"), R("beforeShkia", 13, "heichal"), R("beforeShkia", 13, "aish"), R("beforeShkia", 13, "bneiSeph"),
+    R("beforeShkia", 13, "davidChai"), R("beforeShkia", 13, "beisMordechai"), R("beforeShkia", 13, "eliyahu"),
+    R("beforeShkia", 13, "khh"), R("beforeShkia", 13, "shulHwd"),
+    F(14, 0, "hwdKollel"), F(14, 0, "bneiSeph"), F(14, 0, "beisMordechai", { note: "Winter 1:00" }), F(14, 0, "eliyahu"),
+    F(15, 45, "heichal", { note: "Winter" })
+  ],
+  maariv: [
+    R("plag", 0, "yiHwd", { note: "Summer" }), R("plag", 0, "bneiSeph", { note: "Summer" }), R("plag", 0, "davidChai", { note: "Summer" }),
+    R("tzeis", 0, "heichal"), R("tzeis", 0, "aish"), R("tzeis", 0, "beisMordechai"), R("tzeis", 0, "eliyahu"), R("tzeis", 0, "khh"), R("tzeis", 0, "shulHwd"),
+    F(19, 45, "heichal", { note: "Winter" }), F(20, 15, "beisMordechai", { note: "Winter" }), F(21, 15, "yiHwd", { note: "Winter" }),
+    F(21, 30, "hwdKollel"), F(21, 45, "heichal"), F(22, 0, "beisMordechai"), F(23, 0, "beisMordechai")
+  ],
+  erevShabbos: [],
+  legend: "Source: FloridaMinyan.com — Hollywood sheet (updated 5/5/26). Shachris are the shuls' fixed times; Mincha/Maariv resolve to your live zmanim. Confirm with the shul; GoDaven's live time is shown where it differs."
+};
+const PALMBEACH_BOCA = {
+  id: "palmbeach", title: "Palm Beach Minyanim (Boca)",
+  sub: "Central Boca shuls \xB7 Kosher Boca Raton + shul schedules",
+  center: { lat: 26.368, lng: -80.103 }, radius: 16, curated: true,
+  source: "Kosher Boca Raton + shul sites", sourceTag: "Kosher Boca",
+  presets: [{ label: "Boca Raton", lat: 26.375, lng: -80.160 }],
+  shuls: BOCA_SHULS,
+  shachWeek: [
+    F(6, 10, "yiBoca", { note: "Tu-F 6:20" }), F(6, 20, "brs", { flags: ["rcEarlier"], note: "6:18–6:25 by day" }), F(6, 30, "bjc"),
+    F(7, 0, "bocaKollel"), F(7, 0, "brs"), F(7, 30, "bjc"), F(7, 30, "brs"), F(8, 0, "yiBoca"), F(8, 0, "brs"),
+    F(8, 30, "bocaKollel"), F(8, 30, "bjc"), F(8, 30, "brs"), F(9, 15, "brs"), F(10, 0, "brs")
+  ],
+  shachSun: [
+    F(6, 25, "brs"), F(7, 0, "yiBoca"), F(7, 0, "brs"), F(7, 0, "bjc"), F(7, 30, "brs"), F(8, 0, "yiBoca"),
+    F(8, 0, "bjc"), F(8, 0, "brs"), F(8, 30, "brs"), F(8, 30, "bocaKollel"), F(9, 0, "bjc"), F(9, 15, "brs"), F(10, 0, "brs")
+  ],
+  mincha: [
+    F(14, 0, "brs"), F(14, 30, "bocaKollel"),
+    R("beforeShkia", 10, "brs", { note: "computed to shkiah" }), R("beforeShkia", 7, "yiBoca", { note: "computed to shkiah" }), R("beforeShkia", 5, "bjc", { note: "computed to shkiah" })
+  ],
+  maariv: [
+    R("tzeis", 0, "brs"), R("tzeis", 0, "yiBoca"), R("tzeis", 0, "bjc"),
+    F(20, 30, "bjc"), F(21, 0, "bocaKollel"), F(21, 0, "brs"), F(21, 15, "yiBoca", { note: "Mon–Wed" }),
+    F(22, 0, "brs"), F(22, 10, "tiferesTorah"), F(22, 15, "bocaKollel")
+  ],
+  erevShabbos: [],
+  legend: "Source: Kosher Boca Raton + the Central Boca shuls' own schedules. Shachris & fixed evening minyanim are the shuls' set times; afternoon Mincha/Maariv are computed to shkiah. Refreshed monthly — confirm with the shul; GoDaven's live time is shown where it differs."
+};
+const FL_MARKETS = [MIAMI_NMB, FTL_HOLLYWOOD, PALMBEACH_BOCA];
 // Geo-routed metros. `links` = verified community minyan resources for that area.
 // Every geo-routed region also gets GoDaven + Maps links built live from coords.
 // Sources verified June 2026; community lists change — confirm times with the shul.
@@ -634,22 +771,7 @@ const METROS = [
   metro("teaneck", "Teaneck Minyanim", { lat: 40.886, lng: -74.012 }, 7, [
     { label: "Teaneck Minyanim", url: "https://teaneckminyanim.com/" }
   ]),
-  // South Florida — local authority is the ORB (Orthodox Rabbinical Board).
-  // ORB officially certifies Broward + Palm Beach; Miami-Dade also has Kosher Miami.
-  metro("miami", "Miami Minyanim", { lat: 25.9331, lng: -80.1625 }, 10, [
-    { label: "Florida Minyan — community time chart", url: "https://www.halachaonline.com/fm" },
-    { label: "ORB — Orthodox Rabbinical Board", url: "https://www.orbkosher.com/" }
-  ]),
-  metro("ftlauderdale", "Fort Lauderdale Minyanim", { lat: 26.011, lng: -80.149 }, 9, [
-    { label: "Florida Minyan — community time chart", url: "https://www.halachaonline.com/fm" },
-    { label: "Young Israel of Hollywood — minyan times", url: "https://yih.shulcloud.com/minyan-times" },
-    { label: "ORB — Orthodox Rabbinical Board", url: "https://www.orbkosher.com/" }
-  ]),
-  metro("palmbeach", "Palm Beach Minyanim", { lat: 26.368, lng: -80.103 }, 16, [
-    { label: "Kosher Boca Raton — minyanim", url: "https://www.kosherbocaraton.org/minyanim" },
-    { label: "Boca Raton Synagogue — minyanim", url: "https://brsonline.shulcloud.com/service-times/main-minyan.html" },
-    { label: "ORB — Orthodox Rabbinical Board", url: "https://www.orbkosher.com/" }
-  ]),
+  // (Miami, Fort Lauderdale, Palm Beach are now CURATED primary markets — see FL_MARKETS above.)
   // --- Top 40 U.S. Jewish-population metros (geo-routed; GoDaven baseline auto-added) ---
   metro("nyc-manhattan", "Manhattan Minyanim", { lat: 40.787, lng: -73.975 }, 6, [{"label":"Mount Sinai Jewish Center (Washington Hts)","url":"https://www.mtsinaishul.com/"}]),
   metro("queens-kgh", "Queens / Kew Gardens Hills Minyanim", { lat: 40.7236, lng: -73.8211 }, 8, [{"label":"Vaad Harabonim of Queens — local minyanim","url":"https://queensvaad.org/community/local-minyanim/"}]),
@@ -715,7 +837,7 @@ const COMMUNITY_SOURCES = {
   houston: { label: "Houston Kollel community guide", url: "https://www.resourcehouston.com/s/minyan2.pdf" }
 };
 METROS.forEach((m) => { if (COMMUNITY_SOURCES[m.id]) m.communitySource = COMMUNITY_SOURCES[m.id]; });
-const REGIONS = [DETROIT, ...METROS];
+const REGIONS = [DETROIT, ...FL_MARKETS, ...METROS];
 // Embedded copy = offline fallback. The app tries to fetch a fresher copy from
 // DATA_URL on load; if that fails (offline / not yet hosted) it uses this.
 const EMBEDDED_DATA = { version: 1, updated: "2026-07-05", regions: REGIONS };
@@ -903,6 +1025,12 @@ function resolveTime(entry, z, today) {
       return new Date(z.shkia.getTime() + entry.off * 6e4);
     case "vasikin":
       return new Date(z.netz);
+    case "minchaGedola":
+      return new Date(z.minchaGedola);
+    case "tzeis":
+      return z.tzeis ? new Date(z.tzeis) : null;
+    case "afterTzeis":
+      return z.tzeis ? new Date(z.tzeis.getTime() + entry.off * 6e4) : null;
     default:
       return null;
   }
@@ -921,6 +1049,12 @@ function ruleLabel(entry) {
       return `${entry.off} min after Shkiah`;
     case "vasikin":
       return "Vasikin (Netz)";
+    case "minchaGedola":
+      return "Mincha Gedola";
+    case "tzeis":
+      return "at Tzeis";
+    case "afterTzeis":
+      return `${entry.off} min after Tzeis`;
     default:
       return null;
   }

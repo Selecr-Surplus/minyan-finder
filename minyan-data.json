@@ -1448,6 +1448,1265 @@
       "legend": "Zmanim computed for your selected location (plag = GRA, netz + 10¾ sha'os zmaniyos; tzeis shown at 8.5° — your luach governs). Distances are straight-line approximations. \"School in session\" minyanim run only when the yeshiva is in session. Source: Vaad Harabbonim Detroit Metro Spring/Summer/Fall 5786 sheet (March 2026) — confirm with the shul; corrections: YosiHeber@gmail.com."
     },
     {
+      "id": "miami",
+      "title": "Miami Minyanim (NMB)",
+      "sub": "North Miami Beach community sheet · FloridaMinyan.com",
+      "center": {
+        "lat": 25.9331,
+        "lng": -80.1625
+      },
+      "radius": 10,
+      "curated": true,
+      "source": "Florida Minyan — NMB sheet",
+      "sourceTag": "Florida Minyan",
+      "presets": [
+        {
+          "label": "North Miami Beach",
+          "lat": 25.9331,
+          "lng": -80.1625
+        }
+      ],
+      "shuls": {
+        "baisMenachem": {
+          "name": "Bais Menachem",
+          "addr": "1005 NE 172nd Ter, NMB",
+          "lat": 25.9318,
+          "lng": -80.1598
+        },
+        "kahalChasidim": {
+          "name": "Kahal Chasidim",
+          "addr": "961 NE 172nd St, NMB",
+          "lat": 25.9312,
+          "lng": -80.1602
+        },
+        "kedushasLevi": {
+          "name": "Kedushas Levi",
+          "addr": "17501 NE 8th Pl, NMB",
+          "lat": 25.9372,
+          "lng": -80.1735
+        },
+        "bneiSfardim": {
+          "name": "K'hal B'nei Sfardim",
+          "addr": "17420 NE 10th Ave, NMB",
+          "lat": 25.9362,
+          "lng": -80.1712
+        },
+        "nmbKollel": {
+          "name": "Kollel",
+          "addr": "990 NE 175th St, NMB",
+          "lat": 25.9345,
+          "lng": -80.1605
+        },
+        "mikdashMelech": {
+          "name": "Mikdash Melech",
+          "addr": "951 NE 172nd St, NMB",
+          "lat": 25.9311,
+          "lng": -80.1605
+        },
+        "shaarayTefila": {
+          "name": "Shaaray Tefila",
+          "addr": "971 NE 172nd St, NMB",
+          "lat": 25.9313,
+          "lng": -80.1601
+        },
+        "torahVeemunah": {
+          "name": "Torah Veemunah",
+          "addr": "1000 NE 175th St, NMB",
+          "lat": 25.9346,
+          "lng": -80.16
+        },
+        "torasChaimMia": {
+          "name": "Yeshiva Toras Chaim",
+          "addr": "1025 NE Miami Gardens Dr, NMB",
+          "lat": 25.9402,
+          "lng": -80.1592
+        },
+        "yiNmb": {
+          "name": "Young Israel of NMB",
+          "addr": "990 NE 171st St, NMB",
+          "lat": 25.9302,
+          "lng": -80.1604
+        }
+      },
+      "shachWeek": [
+        {
+          "kind": "vasikin",
+          "off": 0,
+          "shul": "bneiSfardim"
+        },
+        {
+          "kind": "vasikin",
+          "off": 0,
+          "shul": "kahalChasidim"
+        },
+        {
+          "kind": "fixed",
+          "h": 6,
+          "m": 15,
+          "shul": "shaarayTefila"
+        },
+        {
+          "kind": "fixed",
+          "h": 6,
+          "m": 30,
+          "shul": "torahVeemunah"
+        },
+        {
+          "kind": "fixed",
+          "h": 6,
+          "m": 30,
+          "shul": "baisMenachem"
+        },
+        {
+          "kind": "fixed",
+          "h": 6,
+          "m": 45,
+          "shul": "yiNmb",
+          "note": "M/Tu 6:30"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 0,
+          "shul": "nmbKollel"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 5,
+          "shul": "mikdashMelech"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 15,
+          "shul": "shaarayTefila",
+          "note": "M/Tu 7:00"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 30,
+          "shul": "kedushasLevi",
+          "note": "M/Tu 7:20"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 30,
+          "shul": "baisMenachem"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 30,
+          "shul": "torasChaimMia"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 0,
+          "shul": "yiNmb"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 15,
+          "shul": "kahalChasidim"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 30,
+          "shul": "baisMenachem"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 30,
+          "shul": "shaarayTefila"
+        },
+        {
+          "kind": "fixed",
+          "h": 9,
+          "m": 0,
+          "shul": "kahalChasidim"
+        },
+        {
+          "kind": "fixed",
+          "h": 9,
+          "m": 30,
+          "shul": "kahalChasidim"
+        },
+        {
+          "kind": "fixed",
+          "h": 10,
+          "m": 0,
+          "shul": "kahalChasidim"
+        },
+        {
+          "kind": "fixed",
+          "h": 10,
+          "m": 30,
+          "shul": "kahalChasidim"
+        }
+      ],
+      "shachSun": [
+        {
+          "kind": "vasikin",
+          "off": 0,
+          "shul": "bneiSfardim"
+        },
+        {
+          "kind": "vasikin",
+          "off": 0,
+          "shul": "kahalChasidim"
+        },
+        {
+          "kind": "fixed",
+          "h": 6,
+          "m": 45,
+          "shul": "yiNmb"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 0,
+          "shul": "nmbKollel"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 15,
+          "shul": "shaarayTefila"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 0,
+          "shul": "baisMenachem"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 0,
+          "shul": "torasChaimMia"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 0,
+          "shul": "yiNmb"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 10,
+          "shul": "mikdashMelech"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 15,
+          "shul": "torahVeemunah"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 15,
+          "shul": "kahalChasidim"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 30,
+          "shul": "shaarayTefila"
+        },
+        {
+          "kind": "fixed",
+          "h": 9,
+          "m": 0,
+          "shul": "baisMenachem"
+        },
+        {
+          "kind": "fixed",
+          "h": 9,
+          "m": 0,
+          "shul": "kahalChasidim"
+        },
+        {
+          "kind": "fixed",
+          "h": 9,
+          "m": 0,
+          "shul": "yiNmb"
+        },
+        {
+          "kind": "fixed",
+          "h": 9,
+          "m": 30,
+          "shul": "kahalChasidim"
+        },
+        {
+          "kind": "fixed",
+          "h": 10,
+          "m": 0,
+          "shul": "kahalChasidim"
+        },
+        {
+          "kind": "fixed",
+          "h": 10,
+          "m": 30,
+          "shul": "kahalChasidim"
+        }
+      ],
+      "mincha": [
+        {
+          "kind": "beforeShkia",
+          "off": 15,
+          "shul": "baisMenachem"
+        },
+        {
+          "kind": "beforeShkia",
+          "off": 15,
+          "shul": "kahalChasidim"
+        },
+        {
+          "kind": "beforeShkia",
+          "off": 15,
+          "shul": "bneiSfardim"
+        },
+        {
+          "kind": "beforeShkia",
+          "off": 15,
+          "shul": "mikdashMelech"
+        },
+        {
+          "kind": "beforeShkia",
+          "off": 15,
+          "shul": "shaarayTefila"
+        },
+        {
+          "kind": "beforeShkia",
+          "off": 15,
+          "shul": "torahVeemunah"
+        },
+        {
+          "kind": "beforeShkia",
+          "off": 15,
+          "shul": "yiNmb"
+        },
+        {
+          "kind": "fixed",
+          "h": 14,
+          "m": 45,
+          "shul": "nmbKollel"
+        },
+        {
+          "kind": "minchaGedola",
+          "off": 0,
+          "shul": "kahalChasidim",
+          "note": "1:00 / Mincha Gedola"
+        },
+        {
+          "kind": "fixed",
+          "h": 14,
+          "m": 0,
+          "shul": "torasChaimMia",
+          "flags": [
+            "monThu"
+          ],
+          "note": "Sun 2:00 (winter 1:00)"
+        },
+        {
+          "kind": "fixed",
+          "h": 15,
+          "m": 0,
+          "shul": "torasChaimMia"
+        },
+        {
+          "kind": "beforePlag",
+          "off": 10,
+          "shul": "shaarayTefila",
+          "note": "Summer"
+        },
+        {
+          "kind": "afterShkia",
+          "off": 15,
+          "shul": "kahalChasidim"
+        },
+        {
+          "kind": "fixed",
+          "h": 14,
+          "m": 15,
+          "shul": "nmbKollel",
+          "friOnly": true,
+          "note": "Erev Shabbos"
+        },
+        {
+          "kind": "fixed",
+          "h": 15,
+          "m": 0,
+          "shul": "kahalChasidim",
+          "friOnly": true,
+          "note": "Erev Shabbos (winter 2:45)"
+        }
+      ],
+      "maariv": [
+        {
+          "kind": "tzeis",
+          "off": 0,
+          "shul": "baisMenachem"
+        },
+        {
+          "kind": "afterShkia",
+          "off": 20,
+          "shul": "kahalChasidim"
+        },
+        {
+          "kind": "afterShkia",
+          "off": 10,
+          "shul": "yiNmb"
+        },
+        {
+          "kind": "tzeis",
+          "off": 0,
+          "shul": "bneiSfardim"
+        },
+        {
+          "kind": "tzeis",
+          "off": 0,
+          "shul": "mikdashMelech"
+        },
+        {
+          "kind": "tzeis",
+          "off": 0,
+          "shul": "shaarayTefila"
+        },
+        {
+          "kind": "tzeis",
+          "off": 0,
+          "shul": "torahVeemunah"
+        },
+        {
+          "kind": "plag",
+          "off": 0,
+          "shul": "shaarayTefila",
+          "note": "Summer"
+        },
+        {
+          "kind": "fixed",
+          "h": 19,
+          "m": 45,
+          "shul": "nmbKollel",
+          "note": "Winter"
+        },
+        {
+          "kind": "fixed",
+          "h": 20,
+          "m": 45,
+          "shul": "nmbKollel"
+        },
+        {
+          "kind": "afterShkia",
+          "off": 72,
+          "shul": "kahalChasidim",
+          "note": "Rabbeinu Tam"
+        },
+        {
+          "kind": "fixed",
+          "h": 21,
+          "m": 30,
+          "shul": "kedushasLevi"
+        },
+        {
+          "kind": "fixed",
+          "h": 22,
+          "m": 0,
+          "shul": "nmbKollel"
+        },
+        {
+          "kind": "fixed",
+          "h": 22,
+          "m": 0,
+          "shul": "torahVeemunah"
+        },
+        {
+          "kind": "fixed",
+          "h": 22,
+          "m": 30,
+          "shul": "torasChaimMia"
+        }
+      ],
+      "erevShabbos": [],
+      "legend": "Source: FloridaMinyan.com — North Miami Beach sheet (updated 5/5/26). Shachris are the shuls' fixed times; Mincha/Maariv resolve to your live zmanim. Confirm with the shul; GoDaven's live time is shown where it differs."
+    },
+    {
+      "id": "ftlauderdale",
+      "title": "Fort Lauderdale Minyanim (Hollywood)",
+      "sub": "Hollywood community sheet · FloridaMinyan.com",
+      "center": {
+        "lat": 26.011,
+        "lng": -80.149
+      },
+      "radius": 9,
+      "curated": true,
+      "source": "Florida Minyan — Hollywood sheet",
+      "sourceTag": "Florida Minyan",
+      "presets": [
+        {
+          "label": "Hollywood",
+          "lat": 26.017,
+          "lng": -80.178
+        }
+      ],
+      "shuls": {
+        "aish": {
+          "name": "Aish Hatorah",
+          "addr": "4010 N 46th Ave, Hollywood",
+          "lat": 26.03,
+          "lng": -80.185
+        },
+        "beisMordechai": {
+          "name": "Beis Mordechai",
+          "addr": "4200 N 66th Ave, Hollywood",
+          "lat": 26.032,
+          "lng": -80.205
+        },
+        "bneiSeph": {
+          "name": "Bnei Sephardim",
+          "addr": "3670 Stirling Rd, Hollywood",
+          "lat": 26.017,
+          "lng": -80.18
+        },
+        "davidChai": {
+          "name": "David Chai",
+          "addr": "4601 Thomas St, Hollywood",
+          "lat": 26.028,
+          "lng": -80.19
+        },
+        "eliyahu": {
+          "name": "Eliyahu Hanavi",
+          "addr": "2615 Stirling Rd, Hollywood",
+          "lat": 26.017,
+          "lng": -80.165
+        },
+        "heichal": {
+          "name": "Heichal Hatorah",
+          "addr": "5100 N Hills Rd, Hollywood",
+          "lat": 26.033,
+          "lng": -80.195
+        },
+        "hwdKollel": {
+          "name": "Hollywood Kollel",
+          "addr": "4016 N 46th Ave, Hollywood",
+          "lat": 26.03,
+          "lng": -80.185
+        },
+        "khh": {
+          "name": "Kehillas Hollywood Hills",
+          "addr": "1401 E Hawthorne Cir, Hollywood",
+          "lat": 26.024,
+          "lng": -80.17
+        },
+        "shorashim": {
+          "name": "Shorashim",
+          "addr": "5940 SW 37th Ave, Hollywood",
+          "lat": 26.01,
+          "lng": -80.185
+        },
+        "shulHwd": {
+          "name": "The Shul of Hollywood",
+          "addr": "2215 N 46th Ave, Hollywood",
+          "lat": 26.024,
+          "lng": -80.185
+        },
+        "yiHwd": {
+          "name": "Young Israel of Hollywood",
+          "addr": "3291 Stirling Rd, Hollywood",
+          "lat": 26.017,
+          "lng": -80.175
+        }
+      },
+      "shachWeek": [
+        {
+          "kind": "fixed",
+          "h": 6,
+          "m": 15,
+          "shul": "yiHwd"
+        },
+        {
+          "kind": "vasikin",
+          "off": 0,
+          "shul": "bneiSeph"
+        },
+        {
+          "kind": "fixed",
+          "h": 6,
+          "m": 45,
+          "shul": "heichal",
+          "note": "M/Th 6:35"
+        },
+        {
+          "kind": "fixed",
+          "h": 6,
+          "m": 45,
+          "shul": "beisMordechai"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 0,
+          "shul": "aish"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 0,
+          "shul": "shulHwd"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 0,
+          "shul": "eliyahu"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 0,
+          "shul": "shorashim"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 0,
+          "shul": "yiHwd",
+          "note": "M/Th 6:45"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 30,
+          "shul": "khh"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 30,
+          "shul": "yiHwd",
+          "note": "M/Th 7:15"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 0,
+          "shul": "yiHwd"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 0,
+          "shul": "bneiSeph"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 15,
+          "shul": "heichal"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 35,
+          "shul": "beisMordechai"
+        },
+        {
+          "kind": "fixed",
+          "h": 9,
+          "m": 0,
+          "shul": "shulHwd"
+        },
+        {
+          "kind": "fixed",
+          "h": 9,
+          "m": 30,
+          "shul": "beisMordechai"
+        }
+      ],
+      "shachSun": [
+        {
+          "kind": "vasikin",
+          "off": 0,
+          "shul": "bneiSeph"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 15,
+          "shul": "yiHwd"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 30,
+          "shul": "eliyahu"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 0,
+          "shul": "yiHwd"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 0,
+          "shul": "bneiSeph"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 15,
+          "shul": "aish"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 30,
+          "shul": "heichal"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 30,
+          "shul": "beisMordechai"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 30,
+          "shul": "yiHwd"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 45,
+          "shul": "khh"
+        },
+        {
+          "kind": "fixed",
+          "h": 9,
+          "m": 0,
+          "shul": "shulHwd"
+        },
+        {
+          "kind": "fixed",
+          "h": 9,
+          "m": 0,
+          "shul": "yiHwd"
+        },
+        {
+          "kind": "fixed",
+          "h": 9,
+          "m": 30,
+          "shul": "beisMordechai"
+        }
+      ],
+      "mincha": [
+        {
+          "kind": "beforeShkia",
+          "off": 13,
+          "shul": "yiHwd"
+        },
+        {
+          "kind": "beforeShkia",
+          "off": 13,
+          "shul": "heichal"
+        },
+        {
+          "kind": "beforeShkia",
+          "off": 13,
+          "shul": "aish"
+        },
+        {
+          "kind": "beforeShkia",
+          "off": 13,
+          "shul": "bneiSeph"
+        },
+        {
+          "kind": "beforeShkia",
+          "off": 13,
+          "shul": "davidChai"
+        },
+        {
+          "kind": "beforeShkia",
+          "off": 13,
+          "shul": "beisMordechai"
+        },
+        {
+          "kind": "beforeShkia",
+          "off": 13,
+          "shul": "eliyahu"
+        },
+        {
+          "kind": "beforeShkia",
+          "off": 13,
+          "shul": "khh"
+        },
+        {
+          "kind": "beforeShkia",
+          "off": 13,
+          "shul": "shulHwd"
+        },
+        {
+          "kind": "fixed",
+          "h": 14,
+          "m": 0,
+          "shul": "hwdKollel"
+        },
+        {
+          "kind": "fixed",
+          "h": 14,
+          "m": 0,
+          "shul": "bneiSeph"
+        },
+        {
+          "kind": "fixed",
+          "h": 14,
+          "m": 0,
+          "shul": "beisMordechai",
+          "note": "Winter 1:00"
+        },
+        {
+          "kind": "fixed",
+          "h": 14,
+          "m": 0,
+          "shul": "eliyahu"
+        },
+        {
+          "kind": "fixed",
+          "h": 15,
+          "m": 45,
+          "shul": "heichal",
+          "note": "Winter"
+        }
+      ],
+      "maariv": [
+        {
+          "kind": "plag",
+          "off": 0,
+          "shul": "yiHwd",
+          "note": "Summer"
+        },
+        {
+          "kind": "plag",
+          "off": 0,
+          "shul": "bneiSeph",
+          "note": "Summer"
+        },
+        {
+          "kind": "plag",
+          "off": 0,
+          "shul": "davidChai",
+          "note": "Summer"
+        },
+        {
+          "kind": "tzeis",
+          "off": 0,
+          "shul": "heichal"
+        },
+        {
+          "kind": "tzeis",
+          "off": 0,
+          "shul": "aish"
+        },
+        {
+          "kind": "tzeis",
+          "off": 0,
+          "shul": "beisMordechai"
+        },
+        {
+          "kind": "tzeis",
+          "off": 0,
+          "shul": "eliyahu"
+        },
+        {
+          "kind": "tzeis",
+          "off": 0,
+          "shul": "khh"
+        },
+        {
+          "kind": "tzeis",
+          "off": 0,
+          "shul": "shulHwd"
+        },
+        {
+          "kind": "fixed",
+          "h": 19,
+          "m": 45,
+          "shul": "heichal",
+          "note": "Winter"
+        },
+        {
+          "kind": "fixed",
+          "h": 20,
+          "m": 15,
+          "shul": "beisMordechai",
+          "note": "Winter"
+        },
+        {
+          "kind": "fixed",
+          "h": 21,
+          "m": 15,
+          "shul": "yiHwd",
+          "note": "Winter"
+        },
+        {
+          "kind": "fixed",
+          "h": 21,
+          "m": 30,
+          "shul": "hwdKollel"
+        },
+        {
+          "kind": "fixed",
+          "h": 21,
+          "m": 45,
+          "shul": "heichal"
+        },
+        {
+          "kind": "fixed",
+          "h": 22,
+          "m": 0,
+          "shul": "beisMordechai"
+        },
+        {
+          "kind": "fixed",
+          "h": 23,
+          "m": 0,
+          "shul": "beisMordechai"
+        }
+      ],
+      "erevShabbos": [],
+      "legend": "Source: FloridaMinyan.com — Hollywood sheet (updated 5/5/26). Shachris are the shuls' fixed times; Mincha/Maariv resolve to your live zmanim. Confirm with the shul; GoDaven's live time is shown where it differs."
+    },
+    {
+      "id": "palmbeach",
+      "title": "Palm Beach Minyanim (Boca)",
+      "sub": "Central Boca shuls · Kosher Boca Raton + shul schedules",
+      "center": {
+        "lat": 26.368,
+        "lng": -80.103
+      },
+      "radius": 16,
+      "curated": true,
+      "source": "Kosher Boca Raton + shul sites",
+      "sourceTag": "Kosher Boca",
+      "presets": [
+        {
+          "label": "Boca Raton",
+          "lat": 26.375,
+          "lng": -80.16
+        }
+      ],
+      "shuls": {
+        "brs": {
+          "name": "Boca Raton Synagogue",
+          "addr": "7900 Montoya Cir, Boca Raton",
+          "lat": 26.378,
+          "lng": -80.166
+        },
+        "yiBoca": {
+          "name": "Young Israel of Boca Raton",
+          "addr": "7200 Palmetto Cir, Boca Raton",
+          "lat": 26.372,
+          "lng": -80.157
+        },
+        "bjc": {
+          "name": "Boca Jewish Center",
+          "addr": "Boca Raton",
+          "lat": 26.37,
+          "lng": -80.15
+        },
+        "bocaKollel": {
+          "name": "Boca Raton Kollel",
+          "addr": "Boca Raton",
+          "lat": 26.374,
+          "lng": -80.16
+        },
+        "tiferesTorah": {
+          "name": "Yeshiva Tiferes Torah",
+          "addr": "Boca Raton",
+          "lat": 26.372,
+          "lng": -80.158
+        }
+      },
+      "shachWeek": [
+        {
+          "kind": "fixed",
+          "h": 6,
+          "m": 10,
+          "shul": "yiBoca",
+          "note": "Tu-F 6:20"
+        },
+        {
+          "kind": "fixed",
+          "h": 6,
+          "m": 20,
+          "shul": "brs",
+          "flags": [
+            "rcEarlier"
+          ],
+          "note": "6:18–6:25 by day"
+        },
+        {
+          "kind": "fixed",
+          "h": 6,
+          "m": 30,
+          "shul": "bjc"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 0,
+          "shul": "bocaKollel"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 0,
+          "shul": "brs"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 30,
+          "shul": "bjc"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 30,
+          "shul": "brs"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 0,
+          "shul": "yiBoca"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 0,
+          "shul": "brs"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 30,
+          "shul": "bocaKollel"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 30,
+          "shul": "bjc"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 30,
+          "shul": "brs"
+        },
+        {
+          "kind": "fixed",
+          "h": 9,
+          "m": 15,
+          "shul": "brs"
+        },
+        {
+          "kind": "fixed",
+          "h": 10,
+          "m": 0,
+          "shul": "brs"
+        }
+      ],
+      "shachSun": [
+        {
+          "kind": "fixed",
+          "h": 6,
+          "m": 25,
+          "shul": "brs"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 0,
+          "shul": "yiBoca"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 0,
+          "shul": "brs"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 0,
+          "shul": "bjc"
+        },
+        {
+          "kind": "fixed",
+          "h": 7,
+          "m": 30,
+          "shul": "brs"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 0,
+          "shul": "yiBoca"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 0,
+          "shul": "bjc"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 0,
+          "shul": "brs"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 30,
+          "shul": "brs"
+        },
+        {
+          "kind": "fixed",
+          "h": 8,
+          "m": 30,
+          "shul": "bocaKollel"
+        },
+        {
+          "kind": "fixed",
+          "h": 9,
+          "m": 0,
+          "shul": "bjc"
+        },
+        {
+          "kind": "fixed",
+          "h": 9,
+          "m": 15,
+          "shul": "brs"
+        },
+        {
+          "kind": "fixed",
+          "h": 10,
+          "m": 0,
+          "shul": "brs"
+        }
+      ],
+      "mincha": [
+        {
+          "kind": "fixed",
+          "h": 14,
+          "m": 0,
+          "shul": "brs"
+        },
+        {
+          "kind": "fixed",
+          "h": 14,
+          "m": 30,
+          "shul": "bocaKollel"
+        },
+        {
+          "kind": "beforeShkia",
+          "off": 10,
+          "shul": "brs",
+          "note": "computed to shkiah"
+        },
+        {
+          "kind": "beforeShkia",
+          "off": 7,
+          "shul": "yiBoca",
+          "note": "computed to shkiah"
+        },
+        {
+          "kind": "beforeShkia",
+          "off": 5,
+          "shul": "bjc",
+          "note": "computed to shkiah"
+        }
+      ],
+      "maariv": [
+        {
+          "kind": "tzeis",
+          "off": 0,
+          "shul": "brs"
+        },
+        {
+          "kind": "tzeis",
+          "off": 0,
+          "shul": "yiBoca"
+        },
+        {
+          "kind": "tzeis",
+          "off": 0,
+          "shul": "bjc"
+        },
+        {
+          "kind": "fixed",
+          "h": 20,
+          "m": 30,
+          "shul": "bjc"
+        },
+        {
+          "kind": "fixed",
+          "h": 21,
+          "m": 0,
+          "shul": "bocaKollel"
+        },
+        {
+          "kind": "fixed",
+          "h": 21,
+          "m": 0,
+          "shul": "brs"
+        },
+        {
+          "kind": "fixed",
+          "h": 21,
+          "m": 15,
+          "shul": "yiBoca",
+          "note": "Mon–Wed"
+        },
+        {
+          "kind": "fixed",
+          "h": 22,
+          "m": 0,
+          "shul": "brs"
+        },
+        {
+          "kind": "fixed",
+          "h": 22,
+          "m": 10,
+          "shul": "tiferesTorah"
+        },
+        {
+          "kind": "fixed",
+          "h": 22,
+          "m": 15,
+          "shul": "bocaKollel"
+        }
+      ],
+      "erevShabbos": [],
+      "legend": "Source: Kosher Boca Raton + the Central Boca shuls' own schedules. Shachris & fixed evening minyanim are the shuls' set times; afternoon Mincha/Maariv are computed to shkiah. Refreshed monthly — confirm with the shul; GoDaven's live time is shown where it differs."
+    },
+    {
       "id": "lakewood",
       "title": "Lakewood Minyanim",
       "center": {
@@ -1685,119 +2944,6 @@
       "communitySource": {
         "label": "Teaneck Minyanim",
         "url": "https://teaneckminyanim.com/"
-      }
-    },
-    {
-      "id": "miami",
-      "title": "Miami Minyanim",
-      "center": {
-        "lat": 25.9331,
-        "lng": -80.1625
-      },
-      "radius": 10,
-      "curated": false,
-      "links": [
-        {
-          "label": "Florida Minyan — community time chart",
-          "url": "https://www.halachaonline.com/fm"
-        },
-        {
-          "label": "ORB — Orthodox Rabbinical Board",
-          "url": "https://www.orbkosher.com/"
-        }
-      ],
-      "source": "GoDaven",
-      "sourceTag": "GoDaven",
-      "sub": "Live minyan times near you · zmanim computed for your location",
-      "presets": [],
-      "shuls": {},
-      "mincha": [],
-      "maariv": [],
-      "shachSun": [],
-      "shachWeek": [],
-      "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them.",
-      "communitySource": {
-        "label": "Florida Minyan (community chart)",
-        "url": "https://www.halachaonline.com/fm"
-      }
-    },
-    {
-      "id": "ftlauderdale",
-      "title": "Fort Lauderdale Minyanim",
-      "center": {
-        "lat": 26.011,
-        "lng": -80.149
-      },
-      "radius": 9,
-      "curated": false,
-      "links": [
-        {
-          "label": "Florida Minyan — community time chart",
-          "url": "https://www.halachaonline.com/fm"
-        },
-        {
-          "label": "Young Israel of Hollywood — minyan times",
-          "url": "https://yih.shulcloud.com/minyan-times"
-        },
-        {
-          "label": "ORB — Orthodox Rabbinical Board",
-          "url": "https://www.orbkosher.com/"
-        }
-      ],
-      "source": "GoDaven",
-      "sourceTag": "GoDaven",
-      "sub": "Live minyan times near you · zmanim computed for your location",
-      "presets": [],
-      "shuls": {},
-      "mincha": [],
-      "maariv": [],
-      "shachSun": [],
-      "shachWeek": [],
-      "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them.",
-      "communitySource": {
-        "label": "Florida Minyan (community chart)",
-        "url": "https://www.halachaonline.com/fm"
-      }
-    },
-    {
-      "id": "palmbeach",
-      "title": "Palm Beach Minyanim",
-      "center": {
-        "lat": 26.368,
-        "lng": -80.103
-      },
-      "radius": 16,
-      "curated": false,
-      "links": [
-        {
-          "label": "Kosher Boca Raton — minyanim",
-          "url": "https://www.kosherbocaraton.org/minyanim"
-        },
-        {
-          "label": "Boca Raton Synagogue — minyanim",
-          "url": "https://brsonline.shulcloud.com/service-times/main-minyan.html"
-        },
-        {
-          "label": "ORB — Orthodox Rabbinical Board",
-          "url": "https://www.orbkosher.com/"
-        }
-      ],
-      "source": "GoDaven",
-      "sourceTag": "GoDaven",
-      "sub": "Live minyan times near you · zmanim computed for your location",
-      "presets": [],
-      "shuls": {},
-      "mincha": [],
-      "maariv": [],
-      "shachSun": [],
-      "shachWeek": [],
-      "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them.",
-      "communitySource": {
-        "label": "Kosher Boca Raton",
-        "url": "https://www.kosherbocaraton.org/minyanim"
       }
     },
     {
