@@ -1,7 +1,7 @@
 {
   "version": 1,
   "updated": "2026-07-07",
-  "note": "Minyan Finder region data. Curated packs compute live from zmanim; geo-routed packs get live GoDaven times + community source links.",
+  "note": "Minyan Finder region data.",
   "regions": [
     {
       "id": "detroit",
@@ -2882,7 +2882,37 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them.",
+      "majorShuls": [
+        {
+          "name": "Bais Medrash Ohr Chaim — 18 Forshay",
+          "addr": "18 Forshay Rd",
+          "url": "https://18forshay.com/minyanim",
+          "shacharis": "Vasikin + continuous ≈ 6:15am–12:30pm",
+          "pm": "Mincha/Maariv run continuously into the night"
+        },
+        {
+          "name": "Congregation Bais Torah",
+          "addr": "Carlton Rd, Suffern",
+          "url": "https://baistorah.org/services",
+          "shacharis": "6:30, 7:45 (Sun 7:45)",
+          "pm": "Mincha/Maariv seasonal"
+        },
+        {
+          "name": "Shaarei Tefillah (CST)",
+          "addr": "29 Parker Blvd",
+          "url": "https://cstshul.shulcloud.com",
+          "shacharis": "6:50",
+          "pm": "Mincha Sun–Thu 1:30pm · Maariv 9:45pm"
+        },
+        {
+          "name": "Kehillas Bais Yehudah (KBY)",
+          "addr": "Wesley Hills",
+          "url": "https://kbyshul.org/cal.php",
+          "shacharis": "Sun 7/8/9 · M,Th 6:20/7:15/8:30 · T,W,F 6:30/7:15/8:30",
+          "pm": "Mincha/Maariv 8:20pm (seasonal)"
+        }
+      ]
     },
     {
       "id": "fivetowns",
