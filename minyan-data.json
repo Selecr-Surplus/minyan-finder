@@ -4030,7 +4030,49 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them.",
+      "majorShuls": [
+        {
+          "name": "Congregation Beth Jacob",
+          "addr": "1855 LaVista Rd",
+          "url": "https://www.bethjacobatlanta.org/calendar",
+          "verified": "2026-07-08",
+          "shacharis": "Sun 7/8/9 · M–Th 6:40 & 8:00 (multi-location)",
+          "pm": "Mincha 2:30pm & 7:40pm · Maariv ~8:30–9:45pm by location"
+        },
+        {
+          "name": "Congregation Ariel",
+          "addr": "5237 Tilly Mill Rd, Dunwoody",
+          "url": "https://www.congariel.org/calendar",
+          "verified": "2026-07-08",
+          "shacharis": "M–F 6:50–7:00 & 8:00 · Sun 8:00",
+          "pm": "Mincha/Maariv ~8:40–8:45pm daily"
+        },
+        {
+          "name": "Kehillat Ohr HaTorah (f/k/a YI of Toco Hills)",
+          "addr": "2056 LaVista Rd",
+          "url": "https://www.ohrhatorahatl.org/",
+          "verified": "2026-07-08",
+          "shacharis": "~7:00 (today's snapshot)",
+          "pm": "Mincha/Maariv 8:35pm"
+        },
+        {
+          "name": "Chabad of Toco Hills",
+          "addr": "1280 Holly Lane NE",
+          "url": "https://www.chabadtoco.com/",
+          "verified": "2026-07-08",
+          "shacharis": "M–F 7:45 · Sun 9:00",
+          "pm": "Mincha/Maariv daily 8:35pm"
+        },
+        {
+          "name": "Netzach Israel (Iranian Orthodox)",
+          "addr": "2185 LaVista Rd NW",
+          "url": "https://www.netzachisrael.org/visitors",
+          "verified": "2026-07-08",
+          "shacharis": "Wkdy 7:00",
+          "pm": "Mincha/Arvit 8:30pm"
+        }
+      ]
     },
     {
       "id": "san-diego",
