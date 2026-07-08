@@ -2882,7 +2882,65 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them.",
+      "majorShuls": [
+        {
+          "name": "Congregation KINS",
+          "addr": "2800 W North Shore Ave",
+          "url": "https://www.congkins.org/",
+          "verified": "2026-07-08",
+          "shacharis": "M–Th, F 6:25 & 7:15 · Sun 7:45 & 8:30",
+          "pm": "Mincha weekday 8:15pm · Fri 6:40/7:35/8:15pm"
+        },
+        {
+          "name": "Agudas Yisroel of West Rogers Park",
+          "addr": "2801 W Pratt Blvd",
+          "url": "https://www.aywrp.org/weekly-davening-schedule.html",
+          "verified": "2026-07-08",
+          "shacharis": "Sun 8:15 · M,Th 6:50 · T,W,F 7:00",
+          "pm": "Mincha 15 min before sunset · Maariv 2 min after sunset + 9:30pm"
+        },
+        {
+          "name": "Congregation Or Torah",
+          "addr": "3800 Dempster St, Skokie",
+          "url": "https://www.ortorah.org/cal.php",
+          "verified": "2026-07-08",
+          "shacharis": "Sun–Th, F 6:30 & 8:00",
+          "pm": "Mincha/Maariv combined 8:15pm · Fri 6:35pm early + 8:10pm"
+        },
+        {
+          "name": "Anshe Sholom B'nai Israel",
+          "addr": "540 W Melrose St",
+          "url": "https://www.asbi.org/minyan",
+          "verified": "2026-07-08",
+          "shacharis": "Sun 8:30 · M,Th 6:45 · T,W,F 7:00",
+          "pm": "Mincha/Maariv 10–15 min before sunset (combined)"
+        },
+        {
+          "name": "Congregation Adas Yeshurun (Anshe Kanesses Israel)",
+          "addr": "3050 W Touhy Ave",
+          "url": "https://www.adasyeshurun.com/cal.php",
+          "verified": "2026-07-08",
+          "shacharis": "Sun 6:45/7:15/8:00/9:00 · M–F 6:15/6:45/7:15/8:00/9:00",
+          "pm": "Mincha 1:33/3:15/6:00pm + Shkiya 8:15pm · Maariv 9:30/10:00pm"
+        },
+        {
+          "name": "Bnei Ruven (Chabad/Anash community)",
+          "addr": "6350 N Whipple St",
+          "url": "https://www.bneiruven.org/davening",
+          "verified": "2026-07-08",
+          "shacharis": "Sun 7:00 & 8:00 · M–F 5:55–6:00, 7:00, 7:20",
+          "pm": "Mincha/Maariv ~8:20pm/9:03pm (current-week, re-check periodically)"
+        },
+        {
+          "name": "Adas Bnei Yisroel",
+          "addr": "6200 N Kimball Ave",
+          "url": "https://www.adaschicago.org/",
+          "verified": "2026-07-08",
+          "shacharis": "6:45 & 8:05 (today's snapshot)",
+          "pm": "Mincha/Maariv combined 8:13pm"
+        }
+      ]
     },
     {
       "id": "la",
