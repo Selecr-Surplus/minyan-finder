@@ -4568,7 +4568,25 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them.",
+      "majorShuls": [
+        {
+          "name": "Young Israel of Staten Island (YISI)",
+          "addr": "835 Forest Hill Rd",
+          "url": "https://www.yisi.org/our-shul/davening-times/",
+          "verified": "2026-07-08",
+          "shacharis": "Sun/hol 7/8/9 · M,Th 5:50/6:25/6:55/7:30/8:00 · T,W,F 5:50/6:30/7:00/7:30/8:00",
+          "pm": "Mincha ~10 min before sunset · early Mincha Sun 1:45pm, M–Th 12:40pm · late Maariv 9:00pm"
+        },
+        {
+          "name": "New Springville Jewish Center",
+          "addr": "120 Saxon Ave",
+          "url": "https://www.newspringvillejc.org",
+          "verified": "2026-07-08",
+          "shacharis": "Sun 8:20 · M–F 6:30",
+          "pm": "Mincha/Maariv change weekly — see shul's posted calendar"
+        }
+      ]
     },
     {
       "id": "providence",
