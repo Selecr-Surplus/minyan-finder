@@ -2887,77 +2887,88 @@
         {
           "name": "Bais Medrash Ohr Chaim — 18 Forshay",
           "addr": "18 Forshay Rd",
-          "url": "https://18forshay.com/minyanim",
+          "url": "https://18forshay.com/minyanim/",
+          "verified": "2026-07-07",
           "shacharis": "Vasikin + continuous ≈ 6:15am–12:30pm",
           "pm": "Mincha/Maariv run continuously into the night"
         },
         {
           "name": "Congregation Bais Torah",
           "addr": "Carlton Rd, Suffern",
-          "url": "https://baistorah.org/services",
+          "url": "https://www.baistorah.org/services",
+          "verified": "2026-07-07",
           "shacharis": "6:30, 7:45 (Sun 7:45)",
           "pm": "Mincha/Maariv seasonal"
         },
         {
           "name": "Shaarei Tefillah (CST)",
           "addr": "29 Parker Blvd",
-          "url": "https://cstshul.shulcloud.com",
+          "url": "https://cstshul.shulcloud.com/calendar",
+          "verified": "2026-07-07",
           "shacharis": "6:50",
           "pm": "Mincha Sun–Thu 1:30pm · Maariv 9:45pm"
         },
         {
           "name": "Kehillas Bais Yehudah (KBY)",
           "addr": "Wesley Hills",
-          "url": "https://kbyshul.org/cal.php",
+          "url": "https://www.kbyshul.org/cal.php",
+          "verified": "2026-07-07",
           "shacharis": "Sun 7/8/9 · M,Th 6:20/7:15/8:30 · T,W,F 6:30/7:15/8:30",
           "pm": "Mincha/Maariv 8:20pm (seasonal)"
         },
         {
           "name": "Bais Mayer Chevra Shas",
           "addr": "3 Smolley Dr",
-          "url": "https://bmcsmonsey.org",
+          "url": "https://bmcsmonsey.org/calendar/",
+          "verified": "2026-07-07",
           "shacharis": "Sun 9:00 · M–F 8:25",
           "pm": "Mincha 1:35pm · Maariv 8:45pm (seasonal)"
         },
         {
           "name": "Ohaiv Shalom (New Hempstead)",
           "addr": "18 Bridle Rd",
-          "url": "https://ohaivshalom.org",
+          "url": "https://www.ohaivshalom.org/",
+          "verified": "2026-07-07",
           "shacharis": "7:00, 8:00",
           "pm": "Mincha/Maariv ≈ 8:20pm · Maariv 9:30pm"
         },
         {
           "name": "Kehilas Yeshorim (Wesley Hills)",
           "addr": "1 Harriett Ln",
-          "url": "https://kywh.org",
+          "url": "https://www.kywh.org/",
+          "verified": "2026-07-07",
           "shacharis": "6:45, 7:30",
           "pm": "Mincha 2:35pm & pre-shkiah · Maariv 9:00/10:15pm"
         },
         {
           "name": "Knesses Yisroel (New Hempstead)",
           "addr": "698 Union Rd",
-          "url": "https://ckynh.org",
+          "url": "https://ckynh.org/CKY_Mincha_Marriv.pdf",
+          "verified": "2026-07-07",
           "shacharis": null,
           "pm": "Full Mincha/Maariv & Shabbos schedule on site"
         },
         {
           "name": "Bais Medrash Torah Utfilla (Chestnut Ridge)",
           "addr": "750 Chestnut Ridge Rd",
-          "url": "https://torahutfilla.org",
+          "url": "https://torahutfilla.org/",
+          "verified": "2026-07-07",
           "shacharis": "Wkdy 6:45, 7:35 · Sun 6:45, 7:35, 8:45",
           "pm": "Mincha 1:45pm & pre-shkiah · Maariv seasonal"
         },
         {
           "name": "Kehilas Bais Avrohom (Forshay)",
           "addr": "20 S Parker Dr",
-          "url": "https://kbaforshay.org",
+          "url": "https://kbaforshay.org/zmanim",
+          "verified": "2026-07-07",
           "shacharis": "Wkdy 6:30, 7:30 · Sun 7:30",
           "pm": "Mincha/Maariv per R. Edelstein's Forshay luach"
         },
         {
           "name": "Congregation Borov",
           "addr": "4 Parker Blvd",
-          "url": "https://borov.org",
+          "url": "https://www.borov.org/services",
+          "verified": "2026-07-07",
           "shacharis": "6:40, 7:30, 9:00",
           "pm": "Mincha 1:40pm · Maariv 8:57/9:30/10:15pm"
         }
