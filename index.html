@@ -1009,6 +1009,12 @@ const MAJOR_SHULS = {
     { name: "Congregation Adas Yeshurun (Anshe Kanesses Israel)", addr: "3050 W Touhy Ave", url: "https://www.adasyeshurun.com/cal.php", verified: "2026-07-08", shacharis: "Sun 6:45/7:15/8:00/9:00 \xB7 M–F 6:15/6:45/7:15/8:00/9:00", pm: "Mincha 1:33/3:15/6:00pm + Shkiya 8:15pm \xB7 Maariv 9:30/10:00pm" },
     { name: "Bnei Ruven (Chabad/Anash community)", addr: "6350 N Whipple St", url: "https://www.bneiruven.org/davening", verified: "2026-07-08", shacharis: "Sun 7:00 & 8:00 \xB7 M–F 5:55–6:00, 7:00, 7:20", pm: "Mincha/Maariv ~8:20pm/9:03pm (current-week, re-check periodically)" },
     { name: "Adas Bnei Yisroel", addr: "6200 N Kimball Ave", url: "https://www.adaschicago.org/", verified: "2026-07-08", shacharis: "6:45 & 8:05 (today's snapshot)", pm: "Mincha/Maariv combined 8:13pm" }
+  ],
+  "essex-nj": [
+    { name: "Congregation AABJ&D", addr: "700 Pleasant Valley Way, West Orange", url: "https://www.aabjd.org/minyanim", verified: "2026-07-08", shacharis: "Sun 7/8/9 \xB7 Ashk. wkdy 6:15/6:50/7:30 \xB7 Sephardic wkdy 6:15", pm: "Ashk. Mincha/Maariv (multiple, incl. late 9:50pm) \xB7 Sephardic Mincha 1:40pm, Mincha/Arvit 8:10pm, Maariv 9:50pm" },
+    { name: "Congregation Ohr Torah", addr: "270 Pleasant Valley Way, West Orange", url: "https://www.congregationohrtorah.org/", verified: "2026-07-08", shacharis: "Sun 8:15 \xB7 M,Th 7:20 \xB7 T,W,F 7:30", pm: "Mincha/Maariv 8:20pm weekday (seasonal)" },
+    { name: "Synagogue of the Suburban Torah Center (SSTC)", addr: "85 W Mount Pleasant Ave, Livingston", url: "https://www.suburbantorah.org/calendar", verified: "2026-07-08", shacharis: "M–Th 6:35–6:45 \xB7 Fri 6:45 \xB7 Sun 8:30", pm: "Mincha/Maariv 8:15–8:20pm weekday" },
+    { name: "Chabad of West Orange", addr: "401 Pleasant Valley Way, West Orange", url: "https://www.chabadwestorange.com/", verified: "2026-07-08", shacharis: "Sun–Fri 8:00", pm: "Mincha/Maariv 10 min before sunset (Sun–Thu)" }
   ]
 };
 METROS.forEach((m) => { if (MAJOR_SHULS[m.id]) m.majorShuls = MAJOR_SHULS[m.id]; });

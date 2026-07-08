@@ -4145,7 +4145,41 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them.",
+      "majorShuls": [
+        {
+          "name": "Congregation AABJ&D",
+          "addr": "700 Pleasant Valley Way, West Orange",
+          "url": "https://www.aabjd.org/minyanim",
+          "verified": "2026-07-08",
+          "shacharis": "Sun 7/8/9 · Ashk. wkdy 6:15/6:50/7:30 · Sephardic wkdy 6:15",
+          "pm": "Ashk. Mincha/Maariv (multiple, incl. late 9:50pm) · Sephardic Mincha 1:40pm, Mincha/Arvit 8:10pm, Maariv 9:50pm"
+        },
+        {
+          "name": "Congregation Ohr Torah",
+          "addr": "270 Pleasant Valley Way, West Orange",
+          "url": "https://www.congregationohrtorah.org/",
+          "verified": "2026-07-08",
+          "shacharis": "Sun 8:15 · M,Th 7:20 · T,W,F 7:30",
+          "pm": "Mincha/Maariv 8:20pm weekday (seasonal)"
+        },
+        {
+          "name": "Synagogue of the Suburban Torah Center (SSTC)",
+          "addr": "85 W Mount Pleasant Ave, Livingston",
+          "url": "https://www.suburbantorah.org/calendar",
+          "verified": "2026-07-08",
+          "shacharis": "M–Th 6:35–6:45 · Fri 6:45 · Sun 8:30",
+          "pm": "Mincha/Maariv 8:15–8:20pm weekday"
+        },
+        {
+          "name": "Chabad of West Orange",
+          "addr": "401 Pleasant Valley Way, West Orange",
+          "url": "https://www.chabadwestorange.com/",
+          "verified": "2026-07-08",
+          "shacharis": "Sun–Fri 8:00",
+          "pm": "Mincha/Maariv 10 min before sunset (Sun–Thu)"
+        }
+      ]
     },
     {
       "id": "las-vegas",
