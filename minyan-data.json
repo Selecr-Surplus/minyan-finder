@@ -3460,7 +3460,41 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them.",
+      "majorShuls": [
+        {
+          "name": "Young Israel of New Rochelle (YINR)",
+          "addr": "1149 North Ave, New Rochelle",
+          "url": "https://www.yinr.org/cal.php",
+          "verified": "2026-07-08",
+          "shacharis": null,
+          "pm": "Shabbat: Hashkama 7:30, Main 9:00 · Fri Mincha/Kabbalat Shabbat 7:00 & 8:15pm"
+        },
+        {
+          "name": "Congregation Anshe Sholom",
+          "addr": "50 North Ave, New Rochelle",
+          "url": "https://anshesholomnewrochelle.org/",
+          "verified": "2026-07-08",
+          "shacharis": "M–F 7:00 · Sun 8:00",
+          "pm": "Mincha/Maariv vary with sunset — see shul bulletin"
+        },
+        {
+          "name": "Young Israel of Scarsdale (YIS)",
+          "addr": "1313 Weaver St, Scarsdale",
+          "url": "https://www.yisny.org/",
+          "verified": "2026-07-08",
+          "shacharis": "Wkdy 7:00 & 8:00",
+          "pm": "Mincha/Maariv combined 8:15pm weekday"
+        },
+        {
+          "name": "Young Israel of White Plains (YIWP)",
+          "addr": "135 Old Mamaroneck Rd, White Plains",
+          "url": "https://www.yiwp.org/",
+          "verified": "2026-07-08",
+          "shacharis": "Sun 8:00 · M–Th 6:35–6:45 · Fri 6:45",
+          "pm": "Mincha/Maariv combined 8:20pm weekday/Sun"
+        }
+      ]
     },
     {
       "id": "riverdale",
@@ -3482,7 +3516,33 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them.",
+      "majorShuls": [
+        {
+          "name": "Riverdale Jewish Center (RJC)",
+          "addr": "3700 Independence Ave",
+          "url": "https://www.rjconline.org/cal.php",
+          "verified": "2026-07-08",
+          "shacharis": "Wkdy 6:15/7:45 · Sun 6:45/8:30/9:15",
+          "pm": "Mincha/Maariv 8:05–8:20pm (Plag 6:30–6:40pm) — shifts seasonally"
+        },
+        {
+          "name": "HIR / The Bayit",
+          "addr": "3700 Henry Hudson Pkwy",
+          "url": "https://www.thebayit.org/tefillah",
+          "verified": "2026-07-08",
+          "shacharis": "M,Th 6:40 · T,W,F 6:45 · Sun 8:30",
+          "pm": "Mincha/Maariv 10 min before shkiah (Sun–Thu) — explicit zmanim rule"
+        },
+        {
+          "name": "Congregation Beth Aharon (Sephardic)",
+          "addr": "3700 Henry Hudson Pkwy (HIR lower level)",
+          "url": "https://bethaharon.blogspot.com/",
+          "verified": "2026-07-08",
+          "shacharis": "Sun 8:00/8:10 · M,Th 6:40 & 8:00 · T,W,F 6:45 & 8:00",
+          "pm": "Mincha Sun–Thu 4:20pm"
+        }
+      ]
     },
     {
       "id": "philadelphia",
