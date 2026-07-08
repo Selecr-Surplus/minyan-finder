@@ -4123,7 +4123,65 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them.",
+      "majorShuls": [
+        {
+          "name": "Green Road Synagogue",
+          "addr": "2437 S Green Rd, Beachwood",
+          "url": "https://www.localjewishnews.com/minyan/green-road-synagogue/",
+          "verified": "2026-07-08",
+          "shacharis": "Wkdy 6:30 (RC)/6:40 · Sat 7:45 (RC)/9:00 · Sun 8:00",
+          "pm": "Mincha 15 min before shkia (Fri: 10 min after plag) · Maariv 5 min after shkia"
+        },
+        {
+          "name": "Taylor Road Synagogue (Oheb Zedek-Taylor Rd)",
+          "addr": "1970 S Taylor Rd, Cleveland Heights",
+          "url": "https://www.localjewishnews.com/minyan/taylor-road-synagogue/",
+          "verified": "2026-07-08",
+          "shacharis": "Wkdy 6:30 (RC)/6:45/7:45 · Sat 8:00 · Sun 9:00",
+          "pm": "Mincha Sat–Thu 20 min before shkia"
+        },
+        {
+          "name": "Congregation Zichron Chaim",
+          "addr": "2203 S Green Rd, University Heights",
+          "url": "https://www.localjewishnews.com/minyan/zichron-chaim-weekday/",
+          "verified": "2026-07-08",
+          "shacharis": "Sun 8:00/9:00 · M,Th 7:10/8:05 · T,W,F 7:15/8:05 · RC/fast 7:00/8:05",
+          "pm": "Mincha 4:15/6:00/8:00pm + ~10 min before shkia · Maariv ~13 min after shkia + 9:00/10:00/11:00pm"
+        },
+        {
+          "name": "Young Israel of Greater Cleveland",
+          "addr": "2463 S Green Rd, Beachwood",
+          "url": "https://www.yigc.org/davening-times-2/",
+          "verified": "2026-07-08",
+          "shacharis": "Stone: Sun 7:15/8:00/8:30/9:00, wkdy 6:40–6:45/7:50/9:00 · HAC: Sun 7:00, wkdy 6:40–6:45",
+          "pm": "Kollel Mincha 1:10pm winter/6:00pm summer · Kollel Maariv 9:30pm"
+        },
+        {
+          "name": "Heights Jewish Center Synagogue (HJCS)",
+          "addr": "14270 Cedar Rd, University Heights",
+          "url": "https://www.localjewishnews.com/minyan/heights-jewish-center/",
+          "verified": "2026-07-08",
+          "shacharis": "Wkdy 6:30/6:45 · Sat 8:00 · Sun 9:00",
+          "pm": "Mincha/Maariv near shkia — source flags a display glitch, verify before relying"
+        },
+        {
+          "name": "Congregation Shomre Shabbos",
+          "addr": "1801 S Taylor Rd, Cleveland Heights",
+          "url": "https://www.shomreshabbos.com/",
+          "verified": "2026-07-08",
+          "shacharis": "Sun 6:40 (early)/7:15 (RC)/7:30/9:15 · M–F 6:20/6:25/6:50/7:05/7:45/8:30 (varies)",
+          "pm": "Mincha 10–15 min before shkia · Maariv 9:45–10:00pm (seasonal)"
+        },
+        {
+          "name": "Oheb Zedek-Cedar Sinai Synagogue (Kehillat Yaakov)",
+          "addr": "23749 Cedar Rd, Lyndhurst",
+          "url": "https://www.localjewishnews.com/minyan/kehillat-yaakov/",
+          "verified": "2026-07-08",
+          "shacharis": "M–F 7:00 · Sun 8:00 · Sat 9:00",
+          "pm": "Mincha/Maariv zmanim-based (source flags uncertainty)"
+        }
+      ]
     },
     {
       "id": "essex-nj",
