@@ -3351,7 +3351,73 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them.",
+      "majorShuls": [
+        {
+          "name": "Lincoln Square Synagogue",
+          "addr": "180 Amsterdam Ave",
+          "url": "https://www.lss.org/calendar",
+          "verified": "2026-07-08",
+          "shacharis": "Wkdy ~7:00–7:10 · Sun 7:10 & 8:30",
+          "pm": "Mincha/Maariv ~8:15–8:20pm (zmanim-linked)"
+        },
+        {
+          "name": "The Jewish Center",
+          "addr": "131 W 86th St",
+          "url": "https://www.jewishcenter.org/tefillah.html",
+          "verified": "2026-07-08",
+          "shacharis": "Wkdy 7:15 & 8:00 · Sun/hol 7:45",
+          "pm": "Mincha/Maariv per weekly bulletin"
+        },
+        {
+          "name": "Congregation Ohab Zedek (OZ)",
+          "addr": "118 W 95th St",
+          "url": "https://www.ozny.org/home",
+          "verified": "2026-07-08",
+          "shacharis": "M,Th 6:00/6:50/7:50 · T,W,F 6:00/7:00/8:00 · Sun 8:00",
+          "pm": "Plag ~6:40pm · Zman Mincha/Maariv ~8:20pm"
+        },
+        {
+          "name": "Congregation Kehilath Jeshurun (KJ)",
+          "addr": "125 E 85th St",
+          "url": "https://www.ckj.org/shabbat",
+          "verified": "2026-07-08",
+          "shacharis": "M,Th 7:15 · T,W,F 7:30 · Sun/hol 8:30 · RC 7:00",
+          "pm": "Maariv 6:50pm weekday (fixed)"
+        },
+        {
+          "name": "Fifth Avenue Synagogue",
+          "addr": "5 E 62nd St",
+          "url": "https://www.fifthavenuesynagogue.org/",
+          "verified": "2026-07-08",
+          "shacharis": "M–F 8:00 · Sun 8:30",
+          "pm": "Maariv Fri 7:00pm · M–Th & Sun 8:15pm"
+        },
+        {
+          "name": "Congregation Shearith Israel (Spanish & Portuguese)",
+          "addr": "2 W 70th St",
+          "url": "https://www.shearithisrael.org/",
+          "verified": "2026-07-08",
+          "shacharis": "Sun 8:05 · M–F 7:05",
+          "pm": "Maariv Sun–Thu 6:45pm · Fri 7:00pm"
+        },
+        {
+          "name": "Young Israel of the West Side (YIWS)",
+          "addr": "210 W 91st St",
+          "url": "https://www.yiws.org/",
+          "verified": "2026-07-08",
+          "shacharis": "6:30 (early) + 7:45 (main) weekday",
+          "pm": "Mincha/Maariv combined 8:20pm weekday"
+        },
+        {
+          "name": "K'hal Adath Jeshurun (Breuer's/KAJ)",
+          "addr": "85-93 Bennett Ave",
+          "url": "https://www.kajinc.org/",
+          "verified": "2026-07-08",
+          "shacharis": "6:00, 7:00, 8:00 (M–Th, Fri, Sun)",
+          "pm": "Mincha Gedola 1:45pm · Mincha/Maariv 7:20pm · late Maariv 9:20pm"
+        }
+      ]
     },
     {
       "id": "queens-kgh",
