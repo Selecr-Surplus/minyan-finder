@@ -3027,6 +3027,78 @@
           "verified": "2026-07-08",
           "shacharis": "M,Th 7:00 · T,W,F 7:15 · Sun/hol 9:00 · Shabbat 9:00",
           "pm": "Mincha/Maariv ~10 min before sundown (zmanim rule, see calendar)"
+        },
+        {
+          "name": "Congregation Khal Chasidim (Chicago)",
+          "addr": "6756 N Richmond St, West Ridge",
+          "url": "https://www.khalchasidim.org/minyan.html",
+          "verified": "2026-07-08",
+          "shacharis": "6:45/7:45/8:45",
+          "pm": "Mincha 1:45pm, 8:15pm · Maariv 8:45pm, 9:30pm"
+        },
+        {
+          "name": "Bais Medrash Torah Utfilah Ateres Shmuel",
+          "addr": "2823 Touhy Ave, West Ridge",
+          "url": "https://bmttas.shulcloud.com/",
+          "verified": "2026-07-08",
+          "shacharis": "~7:00 (varies, today's snapshot)",
+          "pm": "Mincha 8:13pm · Maariv 8:30pm"
+        },
+        {
+          "name": "Ohel Shalom Torah Center",
+          "addr": "2947 W Touhy Ave, West Ridge",
+          "url": "https://www.ohelshalomchicago.org/",
+          "verified": "2026-07-08",
+          "shacharis": "7:10 (today's snapshot)",
+          "pm": "Mincha 7:25pm · Maariv 9:45pm"
+        },
+        {
+          "name": "Beis Medrash Mikor Hachaim",
+          "addr": "2849 W Chase Ave, West Ridge",
+          "url": "https://www.mikorhachaim.org/",
+          "verified": "2026-07-08",
+          "shacharis": "6:30, 7:45 (2 minyanim)",
+          "pm": "Mincha 5:45pm (early), 8:13pm · Maariv 8:45pm (Daf), 9:30pm, 10:00pm"
+        },
+        {
+          "name": "Bais Yitzchok (Beth Itzchok) Congregation",
+          "addr": "6716 N Whipple St, West Ridge",
+          "url": "https://www.baisyitzchok.com/home",
+          "verified": "2026-07-08",
+          "shacharis": "7:10–7:25 wkdy · Shabbat 8:25 · Sun 8:00",
+          "pm": "Mincha wkdy 8:10–8:15pm · Maariv Shabbat 9:07/9:27pm"
+        },
+        {
+          "name": "Anshe Motele",
+          "addr": "6520 N California Ave, North Park",
+          "url": "https://anshemotele.org/",
+          "verified": "2026-07-08",
+          "shacharis": "Wkdy 6:45–7:00 · Shabbat 7:00/8:45 · Sun 8:00",
+          "pm": "Mincha wkdy 7:15–8:00pm · Maariv wkdy 7:45–8:30pm (weekly bulletin)"
+        },
+        {
+          "name": "Sephardic Congregation (Evanston)",
+          "addr": "1819 Howard St, Evanston",
+          "url": "https://sephardiccongregation.shulcloud.com/",
+          "verified": "2026-07-08",
+          "shacharis": "Shabbat 8:30 · Sun 8:00 · M,Th 7:00 · T,W,F 7:10",
+          "pm": "Mincha 20 min before sunset daily"
+        },
+        {
+          "name": "Young Israel of Skokie",
+          "addr": "8746 E Prairie Rd, Skokie",
+          "url": "https://www.youngisraelskokie.org/",
+          "verified": "2026-07-08",
+          "shacharis": "Wkdy 6:20 · Shabbat 9:00",
+          "pm": "Maariv wkdy/Fri 8:15pm, Fri night 7:40pm"
+        },
+        {
+          "name": "Kollel Toras Chesed (Skokie Community Kollel)",
+          "addr": "3732 Dempster St, Skokie",
+          "url": "https://www.skokiekollel.org/general-6",
+          "verified": "2026-07-08",
+          "shacharis": "Sun/hol 6:25/8:00 · M–F 6:25/7:40 · RC 6:15/7:30 · Shabbat 7:00/8:45",
+          "pm": "Mincha M–Th 1:30pm fixed · Maariv M–Th 9:30pm fixed"
         }
       ]
     },
