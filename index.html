@@ -853,6 +853,13 @@ const MAJOR_SHULS = {
     { name: "Bais Medrash Torah Utfilla (Chestnut Ridge)", addr: "750 Chestnut Ridge Rd", url: "https://torahutfilla.org/", verified: "2026-07-07", shacharis: "Wkdy 6:45, 7:35 \xB7 Sun 6:45, 7:35, 8:45", pm: "Mincha 1:45pm & pre-shkiah \xB7 Maariv seasonal" },
     { name: "Kehilas Bais Avrohom (Forshay)", addr: "20 S Parker Dr", url: "https://kbaforshay.org/zmanim", verified: "2026-07-07", shacharis: "Wkdy 6:30, 7:30 \xB7 Sun 7:30", pm: "Mincha/Maariv per R. Edelstein's Forshay luach" },
     { name: "Congregation Borov", addr: "4 Parker Blvd", url: "https://www.borov.org/services", verified: "2026-07-07", shacharis: "6:40, 7:30, 9:00", pm: "Mincha 1:40pm \xB7 Maariv 8:57/9:30/10:15pm" }
+  ],
+  // Lakewood is overwhelmingly GoDaven-only (yeshiva/beis-medrash minyan culture).
+  // Only 2 big shuls self-publish scrapable text schedules; GoDaven's 416+ live
+  // minyanim are the real primary source here.
+  lakewood: [
+    { name: "Bais Medrash Lutzk (Kollel Lutzk)", addr: "520 New Egypt Rd", url: "https://www.lutzk.org/zmanim", verified: "2026-07-07", shacharis: "7:00, 8:00, 9:00", pm: "Mincha rolling 1:38pm–8:15pm \xB7 Maariv 8:18pm–11:45pm" },
+    { name: "Khal Chassidim", addr: "Lakewood", url: "https://www.khalchassidim.org/", verified: "2026-07-07", shacharis: "7:20 (Daf Yomi 6:40)", pm: "Mincha 4:15pm \xB7 Maariv 8:45 & 10:00pm" }
   ]
 };
 METROS.forEach((m) => { if (MAJOR_SHULS[m.id]) m.majorShuls = MAJOR_SHULS[m.id]; });

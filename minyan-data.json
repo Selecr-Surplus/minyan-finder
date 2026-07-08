@@ -2731,7 +2731,25 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them.",
+      "majorShuls": [
+        {
+          "name": "Bais Medrash Lutzk (Kollel Lutzk)",
+          "addr": "520 New Egypt Rd",
+          "url": "https://www.lutzk.org/zmanim",
+          "verified": "2026-07-07",
+          "shacharis": "7:00, 8:00, 9:00",
+          "pm": "Mincha rolling 1:38pm–8:15pm · Maariv 8:18pm–11:45pm"
+        },
+        {
+          "name": "Khal Chassidim",
+          "addr": "Lakewood",
+          "url": "https://www.khalchassidim.org/",
+          "verified": "2026-07-07",
+          "shacharis": "7:20 (Daf Yomi 6:40)",
+          "pm": "Mincha 4:15pm · Maariv 8:45 & 10:00pm"
+        }
+      ]
     },
     {
       "id": "brooklyn",
