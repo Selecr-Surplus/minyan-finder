@@ -2939,6 +2939,94 @@
           "verified": "2026-07-08",
           "shacharis": "6:45 & 8:05 (today's snapshot)",
           "pm": "Mincha/Maariv combined 8:13pm"
+        },
+        {
+          "name": "Bais Chaim Dovid",
+          "addr": "3462 W Devon Ave, Lincolnwood",
+          "url": "https://www.baischaimdovid.com/weekday-schedule-.html",
+          "verified": "2026-07-08",
+          "shacharis": "M,Th 6:10 · T,W,F 6:20 · Sun/hol 6:15 & 8:00 · RC 6:00",
+          "pm": "Mincha 5:25pm (fixed) · Maariv 5:25pm & late 9:15pm"
+        },
+        {
+          "name": "Kollel Tiferes Yisroel (KTY)",
+          "addr": "7001 N California Ave, West Ridge",
+          "url": "https://www.ktychicago.com/",
+          "verified": "2026-07-08",
+          "shacharis": "7:05",
+          "pm": "Mincha 12:45pm · Maariv 9:30pm"
+        },
+        {
+          "name": "Congregation Sha'arei Tzedek Mishkan Yair",
+          "addr": "2832 W Touhy Ave, West Ridge",
+          "url": "https://www.shaareitzedek.com/",
+          "verified": "2026-07-08",
+          "shacharis": "~6:15–6:30 & 8:15 (today's snapshot)",
+          "pm": "Mincha/Maariv combined 8:15pm · late 9:30pm"
+        },
+        {
+          "name": "Agudath Israel Bikur Cholim",
+          "addr": "3541 W Peterson Ave, North Park",
+          "url": "https://www.agudahshulchicago.com/",
+          "verified": "2026-07-08",
+          "shacharis": "Zmanim-based (Shema by 9:09am)",
+          "pm": "Mincha Gedola 1:33pm / Ketana 5:20pm · Maariv after Tzais 9:20pm"
+        },
+        {
+          "name": "Kehilat Chovevei Tzion",
+          "addr": "9220 Crawford Ave, Skokie",
+          "url": "https://www.skokieshul.org/minyan-times",
+          "verified": "2026-07-08",
+          "shacharis": "Sephardic 6:40 · Ashkenaz 6:45 & 8:00 (today's snapshot)",
+          "pm": "Mincha/Arvit 8:10–8:15pm · late Maariv 9:00pm"
+        },
+        {
+          "name": "Persian (Iran) Hebrew Congregation",
+          "addr": "3820 Main St, Skokie",
+          "url": "https://www.persianhebrew.com/",
+          "verified": "2026-07-08",
+          "shacharis": "M–F 6:10 · Sun 7:20 · Shabbat 8:40",
+          "pm": "Mincha/Maariv combined 8:10pm this week (seasonal)"
+        },
+        {
+          "name": "Poalei Tzedek",
+          "addr": "2801 W Albion Ave, West Ridge",
+          "url": "https://www.poaliezedek.org/",
+          "verified": "2026-07-08",
+          "shacharis": "M–Shabbat 8:30 · Sun 8:00",
+          "pm": "Mincha/Maariv ~15 min before sunset (combined)"
+        },
+        {
+          "name": "Lincolnwood Jewish Congregation A.G. Beth Israel",
+          "addr": "7117 N Crawford Ave, Lincolnwood",
+          "url": "https://ljcagbi.org/davening/minyan-service-times/",
+          "verified": "2026-07-08",
+          "shacharis": "Sun 8:30 · M–F 7:00 · Shabbat 9:15",
+          "pm": "Maariv Sun–Thu 8:15pm · Fri 7:15pm (Kabbalat Shabbat) · Shabbat 8:00pm"
+        },
+        {
+          "name": "Congregation Yehuda Moshe",
+          "addr": "4721 W Touhy Ave, Lincolnwood",
+          "url": "http://www.yehudamoshe.org/",
+          "verified": "2026-07-08",
+          "shacharis": "M–F 7:00 · Sun 8:30 · Fri 8:00 · Shabbat 9:30",
+          "pm": "Maariv Sun–Thu 8:00–8:10pm · Fri 6:40pm · Shabbat 8:15pm"
+        },
+        {
+          "name": "Darchei Noam Glenbrook",
+          "addr": "3465 Techny Rd, Northbrook",
+          "url": "https://www.darcheinoamglenbrook.org/",
+          "verified": "2026-07-08",
+          "shacharis": "Weekday 6:30 · Shabbat 9:00",
+          "pm": "Maariv weekday 8:10pm (combined) · Fri Kabbalat Shabbat 6:30pm"
+        },
+        {
+          "name": "Skokie Valley Agudath Jacob Synagogue",
+          "addr": "8825 E Prairie Rd, Skokie",
+          "url": "https://www.svaj.org/services/",
+          "verified": "2026-07-08",
+          "shacharis": "M,Th 7:00 · T,W,F 7:15 · Sun/hol 9:00 · Shabbat 9:00",
+          "pm": "Mincha/Maariv ~10 min before sundown (zmanim rule, see calendar)"
         }
       ]
     },
