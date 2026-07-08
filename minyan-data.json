@@ -3021,7 +3021,97 @@
       "communitySource": {
         "label": "5 Towns Central",
         "url": "https://5townscentral.com/minyan/"
-      }
+      },
+      "majorShuls": [
+        {
+          "name": "Congregation Beth Sholom (Lawrence)",
+          "addr": "390 Broadway, Lawrence",
+          "url": "https://www.bethsholomlawrence.org/davening",
+          "verified": "2026-07-07",
+          "shacharis": "M 6:25 · T–Th 6:30 · all 7:30 & 8:15 · Sun 7:30 & 8:30",
+          "pm": "Maariv 8:15pm combined"
+        },
+        {
+          "name": "Congregation Kneseth Israel (The White Shul)",
+          "addr": "728 Empire Ave, Far Rockaway",
+          "url": "https://www.whiteshul.com/davening-schedule.html",
+          "verified": "2026-07-07",
+          "shacharis": "6:00–9:30 hourly (minyan factory)",
+          "pm": "Mincha 10 min before Plag & 8:15pm · Maariv 8:45pm + hourly 2–10pm"
+        },
+        {
+          "name": "Young Israel of Woodmere",
+          "addr": "859 Peninsula Blvd, Woodmere",
+          "url": "https://www.yiwoodmere.org/",
+          "verified": "2026-07-07",
+          "shacharis": "Wkdy 5:45–9:00 · Sun 6:15–9:15 (multiple)",
+          "pm": "Mincha 2:00/5:00/6:15pm · Maariv 9:00/9:30pm"
+        },
+        {
+          "name": "Congregation Aish Kodesh",
+          "addr": "894 Woodmere Pl, Woodmere",
+          "url": "https://www.aishkodesh.org/calendar",
+          "verified": "2026-07-07",
+          "shacharis": "Sun 7/8/9 · Wkdy 6:10/6:20, 7:00, 8:00",
+          "pm": "Mincha/Maariv combined 8:10–8:15pm"
+        },
+        {
+          "name": "Young Israel of Lawrence-Cedarhurst",
+          "addr": "8 Spruce St, Cedarhurst",
+          "url": "https://www.yilc.org/calendar",
+          "verified": "2026-07-07",
+          "shacharis": "Sun 6:30–9:45 · Wkdy 5:50–9:00",
+          "pm": "Mincha Plag ~6:45pm & 8:15pm · Maariv 8:15pm combo, late 9:45pm"
+        },
+        {
+          "name": "Congregation Bais Ephraim Yitzchok (CBEY)",
+          "addr": "812 Peninsula Blvd, Woodmere",
+          "url": "https://www.cbey.org/",
+          "verified": "2026-07-07",
+          "shacharis": "7:00 & 8:00 (Daf 6:10)",
+          "pm": "Mincha/Maariv 8:15pm combined"
+        },
+        {
+          "name": "Congregation Anshei Chesed",
+          "addr": "1170 William St, Hewlett",
+          "url": "https://www.ansheichesed.com/cal.php",
+          "verified": "2026-07-07",
+          "shacharis": "Sun 7:00/8:00 · M–Th 6:20/7:45 · F 6:30/7:45",
+          "pm": "Mincha 6:39–6:54pm Fri, 8:14–8:15pm wkdy · Maariv 8:00–8:15pm combined"
+        },
+        {
+          "name": "Young Israel of Hewlett",
+          "addr": "1 Piermont Ave, Hewlett",
+          "url": "https://www.yihewlett.org/",
+          "verified": "2026-07-07",
+          "shacharis": "M–F 6:30 · Sun/hol 8:00",
+          "pm": "Full Mincha/Maariv schedule in weekly PDF"
+        },
+        {
+          "name": "Bais Tefila of Inwood",
+          "addr": "Inwood",
+          "url": "https://www.inwoodshul.com/",
+          "verified": "2026-07-07",
+          "shacharis": "M–F 6:55 & 7:15 · Sun 7/8/9",
+          "pm": "Mincha ~10 min before sunset · Maariv 7:45pm (winter) / 9:30pm daily"
+        },
+        {
+          "name": "Agudath Israel of West Lawrence",
+          "addr": "West Lawrence",
+          "url": "https://www.aiwl.org/",
+          "verified": "2026-07-07",
+          "shacharis": "Daf 6:10 · Shacharis ~7:20",
+          "pm": "Mincha ~8:10pm · Maariv 8:35 & 9:00pm"
+        },
+        {
+          "name": "Beis HaKnesses of North Woodmere (BKNW)",
+          "addr": "649 Hungry Harbor Rd, North Woodmere",
+          "url": "https://www.bknw.org/zmanim",
+          "verified": "2026-07-07",
+          "shacharis": "Wkdy 6:55 (Daf 6:15) + 7:45 · Sun 7:00/7:45/8:30",
+          "pm": "Maariv M–Th 10:00pm"
+        }
+      ]
     },
     {
       "id": "teaneck",
