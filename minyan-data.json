@@ -4120,6 +4120,116 @@
       "shachWeek": [],
       "erevShabbos": [],
       "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
+    },
+    {
+      "id": "toronto",
+      "title": "Toronto Minyanim",
+      "center": {
+        "lat": 43.7,
+        "lng": -79.42
+      },
+      "radius": 15,
+      "curated": false,
+      "links": [],
+      "source": "GoDaven",
+      "sourceTag": "GoDaven",
+      "sub": "Live minyan times near you · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
+    },
+    {
+      "id": "montreal",
+      "title": "Montreal Minyanim",
+      "center": {
+        "lat": 45.47,
+        "lng": -73.65
+      },
+      "radius": 12,
+      "curated": false,
+      "links": [],
+      "source": "GoDaven",
+      "sourceTag": "GoDaven",
+      "sub": "Live minyan times near you · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
+    },
+    {
+      "id": "vancouver",
+      "title": "Vancouver Minyanim",
+      "center": {
+        "lat": 49.225,
+        "lng": -123.115
+      },
+      "radius": 12,
+      "curated": false,
+      "links": [],
+      "source": "GoDaven",
+      "sourceTag": "GoDaven",
+      "sub": "Live minyan times near you · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
+    },
+    {
+      "id": "winnipeg",
+      "title": "Winnipeg Minyanim",
+      "center": {
+        "lat": 49.867,
+        "lng": -97.166
+      },
+      "radius": 10,
+      "curated": false,
+      "links": [],
+      "source": "GoDaven",
+      "sourceTag": "GoDaven",
+      "sub": "Live minyan times near you · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
+    },
+    {
+      "id": "ottawa",
+      "title": "Ottawa Minyanim",
+      "center": {
+        "lat": 45.4,
+        "lng": -75.7
+      },
+      "radius": 10,
+      "curated": false,
+      "links": [],
+      "source": "GoDaven",
+      "sourceTag": "GoDaven",
+      "sub": "Live minyan times near you · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     }
   ]
 }

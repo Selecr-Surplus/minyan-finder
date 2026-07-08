@@ -821,7 +821,13 @@ const METROS = [
   metro("sarasota", "Sarasota Minyanim", { lat: 27.338, lng: -82.530 }, 16, []),
   metro("tucson", "Tucson Minyanim", { lat: 32.236, lng: -110.908 }, 12, []),
   metro("orange-county-ca", "Orange County (Irvine) Minyanim", { lat: 33.686, lng: -117.826 }, 18, []),
-  metro("albany", "Albany Minyanim", { lat: 42.674, lng: -73.803 }, 12, [])
+  metro("albany", "Albany Minyanim", { lat: 42.674, lng: -73.803 }, 12, []),
+  // --- Canada ---
+  metro("toronto", "Toronto Minyanim", { lat: 43.700, lng: -79.420 }, 15, []),
+  metro("montreal", "Montreal Minyanim", { lat: 45.470, lng: -73.650 }, 12, []),
+  metro("vancouver", "Vancouver Minyanim", { lat: 49.225, lng: -123.115 }, 12, []),
+  metro("winnipeg", "Winnipeg Minyanim", { lat: 49.867, lng: -97.166 }, 10, []),
+  metro("ottawa", "Ottawa Minyanim", { lat: 45.400, lng: -75.700 }, 10, [])
 ];
 // Markets with a genuine authoritative community minyan-times portal. Live times
 // still come from GoDaven; this names the local community source to cross-check.
@@ -860,6 +866,17 @@ const MAJOR_SHULS = {
   lakewood: [
     { name: "Bais Medrash Lutzk (Kollel Lutzk)", addr: "520 New Egypt Rd", url: "https://www.lutzk.org/zmanim", verified: "2026-07-07", shacharis: "7:00, 8:00, 9:00", pm: "Mincha rolling 1:38pm–8:15pm \xB7 Maariv 8:18pm–11:45pm" },
     { name: "Khal Chassidim", addr: "Lakewood", url: "https://www.khalchassidim.org/", verified: "2026-07-07", shacharis: "7:20 (Daf Yomi 6:40)", pm: "Mincha 4:15pm \xB7 Maariv 8:45 & 10:00pm" }
+  ],
+  // North Miami Beach: FloridaMinyan.com publishes a rules-based community sheet
+  // (like Detroit's) covering NMB/Hollywood/Miami Beach. Source: the sheet itself,
+  // dated 5/5/26 by its publisher — verified date reflects that, not today.
+  miami: [
+    { name: "Young Israel of NMB", addr: "990 NE 171st St", url: "https://www.halachaonline.com/fm", verified: "2026-05-05", shacharis: "6:45 (M/T 6:30), 8:00, 9:00", pm: "Mincha/Maariv 10 min after shkiah" },
+    { name: "Kollel (NMB)", addr: "990 NE 175th St", url: "https://www.halachaonline.com/fm", verified: "2026-05-05", shacharis: "7:00, 8:30", pm: "Mincha 2:45pm/8:45pm \xB7 Maariv 8:45–10:00pm" },
+    { name: "Kahal Chasidim", addr: "961 NE 172nd St", url: "https://www.halachaonline.com/fm", verified: "2026-05-05", shacharis: "Vasikin, 8:15, 8:30, 9:00, 9:30, 10:00, 10:30", pm: "Maariv 20 min after shkiah" },
+    { name: "Shaaray Tefila (NMB)", addr: "971 NE 172nd St", url: "https://www.halachaonline.com/fm", verified: "2026-05-05", shacharis: "6:15, 7:15 (M/T 7:00), 8:30", pm: "10 min before plag (summer)" },
+    { name: "Bais Menachem (NMB)", addr: "1005 NE 172nd Ter", url: "https://www.halachaonline.com/fm", verified: "2026-05-05", shacharis: "6:30, 7:30, 8:30", pm: "Maariv at Tzeis" },
+    { name: "Torah Veemunah", addr: "1000 NE 175th St", url: "https://www.halachaonline.com/fm", verified: "2026-05-05", shacharis: "6:30, 8:15", pm: null }
   ]
 };
 METROS.forEach((m) => { if (MAJOR_SHULS[m.id]) m.majorShuls = MAJOR_SHULS[m.id]; });
