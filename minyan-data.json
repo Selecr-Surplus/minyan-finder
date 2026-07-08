@@ -4148,7 +4148,25 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them.",
+      "majorShuls": [
+        {
+          "name": "Congregation Sons of Israel",
+          "addr": "720 Cooper Landing Rd, Cherry Hill",
+          "url": "https://www.soicherryhill.org/tefillot",
+          "verified": "2026-07-08",
+          "shacharis": "Wkdy 6:45 & 8:15 · RC/CHM 6:30 & 8:15 · Sun 7:00 & 8:00",
+          "pm": "Mincha/Maariv ~15 min before sunset"
+        },
+        {
+          "name": "Chabad of Camden & Burlington Counties",
+          "addr": "1925 Kresson Rd, Cherry Hill",
+          "url": "https://www.thechabadcenter.org/templates/articlecco_cdo/aid/210107/jewish/Prayer-Schedule.htm",
+          "verified": "2026-07-08",
+          "shacharis": "Wkdy 7:00 · Sun/hol 8:30 · RC/fast 6:45",
+          "pm": "Mincha/Maariv tied to candlelighting (zmanim)"
+        }
+      ]
     },
     {
       "id": "highland-park-nj",
@@ -4170,7 +4188,33 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them.",
+      "majorShuls": [
+        {
+          "name": "Congregation Ahavas Achim",
+          "addr": "216 S 1st Ave, Highland Park",
+          "url": "https://www.ahavasachim.org/",
+          "verified": "2026-07-08",
+          "shacharis": "M,Th 6:25 & 7:45 · T,W,F 6:35 & 7:45 · RC 6:15 & 7:45 · Sun/hol 8:00 & 9:00",
+          "pm": "Mincha ~10 min before sunset · Late Maariv M–Th 9:30pm"
+        },
+        {
+          "name": "Congregation Etz Ahaim (Sephardic)",
+          "addr": "Highland Park",
+          "url": "https://www.etzahaim.org/services",
+          "verified": "2026-07-08",
+          "shacharis": "M–Th, F 6:30 · Sun 8:00",
+          "pm": "Mincha/Maariv combined 7:00pm (fixed, not zmanim)"
+        },
+        {
+          "name": "Congregation Ahavas Yisrael (Edison)",
+          "addr": "1587 Route 27, Edison",
+          "url": "https://www.ayedison.org/",
+          "verified": "2026-07-08",
+          "shacharis": "Sun/hol 8:15 · M,Th 6:30 · T,W,F 6:30",
+          "pm": "Mincha/Maariv b'zman (seasonal)"
+        }
+      ]
     },
     {
       "id": "hartford",
