@@ -3584,7 +3584,65 @@
       "communitySource": {
         "label": "YI Brookline community minyanim",
         "url": "https://www.yibrookline.org/community-minyanim-2"
-      }
+      },
+      "majorShuls": [
+        {
+          "name": "Young Israel of Brookline (YIB)",
+          "addr": "62 Green St, Brookline",
+          "url": "https://www.yibrookline.org/minyan",
+          "verified": "2026-07-08",
+          "shacharis": "Sun 7:15/8:30 · M–F ~6:20–6:30 & 7:30",
+          "pm": "Mincha 8:10pm weekday · Maariv 8:35pm"
+        },
+        {
+          "name": "Congregation Kadimah-Toras Moshe (KTM)",
+          "addr": "101 Washington St, Brighton",
+          "url": "https://www.kadimahtorasmoshe.org/minyan.html",
+          "verified": "2026-07-08",
+          "shacharis": "Sun 8:30 · Fri 6:55 · RC/Chol Hamoed 6:40 (M–Th per weekly bulletin)",
+          "pm": "Per weekly bulletin (zmanim-driven)"
+        },
+        {
+          "name": "Congregation Beth Pinchas (Bostoner Rebbe)",
+          "addr": "1710 Beacon St, Brookline",
+          "url": "https://www.bostonershul.org",
+          "verified": "2026-07-08",
+          "shacharis": "Sun 7:30/8:30 · M,Th 6:10/7:00/8:00 · T,W,F 6:15/7:00/8:00",
+          "pm": "Mincha 8:10pm · Maariv 8:50pm (Sun–Thu)"
+        },
+        {
+          "name": "Kollel of Greater Boston",
+          "addr": "62 Cummings Rd, Brighton",
+          "url": "https://www.bostonkollel.com/weekly-schedule/",
+          "verified": "2026-07-08",
+          "shacharis": "Sun–Fri 7:05 · Shabbat 8:00 · RC/BeHaB 7:00",
+          "pm": "Mincha 2:45pm · Maariv 9:45pm (Sun–Thu)"
+        },
+        {
+          "name": "Young Israel of Sharon",
+          "addr": "100 Ames St, Sharon",
+          "url": "https://www.yisharon.org/daily-minyanim.html",
+          "verified": "2026-07-08",
+          "shacharis": "M–F 6:00 & 6:45 (RC/fast 6:30) · Sun/hol 7:15 & 8:15",
+          "pm": "Evening tied to candle-lighting (zmanim)"
+        },
+        {
+          "name": "Maimonides School Minyan",
+          "addr": "34 Philbrick Rd, Brookline",
+          "url": "https://www.maimonidesminyan.org/prayer.html",
+          "verified": "2026-07-08",
+          "shacharis": "M–F 6:30 · Sun/hol 8:00 · RC/CH/fast 6:15",
+          "pm": "Mostly zmanim-based (see site for halachic rationale)"
+        },
+        {
+          "name": "Congregation Shaarei Tefillah (Newton)",
+          "addr": "35 Morseland Ave, Newton Centre",
+          "url": "https://www.shaarei.org",
+          "verified": "2026-07-08",
+          "shacharis": "6:30 weekday (today's snapshot)",
+          "pm": "Mincha/Maariv combined 8:10pm · Fri 7:00pm"
+        }
+      ]
     },
     {
       "id": "atlanta",
