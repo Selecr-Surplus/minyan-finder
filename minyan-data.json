@@ -2931,7 +2931,65 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them.",
+      "majorShuls": [
+        {
+          "name": "Young Israel of Passaic-Clifton (YIPC)",
+          "addr": "200 Brook Ave, Passaic",
+          "url": "https://www.yipc.org/cal.php",
+          "verified": "2026-07-08",
+          "shacharis": "M–F 6:10/6:15 & 7:10 · Sun 7:15/8:15",
+          "pm": "Mincha/Maariv combined 8:15pm (zmanim)"
+        },
+        {
+          "name": "Congregation Ahavas Israel",
+          "addr": "181 Van Houten Ave, Passaic",
+          "url": "https://images.shulcloud.com/16360/uploads/Calendar-Files/calendar0726.pdf",
+          "verified": "2026-07-08",
+          "shacharis": "10–11 minyanim/day, Vasikin–10:30 (multiple)",
+          "pm": "Mincha 2:00–8:00pm (15+ times) · Maariv 8:40–11:59pm (many)"
+        },
+        {
+          "name": "Congregation Tifereth Israel",
+          "addr": "180 Passaic Ave, Passaic",
+          "url": "https://www.tifpassaic.org/",
+          "verified": "2026-07-08",
+          "shacharis": "~5:35, 6:15–6:25, 7:20–7:30",
+          "pm": "Mincha/Maariv combined 8:10–8:15pm + 10:00pm"
+        },
+        {
+          "name": "Beis Chabad of Passaic and Clifton",
+          "addr": "Passaic",
+          "url": "https://www.beischabad.org/minyan-times",
+          "verified": "2026-07-08",
+          "shacharis": "Sun 9:00 · M,Th 6:45 · T,W,F 6:50",
+          "pm": "Maariv Sun–Thu 9:00pm"
+        },
+        {
+          "name": "Yeshiva Ner Boruch – Passaic Torah Institute (PTI)",
+          "addr": "441 Passaic Ave, Passaic",
+          "url": "https://images.shulcloud.com/13521/uploads/YNBPTIDaveningShiurimSchedules-July2026.pdf",
+          "verified": "2026-07-08",
+          "shacharis": "7:00, 6:45–6:55, 8:00 daily",
+          "pm": "Mincha 1:40pm · Maariv 8:30–8:32pm + 9:45pm"
+        },
+        {
+          "name": "Congregation Bnei Torah of Clifton",
+          "addr": "614 Passaic Ave, Clifton",
+          "url": "https://www.bneitorahclifton.org/",
+          "verified": "2026-07-08",
+          "shacharis": "6:45 (RC 6:35) · Shabbos 8:30",
+          "pm": "Mincha 8:05–8:15pm range · Maariv 9:15pm fixed (+ 8:19–8:32pm variant)"
+        },
+        {
+          "name": "Congregation Shomrei Torah",
+          "addr": "19-10 Morlot Ave, Fair Lawn",
+          "url": "https://shomreitorah.shulcloud.com/calendar",
+          "verified": "2026-07-08",
+          "shacharis": "Sun 6:30/7:30/8:30 · M,Th 6:20/7:45/8:15 · T,W,F 6:30/7:45/8:15",
+          "pm": "Full Mincha/Maariv schedule on calendar"
+        }
+      ]
     },
     {
       "id": "monsey",
