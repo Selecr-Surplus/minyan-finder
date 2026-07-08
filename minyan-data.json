@@ -2939,6 +2939,27 @@
           "url": "https://ckynh.org",
           "shacharis": null,
           "pm": "Full Mincha/Maariv & Shabbos schedule on site"
+        },
+        {
+          "name": "Bais Medrash Torah Utfilla (Chestnut Ridge)",
+          "addr": "750 Chestnut Ridge Rd",
+          "url": "https://torahutfilla.org",
+          "shacharis": "Wkdy 6:45, 7:35 · Sun 6:45, 7:35, 8:45",
+          "pm": "Mincha 1:45pm & pre-shkiah · Maariv seasonal"
+        },
+        {
+          "name": "Kehilas Bais Avrohom (Forshay)",
+          "addr": "20 S Parker Dr",
+          "url": "https://kbaforshay.org",
+          "shacharis": "Wkdy 6:30, 7:30 · Sun 7:30",
+          "pm": "Mincha/Maariv per R. Edelstein's Forshay luach"
+        },
+        {
+          "name": "Congregation Borov",
+          "addr": "4 Parker Blvd",
+          "url": "https://borov.org",
+          "shacharis": "6:40, 7:30, 9:00",
+          "pm": "Mincha 1:40pm · Maariv 8:57/9:30/10:15pm"
         }
       ]
     },
