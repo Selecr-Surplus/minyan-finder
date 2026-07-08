@@ -4401,7 +4401,73 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them.",
+      "majorShuls": [
+        {
+          "name": "Congregation Shaar Hashomayim",
+          "addr": "450 Ave Kensington, Westmount",
+          "url": "https://www.theshaar.org/daily-services/",
+          "verified": "2026-07-07",
+          "shacharis": "Wkdy 7:30–8:30 · Sun 8:00–9:00",
+          "pm": "Mincha/Maariv combined 7:00–7:30pm"
+        },
+        {
+          "name": "Spanish & Portuguese Synagogue",
+          "addr": "4894 Ave St-Kevin, Snowdon",
+          "url": "https://www.thespanish.org/times-of-service/",
+          "verified": "2026-07-07",
+          "shacharis": "7:00 weekday",
+          "pm": "Mincha/Maariv combined 6:50pm (Fri 6:30pm)"
+        },
+        {
+          "name": "Beth Zion Congregation",
+          "addr": "5740 Ave Hudson, Cote St-Luc",
+          "url": "https://www.bethzion.com/",
+          "verified": "2026-07-07",
+          "shacharis": "Ashkenaz 6:15/8:00 · Sefardi 6:30/9:00 Sun",
+          "pm": "Ashkenaz Mincha/Maariv 6:50pm Sun–Thu · Sefardi 8:04–8:20pm"
+        },
+        {
+          "name": "Beth Israel Beth Aaron (BIBA)",
+          "addr": "6800 Ch. Mackle, Cote St-Luc",
+          "url": "https://www.shul.org/services",
+          "verified": "2026-07-07",
+          "shacharis": "Wkdy 7:00 · Sun 8:30",
+          "pm": "Mincha 10 min before shkia (zmanim)"
+        },
+        {
+          "name": "Tifereth Beth David Jerusalem (TBDJ)",
+          "addr": "6519 Ch. Baily, Cote St-Luc",
+          "url": "https://www.tbdj.org/",
+          "verified": "2026-07-07",
+          "shacharis": "7:00 weekday",
+          "pm": "Mincha/Maariv combined ~8:30pm (zmanim-adjusted)"
+        },
+        {
+          "name": "Shaare Zion Beth-El Congregation",
+          "addr": "Hampstead/Cote St-Luc area",
+          "url": "https://www.szbe.org/services",
+          "verified": "2026-07-07",
+          "shacharis": "M–Th, F 7:30 · Sun 8:45",
+          "pm": "Mincha/Maariv combined 6:00pm"
+        },
+        {
+          "name": "The Chevra (Chevra Kadisha B'nai Jacob)",
+          "addr": "5237 Ave Clanranald",
+          "url": "https://thechevra.ca/",
+          "verified": "2026-07-07",
+          "shacharis": "Sun 8:30 · M–F 8:00",
+          "pm": "Mincha/Maariv combined 7:00pm"
+        },
+        {
+          "name": "Congregation Beth Tikvah",
+          "addr": "136 Westpark Blvd, DDO",
+          "url": "https://www.bethtikvah.ca/",
+          "verified": "2026-07-07",
+          "shacharis": "7:00 weekday",
+          "pm": "Mincha/Maariv combined 8:35pm weekday"
+        }
+      ]
     },
     {
       "id": "vancouver",
