@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-07",
+  "updated": "2026-07-08",
   "note": "Minyan Finder region data.",
   "regions": [
     {
@@ -3293,7 +3293,89 @@
       "shachSun": [],
       "shachWeek": [],
       "erevShabbos": [],
-      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them.",
+      "majorShuls": [
+        {
+          "name": "Great Neck Synagogue (GNS)",
+          "addr": "26 Old Mill Rd",
+          "url": "https://greatnecksynagogue.shulcloud.com/todays-minyan-times",
+          "verified": "2026-07-08",
+          "shacharis": "Sun 7:30/8:30 · M,Th 6:35 · T,W,F 6:45 · all +7:45 (youth ctr)",
+          "pm": "Mincha/Maariv combined ~15 min before shkia"
+        },
+        {
+          "name": "Young Israel of Great Neck (YIGN)",
+          "addr": "236 Middle Neck Rd",
+          "url": "https://www.yign.org/calendar",
+          "verified": "2026-07-08",
+          "shacharis": "M,Th 6:35 & 7:40 · T,W,F 6:45 & 7:45",
+          "pm": "Mincha/Maariv combined ~8:10pm (summer)"
+        },
+        {
+          "name": "Torah Ohr",
+          "addr": "575 Middle Neck Rd",
+          "url": "https://www.torahohr.com/weekday-schedule.html",
+          "verified": "2026-07-08",
+          "shacharis": "4:50, 6:00, 6:40, 7:30, 8:00, 8:30, 9:00 (7 minyanim)",
+          "pm": "Mincha 1:45pm · combined Mincha/Arvit 6:45/7:10/7:40/8:10pm · late Arvit 9:35/10:15pm"
+        },
+        {
+          "name": "Shaare Rachamim (Persian/Sephardic)",
+          "addr": "Great Neck",
+          "url": "https://www.gnzmanim.com/location/shaare-rachamim",
+          "verified": "2026-07-08",
+          "shacharis": "6:35, 7:00, 7:45, 8:15, 9:00",
+          "pm": "Arvit 7:45pm · combined 8:15pm · late 10:05pm"
+        },
+        {
+          "name": "Shaare Shalom (Mashadi)",
+          "addr": "Great Neck",
+          "url": "https://www.gnzmanim.com/location/shaare-shalom",
+          "verified": "2026-07-08",
+          "shacharis": "6:15, 7:00, 7:25, 8:05, 8:30",
+          "pm": "Mincha/Arvit combined 6:45pm & 7:30pm"
+        },
+        {
+          "name": "Shaare Zion of Great Neck",
+          "addr": "Great Neck",
+          "url": "https://www.gnzmanim.com/location/shaare-zion-of-great-neck",
+          "verified": "2026-07-08",
+          "shacharis": "7:15",
+          "pm": "Mincha/Arvit combined 7:00pm"
+        },
+        {
+          "name": "Kol Yisrael Ahim Congregation",
+          "addr": "Great Neck",
+          "url": "https://www.gnzmanim.com/location/kol-yisrael-ahim-congregation",
+          "verified": "2026-07-08",
+          "shacharis": "7:00",
+          "pm": "Mincha/Arvit combined 7:00pm"
+        },
+        {
+          "name": "Kollel Ohr Haemet",
+          "addr": "Great Neck",
+          "url": "https://www.gnzmanim.com/location/kollel-ohr-haemet",
+          "verified": "2026-07-08",
+          "shacharis": "5:11 (vasikin), 7:00, 8:45",
+          "pm": "Mincha 1:30pm · Mincha/Arvit 8:05pm · Arvit 9:30pm"
+        },
+        {
+          "name": "Bet Eliyahu Congregation",
+          "addr": "Great Neck",
+          "url": "https://www.gnzmanim.com/location/bet-eliyahu-congregation-of-great-neck",
+          "verified": "2026-07-08",
+          "shacharis": "5:02 (vasikin-style)",
+          "pm": "Mincha/Arvit combined 7:10pm"
+        },
+        {
+          "name": "Ahavat Shalom",
+          "addr": "Great Neck",
+          "url": "https://www.gnzmanim.com/location/ahavat-shalom",
+          "verified": "2026-07-08",
+          "shacharis": "6:30, 7:30",
+          "pm": "Mincha/Arvit combined 7:00pm"
+        }
+      ]
     },
     {
       "id": "westchester",
