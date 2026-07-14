@@ -5772,6 +5772,22 @@
           "verified": "2026-07-07",
           "shacharis": "7:00 weekday",
           "pm": "Mincha/Maariv combined 8:35pm weekday"
+        },
+        {
+          "name": "Adath Israel (Hampstead)",
+          "addr": "223 Harrow Cres, Hampstead",
+          "url": "https://adath.ca/page_prayerschedule.html",
+          "verified": "2026-07-13",
+          "shacharis": "Sun & civil hol 8:00 · M–F 6:45 · RC/fast 6:30",
+          "pm": "Mincha ~10–15 min before sunset · Maariv follows Mincha"
+        },
+        {
+          "name": "Chabad of the Town (TMR)",
+          "addr": "4054 Rue Jean-Talon O",
+          "url": "https://www.chabadtmr.com/",
+          "verified": "2026-07-13",
+          "shacharis": "Sun 9:00 · M–F 7:15",
+          "pm": null
         }
       ]
     },
