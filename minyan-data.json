@@ -3870,6 +3870,62 @@
           "verified": "2026-07-08",
           "shacharis": "6:30, 7:30",
           "pm": "Mincha/Arvit combined 7:00pm"
+        },
+        {
+          "name": "Cherry Lane Minyan",
+          "addr": "16 Cherry Ln, Kings Point",
+          "url": "https://www.gnzmanim.com/location/cherry-lane-minyan",
+          "verified": "2026-07-13",
+          "shacharis": "6:45",
+          "pm": null
+        },
+        {
+          "name": "Congregation Ohel Menachem",
+          "addr": "Great Neck",
+          "url": "https://www.gnzmanim.com/location/congregation-ohel-menachem",
+          "verified": "2026-07-13",
+          "shacharis": "6:45",
+          "pm": "Mincha/Arvit combined 7:30pm"
+        },
+        {
+          "name": "Shaare Yashar",
+          "addr": "Great Neck",
+          "url": "https://www.gnzmanim.com/location/shaare-yashar",
+          "verified": "2026-07-13",
+          "shacharis": "6:55",
+          "pm": "Mincha 6:40pm · Maariv 10:00pm"
+        },
+        {
+          "name": "Chabad of Great Neck (Beis Menachem)",
+          "addr": "400 East Shore Rd, Kings Point",
+          "url": "https://www.chabadgn.com/",
+          "verified": "2026-07-13",
+          "shacharis": "Sun 7:30 & 9:00 · M–F 7:00 & 9:00",
+          "pm": "Maariv ~7:40pm (seasonal)"
+        },
+        {
+          "name": "Town Minyan",
+          "addr": "Great Neck",
+          "url": "https://www.gnzmanim.com/location/town-minyan",
+          "verified": "2026-07-13",
+          "shacharis": "7:15",
+          "pm": null
+        },
+        {
+          "name": "Dunkin Donuts Minyan",
+          "addr": "Great Neck",
+          "url": "https://www.gnzmanim.com/location/dunkin-donuts-minyan",
+          "verified": "2026-07-13",
+          "shacharis": "7:30",
+          "pm": "Mincha/Arvit combined 6:30pm"
+        },
+        {
+          "name": "98 Cuttermill Road Room 129",
+          "addr": "98 Cuttermill Rd, Great Neck",
+          "url": "https://www.gnzmanim.com/location/98-cuttermill-road-room-129",
+          "verified": "2026-07-13",
+          "shacharis": null,
+          "pm": "Mincha/Arvit combined 6:35pm"
         }
       ]
     },
