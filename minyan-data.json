@@ -4888,6 +4888,30 @@
           "verified": "2026-07-08",
           "shacharis": "Sun–Fri 8:00",
           "pm": "Mincha/Maariv 10 min before sunset (Sun–Thu)"
+        },
+        {
+          "name": "Congregation Israel of Springfield",
+          "addr": "339 Mountain Ave, Springfield",
+          "url": "https://www.congregationisrael.org/calendar",
+          "verified": "2026-07-13",
+          "shacharis": "Sun 6:30/8:00 · M 6:10/7:00 · T 6:15/7:00 · W 6:00/7:00 · Th 6:10/7:00 · F 6:15/7:00 (2 minyanim/day)",
+          "pm": "Mincha M–Th 8:15–8:20pm"
+        },
+        {
+          "name": "SOMA Chabad (Congregation Ahavath Zion)",
+          "addr": "421 Boyden Ave, Maplewood",
+          "url": "https://sojewish.org/",
+          "verified": "2026-07-13",
+          "shacharis": "M,Th,RC 10:30",
+          "pm": "Maariv daily 7:30pm"
+        },
+        {
+          "name": "Chabad at Short Hills",
+          "addr": "650 South Orange Ave, Short Hills",
+          "url": "https://www.chabadatshorthills.org/",
+          "verified": "2026-07-13",
+          "shacharis": "M–F 7:15 · Sun 8:15",
+          "pm": null
         }
       ]
     },
