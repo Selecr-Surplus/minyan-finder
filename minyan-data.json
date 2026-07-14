@@ -2891,6 +2891,30 @@
           "verified": "2026-07-13",
           "shacharis": "Sun 8:20",
           "pm": "Mincha Sun 4:00pm"
+        },
+        {
+          "name": "Khal Arugas Habosem (Rabbi Taub's Shul)",
+          "addr": "3509 Clarks Ln",
+          "url": "https://www.rabbitaubsshul.org/",
+          "verified": "2026-07-13",
+          "shacharis": "Sun 7:00 & 8:00 · M–F 6:20 & 7:20",
+          "pm": "Mincha 10 min before shkiah · Maariv after Mincha + fixed 9:00pm"
+        },
+        {
+          "name": "Moses Montefiore Anshe Emunah",
+          "addr": "7000 Rockland Hills Dr",
+          "url": "https://www.mmae.org/",
+          "verified": "2026-07-13",
+          "shacharis": "M–F 7:00 · Sun 9:00",
+          "pm": "Maariv Sun–Thu 7:00pm"
+        },
+        {
+          "name": "Ohel Yakov Congregation",
+          "addr": "3200 Glen Ave, Pikesville",
+          "url": "https://www.ohelyakov.org/",
+          "verified": "2026-07-13",
+          "shacharis": "Vasikin ~5:24 (this week's zmanim)",
+          "pm": "Plag Mincha ~6:45pm · Fri Mincha/Maariv 7:00pm"
         }
       ]
     },
