@@ -6000,6 +6000,37 @@
       "shachWeek": [],
       "erevShabbos": [],
       "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
+    },
+    {
+      "id": "waterbury",
+      "title": "Waterbury Minyanim",
+      "center": {
+        "lat": 41.575,
+        "lng": -73.041
+      },
+      "radius": 10,
+      "curated": false,
+      "links": [
+        {
+          "label": "Waterbury Jewish Life — shuls",
+          "url": "https://waterburyjewishlife.com/waterbury/shuls/"
+        },
+        {
+          "label": "Yeshiva Ateres Shmuel of Waterbury",
+          "url": "https://yasw.org/"
+        }
+      ],
+      "source": "GoDaven",
+      "sourceTag": "GoDaven",
+      "sub": "Live minyan times near you · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     }
   ]
 }
