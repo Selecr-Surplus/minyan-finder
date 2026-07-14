@@ -3730,6 +3730,70 @@
           "verified": "2026-07-08",
           "shacharis": "6:00, 7:00, 8:00 (M–Th, Fri, Sun)",
           "pm": "Mincha Gedola 1:45pm · Mincha/Maariv 7:20pm · late Maariv 9:20pm"
+        },
+        {
+          "name": "Congregation Ramath Orah",
+          "addr": "550 W 110th St",
+          "url": "https://www.ramathorah.org/",
+          "verified": "2026-07-13",
+          "shacharis": "M–Th, F 7:00 · Sun 8:00 · RC/Selichos 6:45",
+          "pm": "Fri Mincha 7:00pm (seasonal) · Sun Mincha 8:10pm"
+        },
+        {
+          "name": "Mount Sinai Jewish Center",
+          "addr": "135 Bennett Ave, Washington Hts",
+          "url": "https://www.mtsinaishul.com/calendar",
+          "verified": "2026-07-13",
+          "shacharis": "Sun–Thu 7:20–8:30 (varies) · Fri 7:30",
+          "pm": "Mincha/Maariv combined 8:15–8:20pm (seasonal)"
+        },
+        {
+          "name": "West Side Institutional Synagogue",
+          "addr": "Upper West Side",
+          "url": "https://www.wsisny.org/daily-minyan-times.html",
+          "verified": "2026-07-13",
+          "shacharis": "Sun 8:30 · M,Th 7:10 · T,W,F 7:20",
+          "pm": "Mincha/Maariv combined 6:40pm"
+        },
+        {
+          "name": "Congregation Ohav Sholom",
+          "addr": "270 W 84th St",
+          "url": "https://www.osnyc.org/zmanim/",
+          "verified": "2026-07-13",
+          "shacharis": "Sun 8:30 · M,Th 7:10 · T,W,F 7:25",
+          "pm": "Mincha ~8:20pm (seasonal)"
+        },
+        {
+          "name": "Manhattan Sephardic Congregation (Moroccan Shul)",
+          "addr": "325 E 75th St",
+          "url": "https://www.sepharad.org/",
+          "verified": "2026-07-13",
+          "shacharis": "M,Th 6:20 early + T,W,F 6:30 early · M–F 8:00 late · Sun 8:30",
+          "pm": "Mincha combined 7:00pm (seasonal, until ~Sept 10)"
+        },
+        {
+          "name": "Chabad of the West Side",
+          "addr": "170 W 97th St",
+          "url": "https://www.chabadwestside.org/",
+          "verified": "2026-07-13",
+          "shacharis": "M–F 7:30 · Sun 9:00 · RC/fasts 7:00",
+          "pm": "No standing daily Mincha/Maariv minyan"
+        },
+        {
+          "name": "Chabad of Midtown Manhattan",
+          "addr": "509 Fifth Ave",
+          "url": "https://www.chabadmidtown.com/",
+          "verified": "2026-07-13",
+          "shacharis": "M–F 7:45 · Sun 8:30",
+          "pm": "Mincha M–Th 1:45pm & 6:45pm · Maariv M–Th 7:00pm"
+        },
+        {
+          "name": "Gevurah Shul",
+          "addr": "56 Pine St, Financial District",
+          "url": "https://www.gevurahshul.org/",
+          "verified": "2026-07-13",
+          "shacharis": "M–F 8:00 + 8:30 Sephardic",
+          "pm": "Mincha 2:00pm & 4:00pm (M–Th)"
         }
       ]
     },
