@@ -4294,6 +4294,30 @@
           "verified": "2026-07-08",
           "shacharis": "Wkdy 6:30 · Sun 9:00",
           "pm": "Mincha/Maariv tied to candlelighting (zmanim)"
+        },
+        {
+          "name": "Kesher Israel Congregation (Georgetown Synagogue)",
+          "addr": "2801 N St NW, Washington DC",
+          "url": "https://www.kesher.org/calendar.html",
+          "verified": "2026-07-13",
+          "shacharis": "M,Th 7:05 · T,W,F 7:15 · Sun 8:00",
+          "pm": "Mincha/Maariv combined 8:20pm daily (seasonal)"
+        },
+        {
+          "name": "Chabad of Potomac",
+          "addr": "11621 Seven Locks Rd, Potomac MD",
+          "url": "https://www.chabadpotomac.com/",
+          "verified": "2026-07-13",
+          "shacharis": "M–F 7:30 · Sun 8:30",
+          "pm": "Mincha/Maariv 15 min before sunset (Sun–Thu)"
+        },
+        {
+          "name": "JewishROC (Jewish Rockville Outreach Center)",
+          "addr": "11304 Old Georgetown Rd, Rockville MD",
+          "url": "https://www.jewishroc.org/daily-services",
+          "verified": "2026-07-13",
+          "shacharis": "M–F 7:30 · Sun 8:30",
+          "pm": "Mincha/Maariv 20 min before sunset (Sun–Thu)"
         }
       ]
     },
