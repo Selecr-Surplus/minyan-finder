@@ -4131,6 +4131,14 @@
           "verified": "2026-07-08",
           "shacharis": "Sun 8:00/8:10 · M,Th 6:40 & 8:00 · T,W,F 6:45 & 8:00",
           "pm": "Mincha Sun–Thu 4:20pm"
+        },
+        {
+          "name": "Young Israel of Riverdale (YIR)",
+          "addr": "4502 Henry Hudson Pkwy",
+          "url": "https://yiriverdale.org/index.php?p=young-israel-riverdale-minyanim",
+          "verified": "2026-07-13",
+          "shacharis": "M–F 6:30/7:00/7:30 · Sun 7:30/8:15 · RC 6:20/7:15",
+          "pm": "Mincha/Maariv Sun–Thu 8:15pm · late Maariv 9:00pm"
         }
       ]
     },
@@ -4203,6 +4211,22 @@
           "verified": "2026-07-08",
           "shacharis": "M–F 7:00 (RC 6:45) · Sun 8:00",
           "pm": "Mincha 10 min before sunset daily · Maariv follows"
+        },
+        {
+          "name": "Beth Midrash Harav • B'nai Jacob (BMHBJ)",
+          "addr": "7926 Algon Ave, Rhawnhurst",
+          "url": "https://bmhbj.org/current-zmanim.pdf",
+          "verified": "2026-07-13",
+          "shacharis": "Sun 8:00 · M,Th 6:25 & 7:30 · T,W,F 6:35 & 7:30 · RC/fast 6:20 & 7:30",
+          "pm": "Weekday Mincha/Maariv not published; Shabbos block is zmanim-rule"
+        },
+        {
+          "name": "Chabad of Penn Wynne",
+          "addr": "7571 Haverford Ave, Wynnefield",
+          "url": "https://www.chabadpennwynne.org/",
+          "verified": "2026-07-13",
+          "shacharis": "Wkdy 6:45",
+          "pm": null
         }
       ]
     },
