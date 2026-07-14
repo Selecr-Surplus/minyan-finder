@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-13",
+  "updated": "2026-07-14",
   "note": "Minyan Finder region data.",
   "regions": [
     {
@@ -5604,6 +5604,22 @@
           "verified": "2026-07-07",
           "shacharis": "Sun 8:30 · M–F 7:00",
           "pm": null
+        },
+        {
+          "name": "Ayin L'Tzion Zichron Yisroel (ALTZY)",
+          "addr": "18 Atkinson Ave, Thornhill",
+          "url": "https://www.altzy.org/",
+          "verified": "2026-07-13",
+          "shacharis": "Wkdy 6:30 · Shabbat 9:00",
+          "pm": "Mincha/Maariv combined 8:40pm weekday · Fri night 7:00pm"
+        },
+        {
+          "name": "Chabad Flamingo",
+          "addr": "8001 Bathurst St, Thornhill",
+          "url": "https://www.chabadflamingo.com/",
+          "verified": "2026-07-13",
+          "shacharis": "M–F early 6:35–6:40 & regular 8:00 · Sun 8:00 & 9:15",
+          "pm": "Mincha/Maariv seasonal (4:30–6:00pm range)"
         }
       ]
     },
