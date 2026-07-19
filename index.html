@@ -849,24 +849,24 @@ METROS.forEach((m) => { if (COMMUNITY_SOURCES[m.id]) m.communitySource = COMMUNI
 // (no snapshot staleness). Shown above the full live GoDaven list. Verified 2026-07.
 const MAJOR_SHULS = {
   monsey: [
-    { name: "Bais Medrash Ohr Chaim — 18 Forshay", addr: "18 Forshay Rd", url: "https://18forshay.com/minyanim/", verified: "2026-07-07", shacharis: "Vasikin + continuous ≈ 6:15am–12:30pm", pm: "Mincha/Maariv run continuously into the night" },
-    { name: "Congregation Bais Torah", addr: "Carlton Rd, Suffern", url: "https://www.baistorah.org/services", verified: "2026-07-07", shacharis: "6:30, 7:45 (Sun 7:45)", pm: "Mincha/Maariv seasonal" },
-    { name: "Shaarei Tefillah (CST)", addr: "29 Parker Blvd", url: "https://cstshul.shulcloud.com/calendar", verified: "2026-07-07", shacharis: "6:50", pm: "Mincha Sun–Thu 1:30pm \xB7 Maariv 9:45pm" },
-    { name: "Kehillas Bais Yehudah (KBY)", addr: "Wesley Hills", url: "https://www.kbyshul.org/cal.php", verified: "2026-07-07", shacharis: "Sun 7/8/9 \xB7 M,Th 6:20/7:15/8:30 \xB7 T,W,F 6:30/7:15/8:30", pm: "Mincha/Maariv 8:20pm (seasonal)" },
-    { name: "Bais Mayer Chevra Shas", addr: "3 Smolley Dr", url: "https://bmcsmonsey.org/calendar/", verified: "2026-07-07", shacharis: "Sun 9:00 \xB7 M–F 8:25", pm: "Mincha 1:35pm \xB7 Maariv 8:45pm (seasonal)" },
-    { name: "Ohaiv Shalom (New Hempstead)", addr: "18 Bridle Rd", url: "https://www.ohaivshalom.org/", verified: "2026-07-07", shacharis: "7:00, 8:00", pm: "Mincha/Maariv ≈ 8:20pm \xB7 Maariv 9:30pm" },
-    { name: "Kehilas Yeshorim (Wesley Hills)", addr: "1 Harriett Ln", url: "https://www.kywh.org/", verified: "2026-07-07", shacharis: "6:45, 7:30", pm: "Mincha 2:35pm & pre-shkiah \xB7 Maariv 9:00/10:15pm" },
+    { name: "Bais Medrash Ohr Chaim — 18 Forshay", addr: "18 Forshay Rd", url: "https://18forshay.com/minyanim/", verified: "2026-07-19", shacharis: "Vasikin + continuous ≈ 6:15am–12:30pm", pm: "Mincha/Maariv run continuously into the night" },
+    { name: "Congregation Bais Torah", addr: "Carlton Rd, Suffern", url: "https://www.baistorah.org/services", verified: "2026-07-19", shacharis: "6:30, 7:45 (Sun same)", pm: "Mincha/Maariv 7:50pm (seasonal)" },
+    { name: "Shaarei Tefillah (CST)", addr: "29 Parker Blvd", url: "https://cstshul.shulcloud.com/calendar", verified: "2026-07-19", shacharis: "M–Th 6:45–6:50 \xB7 Sun 7:45 \xB7 Fri 6:50", pm: "Mincha Sun–Thu 1:30pm \xB7 Maariv 9:45pm" },
+    { name: "Kehillas Bais Yehudah (KBY)", addr: "Wesley Hills", url: "https://www.kbyshul.org/cal.php", verified: "2026-07-19", shacharis: "Sun 7/8/9 \xB7 M,Th 6:20/7:15/8:30 \xB7 T,W,F 6:30/7:15/8:30", pm: "Mincha/Maariv 8:10–8:20pm (seasonal)" },
+    { name: "Bais Mayer Chevra Shas", addr: "3 Smolley Dr", url: "https://bmcsmonsey.org/calendar/", verified: "2026-07-19", shacharis: "Sun 9:00 \xB7 M–F 8:25", pm: "Mincha 1:35pm \xB7 Maariv 8:45pm (seasonal)" },
+    { name: "Ohaiv Shalom (New Hempstead)", addr: "18 Bridle Rd", url: "https://www.ohaivshalom.org/", verified: "2026-07-19", shacharis: "7:00, 8:00, 8:45", pm: "Mincha/Maariv 8:10pm \xB7 Maariv 9:30pm" },
+    { name: "Kehilas Yeshorim (Wesley Hills)", addr: "1 Harriett Ln", url: "https://www.kywh.org/", verified: "2026-07-19", shacharis: "Daf 7:15 \xB7 7:30, 8:00", pm: "Mincha 2:35pm & pre-shkiah 8:15pm \xB7 Maariv 10:15pm" },
     { name: "Knesses Yisroel (New Hempstead)", addr: "698 Union Rd", url: "https://ckynh.org/CKY_Mincha_Marriv.pdf", verified: "2026-07-07", shacharis: null, pm: "Full Mincha/Maariv & Shabbos schedule on site" },
-    { name: "Bais Medrash Torah Utfilla (Chestnut Ridge)", addr: "750 Chestnut Ridge Rd", url: "https://torahutfilla.org/", verified: "2026-07-07", shacharis: "Wkdy 6:45, 7:35 \xB7 Sun 6:45, 7:35, 8:45", pm: "Mincha 1:45pm & pre-shkiah \xB7 Maariv seasonal" },
-    { name: "Kehilas Bais Avrohom (Forshay)", addr: "20 S Parker Dr", url: "https://kbaforshay.org/zmanim", verified: "2026-07-07", shacharis: "Wkdy 6:30, 7:30 \xB7 Sun 7:30", pm: "Mincha/Maariv per R. Edelstein's Forshay luach" },
-    { name: "Congregation Borov", addr: "4 Parker Blvd", url: "https://www.borov.org/services", verified: "2026-07-07", shacharis: "6:40, 7:30, 9:00", pm: "Mincha 1:40pm \xB7 Maariv 8:57/9:30/10:15pm" }
+    { name: "Bais Medrash Torah Utfilla (Chestnut Ridge)", addr: "750 Chestnut Ridge Rd", url: "https://torahutfilla.org/", verified: "2026-07-19", shacharis: "Wkdy 6:45, 7:35 \xB7 Sun 6:45, 7:35, 8:45", pm: "Mincha 1:45pm & 15 min bfr shkiah \xB7 Maariv at shkiah & 9:45pm" },
+    { name: "Kehilas Bais Avrohom (Forshay)", addr: "20 S Parker Dr", url: "https://kbaforshay.org/zmanim", verified: "2026-07-19", shacharis: "Wkdy 6:30, 7:30 \xB7 Sun 7:30", pm: "Mincha/Maariv ~8:07pm (seasonal) \xB7 Maariv 10:15pm" },
+    { name: "Congregation Borov", addr: "4 Parker Blvd", url: "https://www.borov.org/services", verified: "2026-07-19", shacharis: "6:40, 7:30, 9:00 (Sun 8:00, 9:00)", pm: "Mincha 1:40pm \xB7 Mincha/Maariv 8:50pm \xB7 Maariv 9:30/10:15pm" }
   ],
   // Lakewood is overwhelmingly GoDaven-only (yeshiva/beis-medrash minyan culture).
   // Only 2 big shuls self-publish scrapable text schedules; GoDaven's 416+ live
   // minyanim are the real primary source here.
   lakewood: [
-    { name: "Bais Medrash Lutzk (Kollel Lutzk)", addr: "520 New Egypt Rd", url: "https://www.lutzk.org/zmanim", verified: "2026-07-07", shacharis: "7:00, 8:00, 9:00", pm: "Mincha rolling 1:38pm–8:15pm \xB7 Maariv 8:18pm–11:45pm" },
-    { name: "Khal Chassidim", addr: "Lakewood", url: "https://www.khalchassidim.org/", verified: "2026-07-07", shacharis: "7:20 (Daf Yomi 6:40)", pm: "Mincha 4:15pm \xB7 Maariv 8:45 & 10:00pm" }
+    { name: "Bais Medrash Lutzk (Kollel Lutzk)", addr: "520 New Egypt Rd", url: "https://www.lutzk.org/zmanim", verified: "2026-07-19", shacharis: "7:00, 8:00, 9:00, 9:30", pm: "Mincha rolling 1:40pm–8:15pm \xB7 Maariv 8:30pm–12:30am" },
+    { name: "Khal Chassidim", addr: "Lakewood", url: "https://www.khalchassidim.org/", verified: "2026-07-19", shacharis: "8:00 (Daf Yomi 9:15)", pm: "Mincha 12:30pm & 4:15pm \xB7 Maariv 8:45 & 10:00pm" }
   ],
   teaneck: [
     { name: "Congregation Bnai Yeshurun (CBY)", addr: "641 W Englewood Ave", url: "https://teaneckminyanim.com/orgs/O824845765080", verified: "2026-07-07", shacharis: "6:00–9:15 (multiple, minyan factory)", pm: "Mincha 1:45/6:45pm \xB7 Maariv 8:15/9:00/9:17/10:01/11:00pm" },
