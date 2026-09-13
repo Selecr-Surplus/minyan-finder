@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-06",
+  "updated": "2026-09-13",
   "note": "Minyan Finder region data.",
   "regions": [
     {
@@ -3899,71 +3899,71 @@
           "name": "Young Israel of Great Neck (YIGN)",
           "addr": "236 Middle Neck Rd",
           "url": "https://www.yign.org/calendar",
-          "verified": "2026-07-08",
-          "shacharis": "M,Th 6:35 & 7:40 · T,W,F 6:45 & 7:45",
-          "pm": "Mincha/Maariv combined ~8:10pm (summer)"
+          "verified": "2026-09-13",
+          "shacharis": "Sun 7:00 & 8:30 · M,Th 6:35 & 7:40 · T,W,F 6:45 & 7:45",
+          "pm": "Mincha/Maariv combined ~7:05pm (early Sept, tracks sunset)"
         },
         {
           "name": "Torah Ohr",
           "addr": "575 Middle Neck Rd",
           "url": "https://www.torahohr.com/weekday-schedule.html",
-          "verified": "2026-07-08",
-          "shacharis": "4:50, 6:00, 6:40, 7:30, 8:00, 8:30, 9:00 (7 minyanim)",
-          "pm": "Mincha 1:45pm · combined Mincha/Arvit 6:45/7:10/7:40/8:10pm · late Arvit 9:35/10:15pm"
+          "verified": "2026-09-13",
+          "shacharis": "Netz (5:35 wk of 9/14), 6:00, 6:40, 7:30, 8:00, 8:30, 9:00 (7 minyanim)",
+          "pm": "Mincha 1:45pm · combined Mincha/Arvit 6:30/6:55/7:18pm (wk of 9/14) · late Arvit 9:35/10:15pm"
         },
         {
           "name": "Shaare Rachamim (Persian/Sephardic)",
           "addr": "Great Neck",
           "url": "https://www.gnzmanim.com/location/shaare-rachamim",
-          "verified": "2026-07-08",
+          "verified": "2026-09-13",
           "shacharis": "6:35, 7:00, 7:45, 8:15, 9:00",
-          "pm": "Arvit 7:45pm · combined 8:15pm · late 10:05pm"
+          "pm": "Mincha/Arvit combined 7:00pm · Arvit 7:45pm · late 10:05pm (wk of 9/14)"
         },
         {
           "name": "Shaare Shalom (Mashadi)",
           "addr": "Great Neck",
           "url": "https://www.gnzmanim.com/location/shaare-shalom",
-          "verified": "2026-07-08",
+          "verified": "2026-09-13",
           "shacharis": "6:15, 7:00, 7:25, 8:05, 8:30",
-          "pm": "Mincha/Arvit combined 6:45pm & 7:30pm"
+          "pm": "Mincha/Arvit combined 6:15pm & 7:00pm (wk of 9/14)"
         },
         {
           "name": "Shaare Zion of Great Neck",
           "addr": "Great Neck",
           "url": "https://www.gnzmanim.com/location/shaare-zion-of-great-neck",
-          "verified": "2026-07-08",
-          "shacharis": "7:15",
+          "verified": "2026-09-13",
+          "shacharis": "6:25, 7:15",
           "pm": "Mincha/Arvit combined 7:00pm"
         },
         {
           "name": "Kol Yisrael Ahim Congregation",
           "addr": "Great Neck",
           "url": "https://www.gnzmanim.com/location/kol-yisrael-ahim-congregation",
-          "verified": "2026-07-08",
-          "shacharis": "7:00",
+          "verified": "2026-09-13",
+          "shacharis": "6:13 (netz-based, wk of 9/14), 7:00",
           "pm": "Mincha/Arvit combined 7:00pm"
         },
         {
           "name": "Kollel Ohr Haemet",
           "addr": "Great Neck",
           "url": "https://www.gnzmanim.com/location/kollel-ohr-haemet",
-          "verified": "2026-07-08",
-          "shacharis": "5:11 (vasikin), 7:00, 8:45",
-          "pm": "Mincha 1:30pm · Mincha/Arvit 8:05pm · Arvit 9:30pm"
+          "verified": "2026-09-13",
+          "shacharis": "6:15 (vasikin, wk of 9/14), 7:00, 8:45",
+          "pm": "Mincha 1:30pm · Mincha/Arvit 6:35pm (wk of 9/14) · Arvit 9:30pm"
         },
         {
           "name": "Bet Eliyahu Congregation",
           "addr": "Great Neck",
           "url": "https://www.gnzmanim.com/location/bet-eliyahu-congregation-of-great-neck",
-          "verified": "2026-07-08",
-          "shacharis": "5:02 (vasikin-style)",
-          "pm": "Mincha/Arvit combined 7:10pm"
+          "verified": "2026-09-13",
+          "shacharis": "6:06 (vasikin-style, wk of 9/14), 7:30",
+          "pm": "Mincha/Arvit combined 6:50pm (wk of 9/14)"
         },
         {
           "name": "Ahavat Shalom",
           "addr": "Great Neck",
           "url": "https://www.gnzmanim.com/location/ahavat-shalom",
-          "verified": "2026-07-08",
+          "verified": "2026-09-13",
           "shacharis": "6:30, 7:30",
           "pm": "Mincha/Arvit combined 7:00pm"
         },
@@ -4283,31 +4283,31 @@
           "name": "Young Israel Ezras Israel of Potomac",
           "addr": "11618 Seven Locks Rd, Potomac MD",
           "url": "https://www.yieip.org/",
-          "verified": "2026-07-08",
-          "shacharis": "Sun 8:00 · M–F 6:50–7:00 (varies)",
-          "pm": "Mincha/Maariv tied to sunset, ~8:20pm this week"
+          "verified": "2026-09-13",
+          "shacharis": "Sun 8:00 · M,Th 6:00 · T,W,F 6:15 (wk of 9/14, Aseres Yemei Teshuva)",
+          "pm": "Mincha/Maariv 7:00pm (wk of 9/14, tracks sunset)"
         },
         {
           "name": "Young Israel Shomrai Emunah (YISE)",
           "addr": "1132 Arcola Ave, Silver Spring MD",
           "url": "https://wp.yise.org/davening/",
-          "verified": "2026-07-08",
-          "shacharis": "6:15, 6:45–6:55, 7:30 (Sephardi), 8:45 (multiple concurrent)",
-          "pm": "Maariv 8:15–8:25pm (varies by minyan)"
+          "verified": "2026-09-13",
+          "shacharis": "5:45, 6:05–6:15, 7:30, 8:15 (multiple concurrent; wk of 9/14, Aseres Yemei Teshuva)",
+          "pm": "Mincha/Maariv 7:00pm weekday (wk of 9/14)"
         },
         {
           "name": "Kemp Mill Synagogue (KMS)",
           "addr": "11910 Kemp Mill Rd, Silver Spring MD",
           "url": "https://www.kmsynagogue.org/calendar",
-          "verified": "2026-07-08",
-          "shacharis": "Sun 8:00/9:00 · M–F 6:45/7:00, 7:15/7:30, 9:00 (3 concurrent)",
-          "pm": "Maariv ~8:20–8:25pm weekdays"
+          "verified": "2026-09-13",
+          "shacharis": "Sun 8:00/9:00 · M 6:30 & 7:15 · Th 6:45 & 7:15 · T,W,F 7:00 & 7:30 (wk of 9/14)",
+          "pm": "Mincha/Maariv 6:45–7:00pm weekdays (wk of 9/14)"
         },
         {
           "name": "Ohev Sholom – The National Synagogue",
           "addr": "1600 Jonquil St NW, Washington DC",
           "url": "https://www.ohevdc.org/minyan",
-          "verified": "2026-07-08",
+          "verified": "2026-09-13",
           "shacharis": "Wkdy 7:15 (RC 7:00)",
           "pm": "~15 min before sunset (summer) · 7:45pm fixed (winter)"
         },
@@ -4315,7 +4315,7 @@
           "name": "Woodside Synagogue Ahavas Torah",
           "addr": "9001 Georgia Ave, Silver Spring MD",
           "url": "https://www.wsat.org/davening/",
-          "verified": "2026-07-08",
+          "verified": "2026-09-13",
           "shacharis": "M,Th 6:50 · T,W,F 7:00 · Sun 8:00 · RC 6:40",
           "pm": "Mincha zmanim-tied · winter extra Maariv 8:45pm M–Th"
         },
@@ -4323,7 +4323,7 @@
           "name": "Magen David Sephardic Congregation",
           "addr": "11215 Woodglen Dr, Rockville MD",
           "url": "https://www.magendavidsephardic.org/daily-minyan",
-          "verified": "2026-07-08",
+          "verified": "2026-09-13",
           "shacharis": "M–F ~6:40–6:50 · Sun ~7:50",
           "pm": "Mincha just before sunset (verify by phone)"
         },
@@ -4339,7 +4339,7 @@
           "name": "Silver Spring Jewish Center",
           "addr": "1401 Arcola Ave, Silver Spring MD",
           "url": "https://www.ssjcshul.org/",
-          "verified": "2026-07-08",
+          "verified": "2026-09-13",
           "shacharis": "Sun 8:30 · M–F 6:50 & 8:15",
           "pm": "Mincha 2:00pm Sun–Thu · Maariv 9:15pm Sun–Thu"
         },
@@ -4412,15 +4412,15 @@
           "name": "Young Israel of Brookline (YIB)",
           "addr": "62 Green St, Brookline",
           "url": "https://www.yibrookline.org/minyan",
-          "verified": "2026-07-08",
-          "shacharis": "Sun 7:15/8:30 · M–F ~6:20–6:30 & 7:30",
-          "pm": "Mincha 8:10pm weekday · Maariv 8:35pm"
+          "verified": "2026-09-13",
+          "shacharis": "Sun 7:15 & 8:30 · M–F 7:15 main (early minyan 5:00–7:00 shifts w/ Selichos, wk of 9/6)",
+          "pm": "Mincha 6:50pm · Maariv 7:15pm Sun–Thu (wk of 9/6, tracks sunset) · late Maariv 10pm (WhatsApp)"
         },
         {
           "name": "Congregation Kadimah-Toras Moshe (KTM)",
           "addr": "101 Washington St, Brighton",
           "url": "https://www.kadimahtorasmoshe.org/minyan.html",
-          "verified": "2026-07-08",
+          "verified": "2026-09-13",
           "shacharis": "Sun 8:30 · Fri 6:55 · RC/Chol Hamoed 6:40 (M–Th per weekly bulletin)",
           "pm": "Per weekly bulletin (zmanim-driven)"
         },
@@ -4428,15 +4428,15 @@
           "name": "Congregation Beth Pinchas (Bostoner Rebbe)",
           "addr": "1710 Beacon St, Brookline",
           "url": "https://www.bostonershul.org",
-          "verified": "2026-07-08",
-          "shacharis": "Sun 7:30/8:30 · M,Th 6:10/7:00/8:00 · T,W,F 6:15/7:00/8:00",
-          "pm": "Mincha 8:10pm · Maariv 8:50pm (Sun–Thu)"
+          "verified": "2026-09-13",
+          "shacharis": "Sun 7:30/8:30 · Selichos wk of 9/6: M 7:00/8:00 · T–Th ~5:50/6:35/7:35 · F 5:00/7:00",
+          "pm": "Mincha 6:50pm · Maariv 7:30pm (Sun–Thu, early Sept, tracks sunset) · T–Th also Mincha 1:30pm"
         },
         {
           "name": "Kollel of Greater Boston",
           "addr": "62 Cummings Rd, Brighton",
           "url": "https://www.bostonkollel.com/weekly-schedule/",
-          "verified": "2026-07-08",
+          "verified": "2026-09-13",
           "shacharis": "Sun–Fri 7:05 · Shabbat 8:00 · RC/BeHaB 7:00",
           "pm": "Mincha 2:45pm · Maariv 9:45pm (Sun–Thu)"
         },
@@ -4444,7 +4444,7 @@
           "name": "Young Israel of Sharon",
           "addr": "100 Ames St, Sharon",
           "url": "https://www.yisharon.org/daily-minyanim.html",
-          "verified": "2026-07-08",
+          "verified": "2026-09-13",
           "shacharis": "M–F 6:00 & 6:45 (RC/fast 6:30) · Sun/hol 7:15 & 8:15",
           "pm": "Evening tied to candle-lighting (zmanim)"
         },
@@ -4452,7 +4452,7 @@
           "name": "Maimonides School Minyan",
           "addr": "34 Philbrick Rd, Brookline",
           "url": "https://www.maimonidesminyan.org/prayer.html",
-          "verified": "2026-07-08",
+          "verified": "2026-09-13",
           "shacharis": "M–F 6:30 · Sun/hol 8:00 · RC/CH/fast 6:15",
           "pm": "Mostly zmanim-based (see site for halachic rationale)"
         },
@@ -6189,6 +6189,41 @@
           "pm": "Mincha/Arvit 6:45pm (seasonal · additional times on syminyan.com)"
         }
       ]
+    },
+    {
+      "id": "scranton",
+      "title": "Scranton / NE Pennsylvania Minyanim",
+      "center": {
+        "lat": 41.404,
+        "lng": -75.648
+      },
+      "radius": 15,
+      "curated": false,
+      "links": [
+        {
+          "label": "Jewish Discovery Center NEPA — daily minyanim",
+          "url": "https://www.jewishnepa.com/templates/articlecco_cdo/aid/2830117/jewish/Daily-Minyanim.htm"
+        },
+        {
+          "label": "Beth Shalom Congregation — calendar",
+          "url": "https://www.bethshalomscranton.com/calendar"
+        },
+        {
+          "label": "GoDaven — Scranton shuls",
+          "url": "https://www.godaven.com/list-shuls/scranton/pa"
+        }
+      ],
+      "source": "GoDaven",
+      "sourceTag": "GoDaven",
+      "sub": "Live minyan times near you · zmanim computed for your location",
+      "presets": [],
+      "shuls": {},
+      "mincha": [],
+      "maariv": [],
+      "shachSun": [],
+      "shachWeek": [],
+      "erevShabbos": [],
+      "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them."
     }
   ]
 }
