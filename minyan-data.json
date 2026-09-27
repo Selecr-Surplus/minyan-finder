@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-13",
+  "updated": "2026-09-27",
   "note": "Minyan Finder region data.",
   "regions": [
     {
@@ -2824,23 +2824,23 @@
           "name": "Suburban Orthodox Congregation Toras Chaim (SOTC)",
           "addr": "7504 Seven Mile Ln",
           "url": "https://www.suburbanorthodox.org/calendar",
-          "verified": "2026-07-08",
+          "verified": "2026-09-27",
           "shacharis": "6:45, 8:20, 9:00 (Sun–Fri varies)",
-          "pm": "Plag Mincha ~6:50–6:55pm · Mincha/Maariv 8:10–8:25pm"
+          "pm": "Plag Mincha ~5:45–6:05pm · Mincha/Maariv ~7:05–7:25pm (Sept)"
         },
         {
           "name": "Congregation Ner Tamid (Greenspring Valley)",
           "addr": "6214 Pimlico Rd",
           "url": "https://nertamidbaltimore.shulcloud.com/calendar",
-          "verified": "2026-07-08",
+          "verified": "2026-09-27",
           "shacharis": "Wkdy 6:45 (Amud Yomi 6:20) · Sun 7:50",
-          "pm": "Mincha/Maariv 6:52pm (Summer Clock – Plag)"
+          "pm": "Mincha/Maariv at Plag (5:26pm late Sept; Summer Clock – Plag)"
         },
         {
           "name": "Bnai Jacob Shaarei Zion (BJSZ)",
           "addr": "6600 Park Heights Ave",
           "url": "https://www.bjsz.org/bjsz-live-stream-schedule.html",
-          "verified": "2026-07-08",
+          "verified": "2026-09-27",
           "shacharis": "Wkdy 6:25, 6:40, 7:45 · Sun 7:30, 9:00",
           "pm": "Mincha/Maariv rotating 7:35–8:25pm by season · also 10:00pm"
         },
@@ -3703,15 +3703,15 @@
           "name": "Lincoln Square Synagogue",
           "addr": "180 Amsterdam Ave",
           "url": "https://www.lss.org/calendar",
-          "verified": "2026-07-08",
-          "shacharis": "Wkdy ~7:00–7:10 · Sun 7:10 & 8:30",
-          "pm": "Mincha/Maariv ~8:15–8:20pm (zmanim-linked)"
+          "verified": "2026-09-27",
+          "shacharis": "Wkdy 7:00–7:10 & 7:50 · Sun 7:10 & 8:30",
+          "pm": "Mincha/Maariv ~6:40–7:20pm Sept (zmanim-linked)"
         },
         {
           "name": "The Jewish Center",
           "addr": "131 W 86th St",
           "url": "https://www.jewishcenter.org/tefillah.html",
-          "verified": "2026-07-08",
+          "verified": "2026-09-27",
           "shacharis": "Wkdy 7:15 & 8:00 · Sun/hol 7:45",
           "pm": "Mincha/Maariv per weekly bulletin"
         },
@@ -3735,25 +3735,25 @@
           "name": "Fifth Avenue Synagogue",
           "addr": "5 E 62nd St",
           "url": "https://www.fifthavenuesynagogue.org/",
-          "verified": "2026-07-08",
+          "verified": "2026-09-27",
           "shacharis": "M–F 8:00 · Sun 8:30",
-          "pm": "Maariv Fri 7:00pm · M–Th & Sun 8:15pm"
+          "pm": "Mincha/Maariv M–Th 6:25pm · Fri 6:35pm · Sat 6:30pm (late Sept)"
         },
         {
           "name": "Congregation Shearith Israel (Spanish & Portuguese)",
           "addr": "2 W 70th St",
           "url": "https://www.shearithisrael.org/",
-          "verified": "2026-07-08",
+          "verified": "2026-09-27",
           "shacharis": "Sun 8:05 · M–F 7:05",
-          "pm": "Maariv Sun–Thu 6:45pm · Fri 7:00pm"
+          "pm": "Minha & Arbit Tue–Thu 6:30pm (week of 9/22; seasonal)"
         },
         {
           "name": "Young Israel of the West Side (YIWS)",
           "addr": "210 W 91st St",
           "url": "https://www.yiws.org/",
-          "verified": "2026-07-08",
+          "verified": "2026-09-27",
           "shacharis": "6:30 (early) + 7:45 (main) weekday",
-          "pm": "Mincha/Maariv combined 8:20pm weekday"
+          "pm": "Mincha/Maariv combined ~6:35pm (late Sept; tracks shkia)"
         },
         {
           "name": "K'hal Adath Jeshurun (Breuer's/KAJ)",
