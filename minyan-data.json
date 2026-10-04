@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-27",
+  "updated": "2026-10-04",
   "note": "Minyan Finder region data.",
   "regions": [
     {
@@ -2808,17 +2808,17 @@
           "name": "Congregation Shomrei Emunah",
           "addr": "6221 Greenspring Ave",
           "url": "https://www.shomreiemunah.org/daven/",
-          "verified": "2026-07-08",
-          "shacharis": "Sun 6:20/7:15/8:00/9:00 · M–F multiple 6:00–9:00 (2 locations)",
-          "pm": "Mincha/Maariv rotating weekly, ~8:20–9:20pm by season"
+          "verified": "2026-10-04",
+          "shacharis": "Sun 6:20/7:15/8:00/8:30/9:00 · M–F multiple 6:00–9:00 (2 locations: MS & BM)",
+          "pm": "Mincha/Maariv 2 minyanim, rotating weekly (wk of 10/5: 5:15 & 6:25pm; 10/11: 5:05 & 6:15pm; ~10 min earlier each week)"
         },
         {
           "name": "Congregation Beth Tfiloh",
           "addr": "3300 Old Court Rd",
-          "url": "https://www.bethtfiloh.com/services/services",
-          "verified": "2026-07-08",
+          "url": "https://www.bethtfiloh.com/services/calendars/services-calendar/services-calendar-simple",
+          "verified": "2026-10-04",
           "shacharis": "Wkdy 7:20 (Daf 6:20) · Sun 9:00",
-          "pm": "Mincha/Maariv 6:40–6:45pm weekday (seasonal)"
+          "pm": "Mincha/Maariv 6:25pm early Oct, 6:15 mid-Oct (seasonal, weekly)"
         },
         {
           "name": "Suburban Orthodox Congregation Toras Chaim (SOTC)",
@@ -2848,17 +2848,17 @@
           "name": "Agudath Israel of Baltimore",
           "addr": "6200 Park Heights Ave",
           "url": "https://www.agudah.com/services",
-          "verified": "2026-07-08",
-          "shacharis": "Sun,T,W,F 6:20–9:00 · M,Th 6:10–9:00 (6 minyanim)",
-          "pm": "Mincha ladder 2:00–8:00pm · Maariv ladder 8:00pm–12:00am (up to 11 nightly)"
+          "verified": "2026-10-04",
+          "shacharis": "Sun,T,W,F 6:20/7:00/7:30/8:00/8:30 · M,Th 6:10/6:50/7:20/8:00/8:30 (9:00 Sukkos/Pesach only)",
+          "pm": "Mincha 2:00/4:00/5:00/5:30 + b'zman (~6:25 early Oct, 6:10 mid-Oct) · Maariv shkia, 8:00, then every half hour 8:30–11:00 (+7:30 from 10/11, 7:00 from 10/18)"
         },
         {
           "name": "Congregation Shearith Israel",
           "addr": "5835 Park Heights Ave",
           "url": "https://www.sicbaltimore.org",
-          "verified": "2026-07-08",
+          "verified": "2026-10-04",
           "shacharis": "Sun 7:00/8:00 · M,Th 6:15/6:45 · T,W,F 6:30/7:00",
-          "pm": "Mincha/Maariv rotating 7:00–8:20pm · also 6:00pm & 2:45pm Kollel Mincha · Maariv also 10:00pm"
+          "pm": "Mincha/Maariv weekly-rotating Sun–Thu (6:20pm wk of 10/5, 6:10 wk of 10/11; ~4:25–4:45 in winter) · Kollel Mincha 2:45 · Mincha 6:00 (DST only) · Maariv also at shkia & 10:00pm"
         },
         {
           "name": "Chabad of Park Heights (Ohel Levi Yitzchok Lubavitch)",
@@ -3008,7 +3008,7 @@
           "name": "Kollel Tiferes Yisroel (KTY)",
           "addr": "7001 N California Ave, West Ridge",
           "url": "https://www.ktychicago.com/",
-          "verified": "2026-07-08",
+          "verified": "2026-10-04",
           "shacharis": "7:05",
           "pm": "Mincha 12:45pm · Maariv 9:30pm"
         },
@@ -3025,8 +3025,8 @@
           "addr": "3541 W Peterson Ave, North Park",
           "url": "https://www.agudahshulchicago.com/",
           "verified": "2026-07-08",
-          "shacharis": "Zmanim-based (Shema by 9:09am)",
-          "pm": "Mincha Gedola 1:33pm / Ketana 5:20pm · Maariv after Tzais 9:20pm"
+          "shacharis": "No published minyan schedule (site lists zmanim only) · call shul",
+          "pm": null
         },
         {
           "name": "Kehilat Chovevei Tzion",
@@ -3251,9 +3251,9 @@
           "name": "Congregation Bnei Torah of Clifton",
           "addr": "614 Passaic Ave, Clifton",
           "url": "https://www.bneitorahclifton.org/",
-          "verified": "2026-07-08",
-          "shacharis": "6:45 (RC 6:35) · Shabbos 8:30",
-          "pm": "Mincha 8:05–8:15pm range · Maariv 9:15pm fixed (+ 8:19–8:32pm variant)"
+          "verified": "2026-10-04",
+          "shacharis": "M–F 6:45 (RC 6:35; +8:30 wk of 10/5 only) · Sun 8:00 · Shabbos 8:30",
+          "pm": "Maariv 9:15pm Sun–Thu fixed · Sun Mincha ~18 min before shkia (6:05pm 10/11) + Maariv ~6:20pm · Fri Mincha 2 min after licht"
         },
         {
           "name": "Congregation Shomrei Torah",
@@ -3718,18 +3718,18 @@
         {
           "name": "Congregation Ohab Zedek (OZ)",
           "addr": "118 W 95th St",
-          "url": "https://www.ozny.org/home",
-          "verified": "2026-07-08",
-          "shacharis": "M,Th 6:00/6:50/7:50 · T,W,F 6:00/7:00/8:00 · Sun 8:00",
-          "pm": "Plag ~6:40pm · Zman Mincha/Maariv ~8:20pm"
+          "url": "https://www.ozny.org/calendar",
+          "verified": "2026-10-04",
+          "shacharis": "M,Th 6:00/6:50/7:50 · T,W,F 6:10/7:00/8:00 · Sun 8:00",
+          "pm": "Zman Mincha/Maariv ~6:20pm early Oct (seasonal)"
         },
         {
           "name": "Congregation Kehilath Jeshurun (KJ)",
           "addr": "125 E 85th St",
-          "url": "https://www.ckj.org/shabbat",
-          "verified": "2026-07-08",
+          "url": "https://www.ckj.org/calendar",
+          "verified": "2026-10-04",
           "shacharis": "M,Th 7:15 · T,W,F 7:30 · Sun/hol 8:30 · RC 7:00",
-          "pm": "Maariv 6:50pm weekday (fixed)"
+          "pm": "Mincha/Maariv ~6:20pm early Oct (seasonal)"
         },
         {
           "name": "Fifth Avenue Synagogue",
@@ -3759,63 +3759,63 @@
           "name": "K'hal Adath Jeshurun (Breuer's/KAJ)",
           "addr": "85-93 Bennett Ave",
           "url": "https://www.kajinc.org/",
-          "verified": "2026-07-08",
+          "verified": "2026-10-04",
           "shacharis": "6:00, 7:00, 8:00 (M–Th, Fri, Sun)",
-          "pm": "Mincha Gedola 1:45pm · Mincha/Maariv 7:20pm · late Maariv 9:20pm"
+          "pm": "Mincha Gedola 1:30pm · Mincha/Maariv ~6:18pm early Oct (seasonal) · late Maariv 8:00pm"
         },
         {
           "name": "Congregation Ramath Orah",
           "addr": "550 W 110th St",
           "url": "https://www.ramathorah.org/",
-          "verified": "2026-07-13",
+          "verified": "2026-10-04",
           "shacharis": "M–Th, F 7:00 · Sun 8:00 · RC/Selichos 6:45",
-          "pm": "Fri Mincha 7:00pm (seasonal) · Sun Mincha 8:10pm"
+          "pm": "Fri Mincha/Kabbalat Shabbat ~candle-lighting (6:20pm Oct 2, seasonal)"
         },
         {
           "name": "Mount Sinai Jewish Center",
           "addr": "135 Bennett Ave, Washington Hts",
           "url": "https://www.mtsinaishul.com/calendar",
-          "verified": "2026-07-13",
-          "shacharis": "Sun–Thu 7:20–8:30 (varies) · Fri 7:30",
-          "pm": "Mincha/Maariv combined 8:15–8:20pm (seasonal)"
+          "verified": "2026-10-04",
+          "shacharis": "M,Th 7:20 · T,W,F 7:30 · Sun 8:30",
+          "pm": "Mincha/Maariv combined ~6:15pm early Oct → ~6:05pm mid-Oct (seasonal)"
         },
         {
           "name": "West Side Institutional Synagogue",
           "addr": "Upper West Side",
           "url": "https://www.wsisny.org/daily-minyan-times.html",
-          "verified": "2026-07-13",
+          "verified": "2026-10-04",
           "shacharis": "Sun 8:30 · M,Th 7:10 · T,W,F 7:20",
-          "pm": "Mincha/Maariv combined 6:40pm"
+          "pm": "Mincha/Maariv combined (time varies seasonally — see site)"
         },
         {
           "name": "Congregation Ohav Sholom",
           "addr": "270 W 84th St",
           "url": "https://www.osnyc.org/zmanim/",
-          "verified": "2026-07-13",
+          "verified": "2026-10-04",
           "shacharis": "Sun 8:30 · M,Th 7:10 · T,W,F 7:25",
-          "pm": "Mincha ~8:20pm (seasonal)"
+          "pm": "Mincha (seasonal time — see site)"
         },
         {
           "name": "Manhattan Sephardic Congregation (Moroccan Shul)",
           "addr": "325 E 75th St",
           "url": "https://www.sepharad.org/",
-          "verified": "2026-07-13",
-          "shacharis": "M,Th 6:20 early + T,W,F 6:30 early · M–F 8:00 late · Sun 8:30",
-          "pm": "Mincha combined 7:00pm (seasonal, until ~Sept 10)"
+          "verified": "2026-10-04",
+          "shacharis": "M–F 6:15 early · M–F 8:00 late · Sun 8:30",
+          "pm": "Minha/Arvit combined 6:15pm (until Oct 8) · 6:00pm Oct 11–15 (seasonal)"
         },
         {
           "name": "Chabad of the West Side",
           "addr": "170 W 97th St",
-          "url": "https://www.chabadwestside.org/",
-          "verified": "2026-07-13",
-          "shacharis": "M–F 7:30 · Sun 9:00 · RC/fasts 7:00",
+          "url": "https://www.chabadwestside.org/templates/articlecco_cdo/aid/4461945/jewish/Services-Schedule.htm",
+          "verified": "2026-10-04",
+          "shacharis": "Sun–F 9:30 (at Chabad Annex, 676 Amsterdam Ave)",
           "pm": "No standing daily Mincha/Maariv minyan"
         },
         {
           "name": "Chabad of Midtown Manhattan",
           "addr": "509 Fifth Ave",
-          "url": "https://www.chabadmidtown.com/",
-          "verified": "2026-07-13",
+          "url": "https://www.chabadmidtown.com/templates/articlecco_cdo/aid/964063/jewish/Minyanim.htm",
+          "verified": "2026-10-04",
           "shacharis": "M–F 7:45 · Sun 8:30",
           "pm": "Mincha M–Th 1:45pm & 6:45pm · Maariv M–Th 7:00pm"
         },
@@ -3823,7 +3823,7 @@
           "name": "Gevurah Shul",
           "addr": "56 Pine St, Financial District",
           "url": "https://www.gevurahshul.org/",
-          "verified": "2026-07-13",
+          "verified": "2026-10-04",
           "shacharis": "M–F 8:00 + 8:30 Sephardic",
           "pm": "Mincha 2:00pm & 4:00pm (M–Th)"
         }
@@ -4330,10 +4330,10 @@
         {
           "name": "Beth Sholom Congregation (Potomac)",
           "addr": "11825 Seven Locks Rd, Potomac MD",
-          "url": "https://www.bethsholom.org/dailyservices",
-          "verified": "2026-07-08",
-          "shacharis": "6:30 weekdays",
-          "pm": "Mincha/Maariv ~8:20pm (tied to sunset) · largest Orthodox shul in DC metro"
+          "url": "https://www.bethsholom.org/calendar",
+          "verified": "2026-10-04",
+          "shacharis": "Wkdy 6:30 · Sun & legal holidays 8:00",
+          "pm": "Mincha/Maariv ~6:30pm early Oct, 6:10 mid-Oct (tied to sunset) · largest Orthodox shul in DC metro"
         },
         {
           "name": "Silver Spring Jewish Center",
@@ -4346,10 +4346,10 @@
         {
           "name": "Chabad of Silver Spring",
           "addr": "519 Lamberton Dr, Silver Spring MD",
-          "url": "https://www.chabadsilverspring.com/",
-          "verified": "2026-07-08",
+          "url": "https://www.chabadsilverspring.com/templates/articlecco_cdo/aid/5270759/jewish/Times-for-Davening.htm",
+          "verified": "2026-10-04",
           "shacharis": "Wkdy 6:30 · Sun 9:00",
-          "pm": "Mincha/Maariv tied to candlelighting (zmanim)"
+          "pm": "Mincha/Maariv Sun–Thu weekly-rotating (6:25pm wk of 10/5, 6:15 wk of 10/11, 6:05 wk of 10/18)"
         },
         {
           "name": "Kesher Israel Congregation (Georgetown Synagogue)",
@@ -4459,10 +4459,10 @@
         {
           "name": "Congregation Shaarei Tefillah (Newton)",
           "addr": "35 Morseland Ave, Newton Centre",
-          "url": "https://www.shaarei.org",
-          "verified": "2026-07-08",
-          "shacharis": "6:30 weekday (today's snapshot)",
-          "pm": "Mincha/Maariv combined 8:10pm · Fri 7:00pm"
+          "url": "https://www.shaarei.org/calendar",
+          "verified": "2026-10-04",
+          "shacharis": "Wkdy 6:30 · Sun 8:00 · RC 6:15",
+          "pm": "Mincha/Maariv combined ~6:10pm early Oct, 5:55 mid-Oct (shifts weekly with sunset) · Fri ~5 min after candles"
         },
         {
           "name": "Beth Menachem Chabad of Newton",
@@ -4556,7 +4556,7 @@
           "name": "New Toco Shul",
           "addr": "2003 LaVista Rd NE",
           "url": "https://www.newtocoshul.com/services",
-          "verified": "2026-07-13",
+          "verified": "2026-10-04",
           "shacharis": "M–F vasikin ~20–25 min before netz · Sun 8:30",
           "pm": "Mincha 15 min before plag/shkiah (rule, evergreen)"
         },
@@ -4564,16 +4564,16 @@
           "name": "Congregation Beth Tefillah (Chabad of Georgia)",
           "addr": "5065 Highpoint Rd, Sandy Springs",
           "url": "https://www.bethtefillah.org/services",
-          "verified": "2026-07-13",
+          "verified": "2026-10-04",
           "shacharis": "Sun 9:00 · M–F 7:30",
           "pm": "Mincha 20 min before shkiah (rule, evergreen)"
         },
         {
           "name": "Chabad of Cobb County",
           "addr": "4450 Lower Roswell Rd, Marietta",
-          "url": "https://www.chabadofcobb.com/",
-          "verified": "2026-07-13",
-          "shacharis": "Sun 8:00 · M–F 7:00",
+          "url": "https://www.chabadofcobb.com/templates/articlecco_cdo/aid/1226427/jewish/OFFICE-HOURS-AND-SERVICES-SCHEDULE.htm",
+          "verified": "2026-10-04",
+          "shacharis": "Sun 8:15 · M–F 7:00",
           "pm": "Mincha M–Th 20 min before sundown (rule)"
         },
         {
@@ -4588,7 +4588,7 @@
           "name": "Chabad at Emory",
           "addr": "1526 N Decatur Rd",
           "url": "https://www.chabademory.org/place-category/minyanim",
-          "verified": "2026-07-13",
+          "verified": "2026-10-04",
           "shacharis": "Mon/Thu/Shabbat mornings only (campus, limited days)",
           "pm": "Fri 7:30pm"
         }
