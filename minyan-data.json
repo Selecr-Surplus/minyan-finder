@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-11",
+  "updated": "2026-10-18",
   "note": "Minyan Finder region data.",
   "regions": [
     {
@@ -2737,15 +2737,15 @@
           "name": "Bais Medrash Lutzk (Kollel Lutzk)",
           "addr": "520 New Egypt Rd",
           "url": "https://www.lutzk.org/zmanim",
-          "verified": "2026-07-19",
-          "shacharis": "7:00, 8:00, 9:00, 9:30",
-          "pm": "Mincha rolling 1:40pm–8:15pm · Maariv 8:30pm–12:30am"
+          "verified": "2026-10-18",
+          "shacharis": "7:00, 8:00, 9:00 (Sun also 9:30)",
+          "pm": "Mincha 1:10pm, then every 15 min to 6:00pm · Mincha/Maariv ~6:00pm (wk of 10/18) · Maariv every 15 min 6:15pm–12:30am"
         },
         {
           "name": "Khal Chassidim",
           "addr": "Lakewood",
           "url": "https://www.khalchassidim.org/",
-          "verified": "2026-07-19",
+          "verified": "2026-10-18",
           "shacharis": "8:00 (Daf Yomi 9:15)",
           "pm": "Mincha 12:30pm & 4:15pm · Maariv 8:45 & 10:00pm"
         }
@@ -3328,23 +3328,23 @@
           "name": "Bais Medrash Ohr Chaim — 18 Forshay",
           "addr": "18 Forshay Rd",
           "url": "https://18forshay.com/minyanim/",
-          "verified": "2026-07-19",
+          "verified": "2026-10-18",
           "shacharis": "Vasikin + continuous ≈ 6:15am–12:30pm",
-          "pm": "Mincha/Maariv run continuously into the night"
+          "pm": "Mincha every 15 min 1:30–7:30pm · Maariv ~5:55pm–2:00am (wk of 10/18)"
         },
         {
           "name": "Congregation Bais Torah",
           "addr": "Carlton Rd, Suffern",
           "url": "https://www.baistorah.org/services",
-          "verified": "2026-07-19",
+          "verified": "2026-10-18",
           "shacharis": "6:30, 7:45 (Sun same)",
-          "pm": "Mincha/Maariv 7:50pm (seasonal)"
+          "pm": "Mincha/Maariv tracks shkiah — see shul calendar (site's posted 7:50pm appears stale)"
         },
         {
           "name": "Shaarei Tefillah (CST)",
           "addr": "29 Parker Blvd",
           "url": "https://cstshul.shulcloud.com/calendar",
-          "verified": "2026-07-19",
+          "verified": "2026-10-18",
           "shacharis": "M–Th 6:45–6:50 · Sun 7:45 · Fri 6:50",
           "pm": "Mincha Sun–Thu 1:30pm · Maariv 9:45pm"
         },
@@ -3352,33 +3352,33 @@
           "name": "Kehillas Bais Yehudah (KBY)",
           "addr": "Wesley Hills",
           "url": "https://www.kbyshul.org/cal.php",
-          "verified": "2026-07-19",
+          "verified": "2026-10-18",
           "shacharis": "Sun 7/8/9 · M,Th 6:20/7:15/8:30 · T,W,F 6:30/7:15/8:30",
-          "pm": "Mincha/Maariv 8:10–8:20pm (seasonal)"
+          "pm": "Mincha/Maariv 5:55pm (wk of 10/18; Fri 5:52)"
         },
         {
           "name": "Bais Mayer Chevra Shas",
           "addr": "3 Smolley Dr",
           "url": "https://bmcsmonsey.org/calendar/",
-          "verified": "2026-07-19",
+          "verified": "2026-10-18",
           "shacharis": "Sun 9:00 · M–F 8:25",
-          "pm": "Mincha 1:35pm · Maariv 8:45pm (seasonal)"
+          "pm": "Mincha 1:35pm · Maariv 8:45pm"
         },
         {
           "name": "Ohaiv Shalom (New Hempstead)",
           "addr": "18 Bridle Rd",
           "url": "https://www.ohaivshalom.org/",
-          "verified": "2026-07-19",
+          "verified": "2026-10-18",
           "shacharis": "7:00, 8:00, 8:45",
-          "pm": "Mincha/Maariv 8:10pm · Maariv 9:30pm"
+          "pm": "Mincha/Maariv 5:55pm (wk of 10/18) · Maariv 9:30pm"
         },
         {
           "name": "Kehilas Yeshorim (Wesley Hills)",
           "addr": "1 Harriett Ln",
           "url": "https://www.kywh.org/",
-          "verified": "2026-07-19",
+          "verified": "2026-10-18",
           "shacharis": "Daf 7:15 · 7:30, 8:00",
-          "pm": "Mincha 2:35pm & pre-shkiah 8:15pm · Maariv 10:15pm"
+          "pm": "Mincha 2:35pm & pre-shkiah 6:01pm (10/18) · Maariv 10:15pm"
         },
         {
           "name": "Knesses Yisroel (New Hempstead)",
@@ -3392,25 +3392,25 @@
           "name": "Bais Medrash Torah Utfilla (Chestnut Ridge)",
           "addr": "750 Chestnut Ridge Rd",
           "url": "https://torahutfilla.org/",
-          "verified": "2026-07-19",
+          "verified": "2026-10-18",
           "shacharis": "Wkdy 6:45, 7:35 · Sun 6:45, 7:35, 8:45",
-          "pm": "Mincha 1:45pm & 15 min bfr shkiah · Maariv at shkiah & 9:45pm"
+          "pm": "Mincha 1:45pm (Sun also 12:45) & 15 min bfr shkiah · Maariv at shkiah, 8:15pm (winter only) & 9:45pm"
         },
         {
           "name": "Kehilas Bais Avrohom (Forshay)",
           "addr": "20 S Parker Dr",
           "url": "https://kbaforshay.org/zmanim",
-          "verified": "2026-07-19",
+          "verified": "2026-10-18",
           "shacharis": "Wkdy 6:30, 7:30 · Sun 7:30",
-          "pm": "Mincha/Maariv ~8:07pm (seasonal) · Maariv 10:15pm"
+          "pm": "Mincha/Maariv 6:00pm (posted wk of 10/11) · Maariv 10:15pm"
         },
         {
           "name": "Congregation Borov",
           "addr": "4 Parker Blvd",
           "url": "https://www.borov.org/services",
-          "verified": "2026-07-19",
-          "shacharis": "6:40, 7:30, 9:00 (Sun 8:00, 9:00)",
-          "pm": "Mincha 1:40pm · Mincha/Maariv 8:50pm · Maariv 9:30/10:15pm"
+          "verified": "2026-10-18",
+          "shacharis": "6:35, 7:30, 9:00 (Sun 8:00, 9:00)",
+          "pm": "Mincha 1:40pm · Mincha/Maariv 6:36pm (wk of 10/18) · Maariv 8:30pm"
         }
       ]
     },
@@ -3449,63 +3449,63 @@
           "name": "Congregation Beth Sholom (Lawrence)",
           "addr": "390 Broadway, Lawrence",
           "url": "https://www.bethsholomlawrence.org/davening",
-          "verified": "2026-07-26",
-          "shacharis": "Early 6:15/6:25/6:30 · 7:15/7:30 · 8:15/8:30 (varies by day)",
-          "pm": "Mincha/Maariv 8:00–8:15pm combined"
+          "verified": "2026-10-18",
+          "shacharis": "M,Th 6:25 · T,W,F 6:30 · 7:30 · 8:15 · Sun 7:30/8:30",
+          "pm": "Mincha/Maariv 5:50pm (wk of 10/18; 5:45pm wk of 10/25)"
         },
         {
           "name": "Congregation Kneseth Israel (The White Shul)",
           "addr": "728 Empire Ave, Far Rockaway",
           "url": "https://www.whiteshul.com/davening-schedule.html",
-          "verified": "2026-07-26",
+          "verified": "2026-10-18",
           "shacharis": "6:00–9:30 every half hour (minyan factory)",
-          "pm": "Mincha 10 min before Plag & 8:00pm · Maariv 8:30pm · minyan on the hour 2–10pm"
+          "pm": "Mincha 10 min before Plag & 5:50pm (seasonal) · Maariv 6:20pm (seasonal) · minyan on the hour 2–10pm"
         },
         {
           "name": "Young Israel of Woodmere",
           "addr": "859 Peninsula Blvd, Woodmere",
           "url": "https://www.yiwoodmere.org/",
-          "verified": "2026-07-26",
+          "verified": "2026-10-18",
           "shacharis": "Wkdy 5:45, 6:00, 6:30, 7:00, 7:30, 8:00, 8:30, 9:00 · Sun 6:15, 7:00, 7:45, 8:30, 9:15",
-          "pm": "Mincha 2:00/5:00/6:15pm · Mincha/Maariv 8:10pm · Maariv 9:00/9:30pm"
+          "pm": "Mincha 2:00/5:00pm (Sun 2:00/3:00/4:00/5:00/6:15pm) · Mincha/Maariv 6:05pm (posted wk of 10/11) · Maariv 7:30, 8:00, 8:30, 9:00, 9:30pm"
         },
         {
           "name": "Congregation Aish Kodesh",
           "addr": "894 Woodmere Pl, Woodmere",
           "url": "https://www.aishkodesh.org/calendar",
-          "verified": "2026-07-26",
-          "shacharis": "Wkdy 6:00–6:40 early · 7:00/7:15 · 8:00, 8:30, 9:00",
-          "pm": "Mincha/Maariv combined 7:55–8:15pm (seasonal)"
+          "verified": "2026-10-18",
+          "shacharis": "Sun 7:00, 8:00, 9:00 · M,Th 6:10 · T,W,F 6:20 · 7:00, 8:00",
+          "pm": "Mincha/Maariv 5:50pm (wk of 10/18; 5:40pm wk of 10/25)"
         },
         {
           "name": "Young Israel of Lawrence-Cedarhurst",
           "addr": "8 Spruce St, Cedarhurst",
           "url": "https://www.yilc.org/calendar",
-          "verified": "2026-07-26",
-          "shacharis": "Sun 6:30, 7:15, 8:00, 9:00, 9:45 · M–F 5:50, 6:20/6:30, 7:00, 8:00, 9:00",
-          "pm": "Early Mincha 2:00pm · Plag Mincha/Maariv ~6:30–6:45pm · Maariv to 8:15pm · late Maariv 9:45pm"
+          "verified": "2026-10-18",
+          "shacharis": "Sun 6:30, 7:15, 8:00, 9:00, 9:45 · M–F vasikin ~5:55 (moving), 6:20 (M,Th)/6:30, 7:00, 8:00, 9:00",
+          "pm": "Early Mincha 2:00pm (Sun/Fri) · Plag Mincha/Maariv ~4:46–4:51pm · Mincha/Maariv 5:50pm (wk of 10/18) · late Maariv 9:45pm (M–Th)"
         },
         {
           "name": "Congregation Bais Ephraim Yitzchok (CBEY)",
           "addr": "812 Peninsula Blvd, Woodmere",
           "url": "https://www.cbey.org/",
-          "verified": "2026-07-26",
+          "verified": "2026-10-18",
           "shacharis": "Sun 8:00 & 9:00 · wkdy 7:00 & 8:00 (Daf 6:10)",
-          "pm": "Mincha/Maariv combined 8:00pm"
+          "pm": "Mincha/Maariv 5:50pm (wk of 10/18)"
         },
         {
           "name": "Congregation Anshei Chesed",
           "addr": "1170 William St, Hewlett",
           "url": "https://www.ansheichesed.com/cal.php",
-          "verified": "2026-07-26",
-          "shacharis": "Sun 7:00/8:00 · M–Th 6:20/7:45 · F 6:30/7:45",
-          "pm": "Mincha/Maariv 8:00–8:15pm Sun–Thu · Fri early Mincha 6:27pm, Plag 6:42pm"
+          "verified": "2026-10-18",
+          "shacharis": "Sun 7:00 · M,Th 6:20 · T,W,F 6:30",
+          "pm": "Mincha/Maariv 5:55pm Sun–Thu (wk of 10/18) · Fri Mincha 5:50pm"
         },
         {
           "name": "Young Israel of Hewlett",
           "addr": "1 Piermont Ave, Hewlett",
           "url": "https://www.yihewlett.org/",
-          "verified": "2026-07-26",
+          "verified": "2026-10-18",
           "shacharis": "M–F 6:30 · Sun & national hol 8:00",
           "pm": "Full Mincha/Maariv schedule in weekly PDF"
         },
@@ -3513,33 +3513,33 @@
           "name": "Bais Tefila of Inwood",
           "addr": "Inwood",
           "url": "https://www.inwoodshul.com/",
-          "verified": "2026-07-26",
-          "shacharis": "Sun 7/8/9 · M–F 6:55, 7:15 (+ summer 8:00, 9:00)",
-          "pm": "Mincha/Maariv ~10 min before shkiah · Maariv 9:30pm (7:45pm winter only)"
+          "verified": "2026-10-18",
+          "shacharis": "Sun 7/8/9 · M–F 6:55, 7:15",
+          "pm": "Mincha/Maariv ~12–15 min before earliest shkiah of wk (6:00pm wk of 10/18) · Maariv 7:45pm (winter only), 9:30pm"
         },
         {
           "name": "Agudath Israel of West Lawrence",
           "addr": "West Lawrence",
           "url": "https://www.aiwl.org/",
-          "verified": "2026-07-26",
+          "verified": "2026-10-18",
           "shacharis": "Sun 7:15 (Daf 8:00) · wkdy ~7:20 (Daf 6:10)",
-          "pm": "Mincha 8:00pm · Maariv 8:23pm (at shkiah) & 9:00pm"
+          "pm": "Mincha 5:50pm · Maariv 6:18pm & 9:00pm (Sun 10/18; seasonal)"
         },
         {
           "name": "Beis HaKnesses of North Woodmere (BKNW)",
           "addr": "649 Hungry Harbor Rd, North Woodmere",
           "url": "https://www.bknw.org/zmanim",
-          "verified": "2026-07-26",
-          "shacharis": "M–F Daf 6:15, Shacharis 6:55 + 7:45 · Sun 7:00/7:45/8:30",
+          "verified": "2026-10-18",
+          "shacharis": "M–F Daf 6:15, Shacharis 6:55 + 7:45 · Sun 7:10 (7:00 laining days), 8:30 (Daf 7:45)",
           "pm": "Maariv M–Th 10:00pm (printed schedule governs)"
         },
         {
           "name": "Beit Midrash Hachaim Vehashalom (Non-Stop Minyanim)",
           "addr": "Cedarhurst",
           "url": "https://hv5t.org/minyanim",
-          "verified": "2026-07-13",
+          "verified": "2026-10-18",
           "shacharis": "5:55 earliest, Netz 6:30, then every 30 min 7:00–12:30",
-          "pm": "Mincha every 15 min from 1:00pm–5:00pm · Maariv continuous through ~1:00am"
+          "pm": "Mincha every 15 min from 1:00pm until after shkiah · Maariv every 15 min through ~1:00am"
         },
         {
           "name": "Chabad of the Five Towns",
@@ -3586,31 +3586,31 @@
           "name": "Congregation Bnai Yeshurun (CBY)",
           "addr": "641 W Englewood Ave",
           "url": "https://teaneckminyanim.com/orgs/O824845765080",
-          "verified": "2026-07-26",
+          "verified": "2026-10-18",
           "shacharis": "6:00, 6:25, 7:00, 7:30, 8:00, 8:30, 8:50, 9:15 (minyan factory)",
-          "pm": "Mincha 1:45/6:35pm · Mincha/Maariv 8:00pm · Maariv 9:00/9:02/10:01/11:00pm"
+          "pm": "Mincha 1:45pm · Mincha/Maariv 5:55pm (Sun 10/18) · Maariv 6:49/7:00/8:00/9:00/10:01/11:00pm"
         },
         {
           "name": "Congregation Rinat Yisrael",
           "addr": "389 W Englewood Ave",
           "url": "https://www.rinat.org/",
-          "verified": "2026-07-26",
-          "shacharis": "Sun 7/8/9 · M,Th 6:20, 7:00, 7:20, 8:00 (Daf 7:05) · T,W,F 6:30/7:30",
-          "pm": "Mincha 1:45pm (Sun) · Mincha/Maariv 8:00pm · Maariv 9:15pm"
+          "verified": "2026-10-18",
+          "shacharis": "Sun 7/8/9 · M,Th 6:20, 7:00, 7:20, 8:00 · T,W,F 6:30, 7:05, 7:30, 8:00",
+          "pm": "Mincha 1:45pm (Sun) · Mincha/Maariv 5:50pm (wk of 10/18) · Maariv 9:15pm"
         },
         {
           "name": "Congregation Beth Aaron",
           "addr": "950 Queen Anne Rd",
           "url": "https://www.bethaaron.org/calendar",
-          "verified": "2026-07-26",
-          "shacharis": "Early 5:30–5:50 · 6:05–7:15 · 8:00 & 8:45 (varies by day)",
-          "pm": "Mincha 1:45pm · Mincha/Maariv 8:00–8:15pm · Maariv to 9:30pm"
+          "verified": "2026-10-18",
+          "shacharis": "Early ~5:57–6:01 · Sun 6:30, 7:15, 8:00, 8:45 · M,Th 6:15, 7:05, 8:00 · T,W,F 6:30, 7:15, 8:00 (F +9:15)",
+          "pm": "Mincha 1:45pm (Sun) · Mincha/Maariv 5:50pm (wk of 10/18) · Maariv 8:00 & 9:30pm"
         },
         {
           "name": "Congregation Keter Torah",
           "addr": "600 Roemer Ave",
           "url": "https://teaneckminyanim.com/orgs/O518615689191",
-          "verified": "2026-07-26",
+          "verified": "2026-10-18",
           "shacharis": "Sun 8:00 (Beis Medrash), 9:00 (Main) · wkdy 6:00–8:10 (varies)",
           "pm": "Mincha ~15 min before shkiah · Maariv at shkiah"
         },
@@ -3618,33 +3618,33 @@
           "name": "Roemer Synagogue (Arzei Darom)",
           "addr": "725 Queen Anne Rd",
           "url": "https://www.arzeidarom.org/calendar",
-          "verified": "2026-07-26",
-          "shacharis": "Sun 8:30 · M–Th 6:35/6:45 & 8:15 · F 6:45 & 8:15",
-          "pm": "Mincha 6:30–6:45pm (plag) + b'zman · Maariv 8:00–8:20pm"
+          "verified": "2026-10-18",
+          "shacharis": "Sun 8:30 · M,Th 6:35 & 8:15 · T,W,F 6:45 & 8:15",
+          "pm": "Mincha/Maariv 4:50pm (plag) & 5:55pm (wk of 10/18; Sun 6:00pm)"
         },
         {
           "name": "Young Israel of Teaneck (YIOT)",
           "addr": "868 Perry Ave",
           "url": "https://www.yiot.org/",
-          "verified": "2026-07-26",
+          "verified": "2026-10-18",
           "shacharis": "Sun 7/8/9 · M,Th 6:20, 7:05, 8:00 · T,W,F 6:30, 7:05, 8:00",
-          "pm": "Mincha/Maariv 8:10pm · Wed extra Maariv 9:15pm"
+          "pm": "Mincha/Maariv M–Th 6:05pm (wk of 10/18) · Wed extra Maariv 9:15pm"
         },
         {
           "name": "Shaarei Orah (Sephardic Cong. of Teaneck)",
           "addr": "1425 Essex Rd",
-          "url": "https://www.sephardicteaneck.org/schedule-&-happenings.html",
-          "verified": "2026-07-26",
-          "shacharis": "Shaharit (Korbanot) 8:00",
-          "pm": "Minha/Arvit 8:00pm (~20 min before shkiah Sun–Thu)"
+          "url": "https://www.sephardicteaneck.org/cal.php",
+          "verified": "2026-10-18",
+          "shacharis": "Sun 8:00 (Korbanot) · M,Th 6:00 & 7:30 · T,W,F 6:05 & 7:45",
+          "pm": "Minha/Arvit Sun 5:55pm (wk of 10/18; weekday not listed) · F Minha 5:45pm"
         },
         {
           "name": "Ohr Saadya",
           "addr": "554 Queen Anne Rd",
           "url": "https://www.ohrsaadya.org/calendar",
-          "verified": "2026-07-26",
+          "verified": "2026-10-18",
           "shacharis": "Wkdy 6:30 & 8:05 · Sun 8:00",
-          "pm": "Mincha/Maariv 8:00–8:10pm wkdy · Sun 8:05/8:20pm"
+          "pm": "Mincha/Maariv 5:50pm M–Th (wk of 10/18) · Sun 6:00pm"
         },
         {
           "name": "Congregation Shaare Tefillah",
@@ -4467,10 +4467,10 @@
         {
           "name": "Beth Menachem Chabad of Newton",
           "addr": "32 Loring St, Newton Centre",
-          "url": "https://www.jewishnewton.com/",
-          "verified": "2026-07-13",
+          "url": "https://www.jewishnewton.com/calendar/view/month.htm",
+          "verified": "2026-10-18",
           "shacharis": "M–F 6:30 · Sun 8:00",
-          "pm": "Mincha/Maariv 15 min before sunset (zmanim)"
+          "pm": "Mincha/Maariv 5:45pm (wk of 10/18; ~15 min before sunset)"
         },
         {
           "name": "Chabad Center of Sharon",
@@ -5737,23 +5737,23 @@
           "name": "Beth Tzedec Congregation",
           "addr": "1700 Bathurst St",
           "url": "https://beth-tzedec.org/pray/daily-minyan/",
-          "verified": "2026-07-26",
+          "verified": "2026-10-18",
           "shacharis": "8:45am daily (to 9:30)",
-          "pm": "Mincha/Maariv 7:00pm (to 7:40)"
+          "pm": "Mincha/Maariv 6:05pm (wk of 10/18)"
         },
         {
           "name": "Beth Sholom Synagogue",
           "addr": "1445 Eglinton Ave W",
           "url": "https://www.bethsholom.net/services",
-          "verified": "2026-07-26",
+          "verified": "2026-10-18",
           "shacharis": "Sun 8:30 · M–F 7:30 · Shabbat 9:30",
-          "pm": "Mincha 6:30pm Sun–Fri"
+          "pm": "Mincha 6:00pm Sun–Fri (wk of 10/18)"
         },
         {
           "name": "Shaarei Shomayim",
           "addr": "470 Glencairn Ave",
           "url": "https://www.shomayim.org/weekday",
-          "verified": "2026-07-26",
+          "verified": "2026-10-18",
           "shacharis": "M,Th 7:10 · T,W,F 7:15 · Sun & stat holidays 8:30",
           "pm": "Mincha/Maariv ~10 min before sunset"
         },
@@ -5761,33 +5761,33 @@
           "name": "BAYT (Beth Avraham Yoseph)",
           "addr": "613 Clark Ave W, Thornhill",
           "url": "https://www.bayt.ca/visitors",
-          "verified": "2026-07-26",
+          "verified": "2026-10-18",
           "shacharis": "Sun 6:45, 8:00, 9:00 · wkdy 6:30–8:30 (multiple minyanim)",
-          "pm": "Mincha/Maariv 7:05pm (plag) & 8:35pm · Maariv 9:45pm"
+          "pm": "Mincha/Maariv 6:10pm (wk of 10/18) · Maariv 9:00pm & 9:45pm"
         },
         {
           "name": "Or Chaim Minyan",
           "addr": "159 Almore Ave",
           "url": "https://www.orchaim.com/davening",
-          "verified": "2026-07-26",
+          "verified": "2026-10-18",
           "shacharis": "M–F 6:20 · Sun 7:45 · Shabbat 8:50",
-          "pm": "Mincha/Maariv per zmanim calendar · Fri night 7:00pm"
+          "pm": "Mincha/Maariv 6:10–6:15pm (wk of 10/18) · Fri night 6:05pm"
         },
         {
           "name": "Clanton Park Synagogue",
           "addr": "11 Lowesmoor Ave, North York",
           "url": "https://www.clantonpark.com/cal.php",
-          "verified": "2026-07-26",
-          "shacharis": "Sun 8:15 · M–F 6:50, 7:10/7:20, 8:10",
-          "pm": "Plag Mincha/Maariv 7:00–7:15pm · main Mincha/Maariv 8:35–8:50pm"
+          "verified": "2026-10-18",
+          "shacharis": "Sun 8:15 · M,Th 6:50, 7:10, 8:10 · T,W,F 6:50, 7:20, 8:10",
+          "pm": "Plag Mincha/Maariv 5:05pm · Mincha/Maariv 6:15pm Sun–Thu (wk of 10/18) · Fri 6:05pm"
         },
         {
           "name": "Aish Thornhill Community Shul",
           "addr": "949 Clark Ave W, Thornhill",
           "url": "https://www.thornhillshul.com/calendar",
-          "verified": "2026-07-26",
+          "verified": "2026-10-18",
           "shacharis": "Wkdy 6:45 · Sun 8:00 · legal hol 8:00",
-          "pm": "Plag Mincha/Maariv 7:15pm wkdy · early Mincha 6:30pm option"
+          "pm": "Mincha/Maariv 6:20pm Sun–Thu (wk of 10/18) · Fri 6:10pm"
         },
         {
           "name": "The Village Shul (Aish)",
@@ -5795,7 +5795,7 @@
           "url": "https://thevillageshul.shulcloud.com/davening-times.html",
           "verified": "2026-07-26",
           "shacharis": "Sun 8:00 · M–Th 7:00 · Fri 6:50",
-          "pm": "Mincha Sun–Thu 4:40pm"
+          "pm": null
         },
         {
           "name": "Shomrai Shabbos – Chevrah Mishnayos",
@@ -5809,7 +5809,7 @@
           "name": "Kehillat Shaarei Torah of Toronto",
           "addr": "2640 Bayview Ave, North York",
           "url": "https://www.shaareitorah.com/shabbat-service.html",
-          "verified": "2026-07-26",
+          "verified": "2026-10-18",
           "shacharis": "Sun 8:30 · M–F 7:00 · Shabbat 9:15",
           "pm": null
         },
@@ -5857,17 +5857,17 @@
           "name": "Congregation Shaar Hashomayim",
           "addr": "450 Ave Kensington, Westmount",
           "url": "https://www.theshaar.org/daily-services/",
-          "verified": "2026-07-26",
+          "verified": "2026-10-18",
           "shacharis": "Sun 8:00 · M–F 7:30",
-          "pm": "Mincha/Maariv 7:00pm Sun–Thu · Fri Mincha/Kabbalat Shabbat 7:00pm"
+          "pm": "Mincha/Maariv 5:40pm Sun–Thu (wk of 10/18)"
         },
         {
           "name": "Spanish & Portuguese Synagogue",
           "addr": "4894 Ave St-Kevin, Snowdon",
           "url": "https://www.thespanish.org/times-of-service/",
-          "verified": "2026-07-26",
+          "verified": "2026-10-18",
           "shacharis": "Shaharit 8:30",
-          "pm": "Minha/Arbit 6:45pm wkdy · Fri night 6:30pm"
+          "pm": "Minha/Arbit 5:30pm wkdy (wk of 10/18) · Fri night 5:30pm"
         },
         {
           "name": "Beth Zion Congregation",
@@ -5881,7 +5881,7 @@
           "name": "Beth Israel Beth Aaron (BIBA)",
           "addr": "6800 Ch. Mackle, Cote St-Luc",
           "url": "https://www.shul.org/services",
-          "verified": "2026-07-26",
+          "verified": "2026-10-18",
           "shacharis": "M–F 7:00 · Sun 8:30 · Shabbat 9:00",
           "pm": "Mincha 10 min before shkia (zmanim)"
         },
@@ -5889,15 +5889,15 @@
           "name": "Tifereth Beth David Jerusalem (TBDJ)",
           "addr": "6519 Ch. Baily, Cote St-Luc",
           "url": "https://www.tbdj.org/",
-          "verified": "2026-07-26",
-          "shacharis": "Sun 8:00 & 9:00 · wkdy 7:00",
-          "pm": "Mincha/Maariv combined 8:15pm"
+          "verified": "2026-10-18",
+          "shacharis": "Sun 8:00 & 9:00 · M,Th 6:50 · T,W,F 7:00",
+          "pm": "Mincha/Maariv combined 5:45pm (wk of 10/18)"
         },
         {
           "name": "Shaare Zion Beth-El Congregation",
           "addr": "Hampstead/Cote St-Luc area",
           "url": "https://www.szbe.org/services",
-          "verified": "2026-07-26",
+          "verified": "2026-10-18",
           "shacharis": "Sun 8:45 · M–F 7:30",
           "pm": "Mincha/Maariv combined 6:00pm"
         },
@@ -5905,17 +5905,17 @@
           "name": "The Chevra (Chevra Kadisha B'nai Jacob)",
           "addr": "5237 Ave Clanranald",
           "url": "https://thechevra.ca/",
-          "verified": "2026-07-26",
+          "verified": "2026-10-18",
           "shacharis": "Sun 8:30 · M–F 8:00",
-          "pm": "Mincha/Maariv combined 7:00pm"
+          "pm": "Mincha/Maariv combined 5:50pm M–F"
         },
         {
           "name": "Congregation Beth Tikvah",
           "addr": "136 Westpark Blvd, DDO",
           "url": "https://www.bethtikvah.ca/",
-          "verified": "2026-07-26",
-          "shacharis": "Sun 8:00 · wkdy 6:45",
-          "pm": "Mincha/Maariv combined 8:15pm"
+          "verified": "2026-10-18",
+          "shacharis": "Sun 8:00 · M,Th 6:45 · T,W,F 7:00",
+          "pm": "Sun Mincha/Maariv 5:50pm · M–Th Maariv 7:45pm (wk of 10/18)"
         },
         {
           "name": "Adath Israel (Hampstead)",
@@ -5928,8 +5928,8 @@
         {
           "name": "Chabad of the Town (TMR)",
           "addr": "4054 Rue Jean-Talon O",
-          "url": "https://www.chabadtmr.com/",
-          "verified": "2026-07-13",
+          "url": "https://www.chabadtmr.com/templates/articlecco_cdo/aid/301356/jewish/Community-Shul.htm",
+          "verified": "2026-10-18",
           "shacharis": "Sun 9:00 · M–F 7:15",
           "pm": null
         }
@@ -6067,7 +6067,7 @@
           "name": "Etz Chaim Sephardic Congregation",
           "addr": "6939 Hoover Rd",
           "url": "https://etzchaimindy.org/calendar",
-          "verified": "2026-07-26",
+          "verified": "2026-10-18",
           "shacharis": "M–F 7:30 (except holidays) · Shabbat 9:00",
           "pm": null
         },
@@ -6075,9 +6075,9 @@
           "name": "Congregation B'nai Torah",
           "addr": "6510 Hoover Rd",
           "url": "https://www.btorahindy.org/service-times/",
-          "verified": "2026-07-26",
-          "shacharis": null,
-          "pm": "Schedule published as monthly PDFs on site (site copy was stale at last check)"
+          "verified": "2026-10-18",
+          "shacharis": "Sun 8:30 · M–F 7:00 (wk of 10/18; 7:05 from 10/26) · Shabbat 9:00",
+          "pm": "Mincha 6:40pm Sun–Fri (wk of 10/18; 6:30pm wk of 10/25) · monthly PDF on site"
         }
       ]
     },
