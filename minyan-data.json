@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-18",
+  "updated": "2026-11-01",
   "note": "Minyan Finder region data.",
   "regions": [
     {
@@ -3024,7 +3024,7 @@
           "name": "Agudath Israel Bikur Cholim",
           "addr": "3541 W Peterson Ave, North Park",
           "url": "https://www.agudahshulchicago.com/",
-          "verified": "2026-07-08",
+          "verified": "2026-11-01",
           "shacharis": "No published minyan schedule (site lists zmanim only) · call shul",
           "pm": null
         },
@@ -5801,7 +5801,7 @@
           "name": "Shomrai Shabbos – Chevrah Mishnayos",
           "addr": "585 Glengrove Ave W",
           "url": "https://www.sscm.ca/daven",
-          "verified": "2026-07-26",
+          "verified": "2026-11-01",
           "shacharis": "Sun 7:30/8:30 · M–F 6:45 (HSH 7:30) + outdoor 7:30/8:30",
           "pm": "First Mincha 6:00pm · Mincha/Maariv 15–20 min before shkiah · last Maariv 9:30pm"
         },
@@ -6011,10 +6011,6 @@
       "radius": 10,
       "curated": false,
       "links": [
-        {
-          "label": "Waterbury Jewish Life — shuls",
-          "url": "https://waterburyjewishlife.com/waterbury/shuls/"
-        },
         {
           "label": "Yeshiva Ateres Shmuel of Waterbury",
           "url": "https://yasw.org/"
