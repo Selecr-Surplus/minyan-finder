@@ -755,7 +755,7 @@ const METROS = [
   ]),
   metro("brooklyn", "Brooklyn Minyanim", { lat: 40.629, lng: -73.977 }, 10, []),
   metro("baltimore", "Baltimore Minyanim", { lat: 39.369, lng: -76.715 }, 18, [
-    { label: "Baltimore Jewish Life — Minyanim", url: "https://baltimorejewishlife.com/minyanim/shuls.php" }
+    { label: "Baltimore Jewish Life — Minyanim", url: "https://baltimorejewishlife.com/minyanim/" }
   ]),
   metro("chicago", "Chicago Minyanim", { lat: 42.005, lng: -87.700 }, 18, []),
   metro("la", "Los Angeles Minyanim", { lat: 34.063, lng: -118.368 }, 22, [
@@ -888,7 +888,7 @@ const COMMUNITY_SOURCES = {
   teaneck: { label: "Teaneck Minyanim", url: "https://teaneckminyanim.com/" },
   fivetowns: { label: "5 Towns Central", url: "https://5townscentral.com/minyan/" },
   boston: { label: "YI Brookline community minyanim", url: "https://www.yibrookline.org/community-minyanim-2" },
-  baltimore: { label: "Baltimore Jewish Life", url: "https://baltimorejewishlife.com/minyanim/shuls.php" },
+  baltimore: { label: "Baltimore Jewish Life", url: "https://baltimorejewishlife.com/minyanim/" },
   houston: { label: "Houston Kollel community guide", url: "https://www.resourcehouston.com/s/minyan2.pdf" }
 };
 METROS.forEach((m) => { if (COMMUNITY_SOURCES[m.id]) m.communitySource = COMMUNITY_SOURCES[m.id]; });
@@ -961,7 +961,7 @@ const MAJOR_SHULS = {
   montreal: [
     { name: "Congregation Shaar Hashomayim", addr: "450 Ave Kensington, Westmount", url: "https://www.theshaar.org/daily-services/", verified: "2026-10-18", shacharis: "Sun 8:00 · M–F 7:30", pm: "Mincha/Maariv 5:40pm Sun–Thu (wk of 10/18)" },
     { name: "Spanish & Portuguese Synagogue", addr: "4894 Ave St-Kevin, Snowdon", url: "https://www.thespanish.org/times-of-service/", verified: "2026-10-18", shacharis: "Shaharit 8:30", pm: "Minha/Arbit 5:30pm wkdy (wk of 10/18) · Fri night 5:30pm" },
-    { name: "Beth Zion Congregation", addr: "5740 Ave Hudson, Cote St-Luc", url: "https://www.bethzion.com/", verified: "2026-07-26", shacharis: "Ashkenaz Sun 8:00, wkdy 6:15/6:25 + 8:00 \xB7 Sefardi Sun 9:00, wkdy 8:00", pm: "Ashkenaz Mincha/Maariv 6:40pm Sun–Thu \xB7 Sefardi 6:30pm wkdy" },
+    { name: "Beth Zion Congregation", addr: "5740 Ave Hudson, Cote St-Luc", url: "https://www.bethzion.com/", verified: "2026-11-15", shacharis: "Ashkenaz Sun 8:00, wkdy 6:15/6:25 + 8:00 \xB7 Sefardi Sun 8:00/9:00, wkdy 6:30", pm: "Ashkenaz Sun Mincha/Maariv 4:10pm (wk of 11/15) \xB7 Sefardi Sun Mincha 3:53pm" },
     { name: "Beth Israel Beth Aaron (BIBA)", addr: "6800 Ch. Mackle, Cote St-Luc", url: "https://www.shul.org/services", verified: "2026-10-18", shacharis: "M–F 7:00 · Sun 8:30 · Shabbat 9:00", pm: "Mincha 10 min before shkia (zmanim)" },
     { name: "Tifereth Beth David Jerusalem (TBDJ)", addr: "6519 Ch. Baily, Cote St-Luc", url: "https://www.tbdj.org/", verified: "2026-10-18", shacharis: "Sun 8:00 & 9:00 · M,Th 6:50 · T,W,F 7:00", pm: "Mincha/Maariv combined 5:45pm (wk of 10/18)" },
     { name: "Shaare Zion Beth-El Congregation", addr: "Hampstead/Cote St-Luc area", url: "https://www.szbe.org/services", verified: "2026-10-18", shacharis: "Sun 8:45 · M–F 7:30", pm: "Mincha/Maariv combined 6:00pm" },

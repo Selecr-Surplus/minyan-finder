@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-01",
+  "updated": "2026-11-15",
   "note": "Minyan Finder region data.",
   "regions": [
     {
@@ -2785,7 +2785,7 @@
       "links": [
         {
           "label": "Baltimore Jewish Life — Minyanim",
-          "url": "https://baltimorejewishlife.com/minyanim/shuls.php"
+          "url": "https://baltimorejewishlife.com/minyanim/"
         }
       ],
       "source": "GoDaven",
@@ -2801,7 +2801,7 @@
       "legend": "Zmanim are computed for your GPS location. Minyan times load live from GoDaven (community-maintained) each time you open the app, sanity-checked against computed zmanim; implausible entries are hidden. Always confirm times with the shul before relying on them.",
       "communitySource": {
         "label": "Baltimore Jewish Life",
-        "url": "https://baltimorejewishlife.com/minyanim/shuls.php"
+        "url": "https://baltimorejewishlife.com/minyanim/"
       },
       "majorShuls": [
         {
@@ -5873,9 +5873,9 @@
           "name": "Beth Zion Congregation",
           "addr": "5740 Ave Hudson, Cote St-Luc",
           "url": "https://www.bethzion.com/",
-          "verified": "2026-07-26",
-          "shacharis": "Ashkenaz Sun 8:00, wkdy 6:15/6:25 + 8:00 · Sefardi Sun 9:00, wkdy 8:00",
-          "pm": "Ashkenaz Mincha/Maariv 6:40pm Sun–Thu · Sefardi 6:30pm wkdy"
+          "verified": "2026-11-15",
+          "shacharis": "Ashkenaz Sun 8:00, wkdy 6:15/6:25 + 8:00 · Sefardi Sun 8:00/9:00, wkdy 6:30",
+          "pm": "Ashkenaz Sun Mincha/Maariv 4:10pm (wk of 11/15) · Sefardi Sun Mincha 3:53pm"
         },
         {
           "name": "Beth Israel Beth Aaron (BIBA)",
