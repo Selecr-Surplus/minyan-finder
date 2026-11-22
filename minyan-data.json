@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-15",
+  "updated": "2026-11-22",
   "note": "Minyan Finder region data.",
   "regions": [
     {
@@ -5192,9 +5192,9 @@
           "name": "Congregation Etz Ahaim (Sephardic)",
           "addr": "Highland Park",
           "url": "https://www.etzahaim.org/",
-          "verified": "2026-08-16",
+          "verified": "2026-11-22",
           "shacharis": "M–F 6:30 · Sun 8:00 · Shabbos 8:45",
-          "pm": "Mincha/Arvit combined 7:00pm Sun–Thu (fixed, not zmanim)"
+          "pm": "Mincha/Arvit combined 4:15pm Sun–Thu (wk of 11/20; fixed, changes seasonally)"
         },
         {
           "name": "Congregation Ahavas Yisrael (Edison)",
@@ -5440,7 +5440,7 @@
           "name": "Young Israel of Staten Island (YISI)",
           "addr": "835 Forest Hill Rd",
           "url": "https://www.yisi.org/our-shul/davening-times/",
-          "verified": "2026-08-16",
+          "verified": "2026-11-22",
           "shacharis": "Sun/hol 7/8/9 · M,Th 5:50/6:25/6:55/7:30/8:00 · T,W,F 5:50/6:30/7:00/7:30/8:00",
           "pm": "Mincha/Maariv ~10 min before sunset · early Mincha Sun 1:45pm (M–Th resumes after Labor Day) · late Maariv 9:00pm (resumes after Labor Day)"
         },
